@@ -1,0 +1,488 @@
+@import "./scss";
+@import "./reset";
+@import "./checkbox-radios";
+
+html {
+  background-color: $pageBgColor;
+}
+
+body {
+  background-color: $pageBgColor;
+  background-color: #ffffff;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  bottom: 0px;
+  z-index: 0;
+  opacity: .25;
+}
+
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+.fourOfour {
+  z-index: 10;
+  display: block;
+  margin: 0 auto;
+  padding: 90px 15px;
+  width: fit-content;
+  text-align: center;
+  color: $pageBgColor;
+  position: relative;
+
+  h1,
+  p {
+    color: inherit;
+  }
+
+  svg {
+    width: 120px;
+    margin-top: 30px;
+    height: auto;
+  }
+
+  a,
+  a:hover {
+    padding: 15px 30px;
+  }
+}
+
+#gatsby-announcer {
+  color: #ffffff !important;
+}
+
+
+a.skipLink {
+  background: #000000;
+  color: #ffffff;
+
+  padding: 8px;
+  position: absolute;
+  top: -99rem;
+  //transform: translateY(-100%);
+}
+
+a.skipLink:focus {
+  transform: translateY(0%);
+}
+
+.section-layout-wide {
+  max-width: 100%;
+  margin: 0px;
+}
+
+
+
+p,
+ul li {
+  color: $txtColor;
+
+}
+
+a,
+a:link,
+a:hover {
+  //color: $txtColor;
+  color: $textLinkColor;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $textLinkColor;
+  text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
+  @include focusVisibleForDark;
+}
+
+
+button.buttonPrimary,
+button.buttonPrimaryGhost,
+button.buttonPrimaryDark,
+button.buttonSecondary button.buttonTertiary,
+
+.buttonPrimary,
+.buttonPrimaryGhost,
+.buttonPrimaryDark,
+.buttonSecondary,
+.buttonTertiary {
+  padding: 1em 2em;
+  text-decoration: none;
+  display: inline-flex;
+  align-self: center;
+  white-space: nowrap;
+  font-family: inherit;
+  cursor: pointer;
+  line-height: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-width: 0;
+  letter-spacing: .075rem;
+  // background-color: $tertiaryColorA;
+  background-color: $secondaryColor;
+  color: $primaryColor;
+  box-shadow: 0px 0px 5px 0px rgba(35, 35, 35, 0.5);
+
+  svg {
+    height: 25px;
+    width: auto;
+    margin: 0 15px 0 0;
+  }
+}
+
+.buttonPrimary:disabled,
+.buttonPrimary[disabled],
+.buttonPrimaryGhost:disabled,
+.buttonPrimaryGhost[disabled],
+.buttonPrimaryDark:disabled,
+.buttonPrimaryDark[disabled],
+.buttonSecondary:disabled,
+.buttonSecondary[disabled],
+.buttonTertiary:disabled,
+.buttonTertiary[disabled] {
+  opacity: .33;
+  filter: blur(2px);
+  cursor: default;
+}
+
+button.buttonPrimaryGhost,
+.buttonPrimaryGhost {
+  background-color: #25324091;
+  border: 1px solid $primaryColor;
+
+}
+
+
+button.buttonPrimaryDark,
+.buttonPrimaryDark {
+  background-color: $ctaColorDark;
+}
+
+button:hover.buttonPrimary,
+button:hover.buttonPrimaryGhost,
+button:hover.buttonPrimaryDark,
+.buttonPrimary:hover,
+.buttonPrimaryGhost:hover,
+.buttonPrimaryDark:hover {
+  color: #ffffff;
+  box-shadow: 0px 1px 10px 0px rgba(35, 35, 35, 0.5);
+  text-decoration: none;
+  //color: #ffffff;
+}
+
+
+// Btn Secondary
+button.buttonSecondary,
+.buttonSecondary,
+button.buttonSecondary:focus,
+.buttonSecondary:focus {
+  padding: 0.8em 1.6em;
+  color: #ffffff !important;
+
+  // border-bottom: 2px solid $pageBgColor;
+  background-color: $tertiaryColor;
+}
+
+button.buttonSecondary.isActive,
+.buttonSecondary.isActive {
+  color: #ffffff;
+  // border-bottom: 2px solid $pageBgColor;
+  background-color: $pageBgColor;
+}
+
+button.buttonSecondary:hover,
+.buttonSecondary:hover {
+  //background-color: transparent;
+  color: #ffffff;
+  background-color: $tertiaryColor;
+  text-decoration: none;
+
+}
+
+// Btn Tertiary
+button.buttonTertiary,
+.buttonTertiary,
+button.buttonTertiary:focus,
+.buttonTertiary:focus {
+  padding: 1em 2em;
+  color: $txtColor;
+  border: none;
+
+  //border: 1px solid $txtColor;
+  border-bottom: 2px solid $tertiaryColor;
+  border-radius: 0;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+button.buttonTertiary.isActive,
+.buttonTertiary.isActive {}
+
+button.buttonTertiary:hover,
+.buttonTertiary:hover {}
+
+.checkbox {
+  display: inline-flex;
+  flex-direction: row;
+
+  span {
+    order: 2;
+    margin-left: 45px;
+    line-height: 1.2rem;
+  }
+
+  input {
+    order: 1;
+  }
+}
+
+form {
+  label {
+    margin: 15px 0;
+    display: block;
+  }
+}
+
+.inputfields.hide {
+  display: none;
+}
+
+.hideBot {
+  display: none;
+}
+
+.secondaryNav.slide {
+  will-change: transform;
+  transition: all .4s;
+  top: 0px;
+}
+
+
+.rotateBtn {
+  i {
+    transition: all .3s linear;
+  }
+}
+
+
+// @keyframes spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+
+//   to {
+//     transform: rotate(-180deg);
+//   }
+// }
+
+#SRLLightbox {
+  z-index: 10000;
+}
+
+#SRLLightbox {
+  @include respond-below(sm) {
+    //top:50px !important;
+    bottom: 0px !important
+  }
+
+  .SRLStage {
+    @include respond-below(sm) {
+
+      //top:50px !important;
+      button.SRLPrevButton,
+      button.SRLNextButton,
+      button.SRLCloseButton,
+      button.SRLZoomOutButton {
+        display: block;
+        height: 42px;
+        width: 42px;
+      }
+    }
+  }
+
+  .SRLElementContainer {
+    z-index: 10;
+  }
+}
+
+.medium-zoom-overlay {
+  z-index: 100000;
+  background: #ffffff;
+}
+
+.medium-zoom-image {
+  // border: 1px solid #ffffff !important;
+  // border-radius: 3px;
+  // overflow: hidden;
+  // transform: none;
+}
+
+.medium-zoom-image--opened {
+  z-index: 100001;
+  box-shadow: 0 0 10px 0 #5f5b5b9e !important;
+}
+
+.closeModal {
+  text-transform: uppercase;
+}
+
+.introParapgraph {
+  color: #66758D;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.tagList.open {
+  max-height: max-content !important;
+}
+
+.tagListItem {
+  span {
+    i {
+      display: none;
+    }
+
+    i:nth-child(2) {
+      display: inline-block;
+    }
+  }
+}
+
+.tagListItem.selected,
+.resultsTags li.selected {
+  color: #ffffff !important;
+  background-color: $tertiaryColor !important;
+
+  span {
+    i {
+      display: flex;
+    }
+
+    i:nth-child(2) {
+      display: none;
+    }
+  }
+
+  span:nth-child(2) {
+    color: #ffffff;
+    //background-color: #b96693 !important;
+    background-color: $tertiaryColorA !important;
+  }
+}
+
+.listResults li {
+  display: block;
+  //visibility: visible;
+  animation: fadeResults 250ms;
+}
+
+.listResults li.hide {
+  //animation: fadeResults 250ms;
+  display: none !important;
+}
+
+@keyframes fadeResults {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.level-0,
+.level-1,
+.level-2,
+.level-3 {
+
+  p,
+  a {
+    color: $primaryColor;
+    //color: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.level-0 {
+  background-color: #6cb4bf;
+}
+
+.level-1 {
+  background-color: #6cbfa1;
+
+}
+
+.level-2 {
+  background-color: #ffbf00;
+
+}
+
+.level-3 {
+  background-color: tomato;
+
+}

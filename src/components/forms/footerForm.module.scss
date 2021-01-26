@@ -1,0 +1,58 @@
+@import "src/styles/scss";
+
+section.form {
+    background-color: $footerBgColor;
+    //border-top: 1px solid #6FFFE9;
+
+    .formWrapper {
+        max-width: 992px;
+        margin: 0px auto;
+        padding: 45px 15px 45px;
+
+        @include respond-below(sm) {
+            padding: 30px 15px 30px;
+        }
+
+        >div {
+            @include respond-below(sm) {
+                margin: 0;
+            }
+
+            p {
+                color: #ffffff;
+                font-size: 1.4rem;
+            }
+
+            form {
+                a {}
+
+                label,
+                a,
+                p {
+                    color: #ffffff;
+                }
+
+                a,
+                a:hover {
+                    color: $tertiaryColorA;
+                    text-decoration: underline;
+                }
+
+                input,
+                textarea {
+                    background-color: #d7e7ef;
+                    outline: none;
+                }
+
+                button {
+                    margin: 15px auto;
+                    align-items: center;
+                    line-height: initial;
+                    padding: 15px 30px;
+
+                    i {}
+                }
+            }
+        }
+    }
+}

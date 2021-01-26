@@ -1,0 +1,524 @@
+@import "src/styles/scss";
+
+
+header.headerNavWrapper.slide {
+  // will-change: transform;
+  // transition: translate 1.4s;
+  transform: translate(0, -61px);
+}
+
+header.headerNavWrapper {
+  position: fixed;
+
+  //width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100000;
+  will-change: transform;
+  transition: all .4s;
+  height: 60px;
+
+  nav.headerNav {
+    z-index: 1001;
+    min-width: 130px;
+    //background-color: $headerBgColor;
+    background-color: #0b132b00;
+    transition: all 0.4s;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+
+
+    a.brand,
+    span.brand {
+      order: 0;
+      display: flex;
+      align-items: stretch;
+      padding: 15px;
+      height: 60px;
+
+      @include respond-below(sm) {
+        order: 1;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      margin: 0;
+      z-index: 1003;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+
+      svg {
+        // 
+        height: 100%;
+        width: auto;
+      }
+    }
+
+    a.brand.homePage {
+      @include respond-below(sm) {
+        display: none;
+      }
+    }
+
+    a:focus {
+      outline: none;
+    }
+
+    a:focus-visible {
+      @include focusVisibleForDark;
+    }
+
+    a:-moz-focusring {
+      @include focusVisibleForDark;
+    }
+
+    button {
+      order: 0;
+      display: none;
+      position: absolute;
+      left: 0px;
+      margin: 0 0 auto 0;
+      width: fit-content;
+      white-space: nowrap;
+      align-items: center;
+      height: 59px;
+      padding: 0 15px;
+      background-color: $headerBgColor;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+
+      span {
+        @include headerTxt;
+      }
+
+      @include respond-below(sm) {
+        display: flex;
+      }
+    }
+
+    button:focus {
+      outline: none;
+    }
+
+    button:focus-visible {
+      @include focusVisibleForDark;
+    }
+
+    button:-moz-focusring {
+      @include focusVisibleForDark;
+    }
+
+
+    //Mobile view
+    >ul {
+      // order: 2;
+      justify-self: start;
+      display: none;
+      list-style: none;
+      padding: 0 0 120px 3px;
+      margin: 0;
+      top: 60px;
+      left: 88px;
+      position: relative;
+      width: 100%;
+      border-left: 1px solid $secondaryColorA;
+      overflow-x: scroll;
+
+      .toggleMainMenu {
+        button {
+          display: none;
+        }
+      }
+
+      li {
+        display: block;
+        clear: both;
+
+        a,
+        p,
+        span,
+        button {
+
+          font-size: 1.2rem;
+          line-height: 1.6rem;
+          font-weight: 300;
+          color: #ffffff;
+          padding: 15px 30px;
+          position: relative;
+          text-align: left;
+          display: inline-block;
+          cursor: pointer;
+          z-index: 10000;
+        }
+
+        i {
+          padding: 0;
+          margin: 0 0 0px 15px;
+          font-size: 28px;
+          width: auto;
+          vertical-align: middle;
+        }
+
+        a:hover {
+          text-decoration: none !important;
+        }
+
+        a.activeNavItem {
+          pointer-events: none !important;
+          border-left: 5px solid $secondaryColorA;
+          margin-left: -5px;
+        }
+
+        a:after,
+        button:after {
+          content: '';
+          position: absolute;
+          bottom: 0px;
+          display: flex;
+          border-radius: 1.5px;
+          background-color: $secondaryColorA;
+          height: 1px;
+          width: 0;
+          left: -3px;
+          transition: width 150ms ease-in-out;
+        }
+
+        a:hover:after,
+        button:hover:after {
+          width: 100%;
+        }
+      }
+
+      li.hide {
+        display: block;
+      }
+
+      li.breakNav {
+        margin-top: 30px;
+      }
+
+      ul {
+        margin: 0;
+
+        li {
+          a {
+            i {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    //Desktop view
+    @include respond-above(sm) {
+      >ul {
+
+        display: flex;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        overflow: visible;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: none;
+
+        .toggleMainMenu {
+          button {
+            display: inline-flex;
+            align-items: center;
+
+
+            i {
+              margin: 0 0 0 5px;
+              color: inherit;
+            }
+
+            i:nth-child(2) {
+              display: none;
+            }
+          }
+
+          button:after {
+            height: 0px;
+          }
+        }
+
+        .toggleMainMenu.open {
+          button {
+            i {
+              display: none;
+            }
+
+            i:nth-child(2) {
+              display: flex;
+            }
+          }
+
+          ul {
+            top: 0px;
+          }
+        }
+
+        li {
+          display: flex;
+          align-items: center;
+          margin: 0 4px;
+
+          a,
+          button {
+            @include headerTxt;
+            padding: 8px 16px;
+            display: flex;
+            background-color: transparent;
+            height: auto;
+
+
+          }
+
+          a.activeNavItem {
+            color: #ffffff;
+            background: $secondaryColor;
+            border-radius: 3px;
+            overflow: hidden;
+
+            border-left: none;
+            margin-left: 0;
+          }
+
+          a:after,
+          button:after {
+            content: '';
+            //background-color: $secondaryColor;
+            background-color: #ffffff;
+            left: 50%;
+            transition: all 150ms ease-in-out;
+          }
+
+          a:hover:after,
+          button:hover:after {
+
+            width: 100%;
+            left: 0px;
+          }
+
+          li.more {
+            background-color: transparent;
+          }
+
+
+
+          ul {
+            background-color: $headerBgColor;
+            position: absolute;
+            display: flex;
+            top: -999rem;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            margin: 0;
+            padding: 90px 30px 30px 30px;
+            z-index: -1;
+            @include minNavBottomBorder;
+            align-items: center;
+            justify-content: center;
+            cursor: default !important;
+
+            @include respond-below(sm) {
+              padding: 90px 15px 30px 15px;
+            }
+
+            li {
+              a {
+                padding-top: 0px;
+                display: flex;
+                flex-direction: column;
+
+                i {
+                  display: block;
+                  font-size: 28px;
+                  width: auto;
+                  margin: 0 auto 10px;
+                  opacity: .33;
+                }
+              }
+
+              a.activeNavItem {
+                color: #ffffff;
+                background: none;
+                border-radius: 0px;
+                overflow: hidden;
+
+                i {
+                  opacity: 1;
+                  color: $secondaryColor;
+                }
+              }
+
+              a.activeNavItem:after {
+                content: '';
+
+                left: 50%;
+                transition: all 150ms ease-in-out;
+                width: 100%;
+                left: 0px;
+              }
+
+              a:hover {
+
+                i {
+                  opacity: 1;
+                  color: $secondaryColor;
+                }
+              }
+            }
+          }
+        }
+
+        li.hide {
+          display: none;
+        }
+      }
+    }
+  }
+
+  nav.open {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 100vh;
+    max-width: 100%;
+    border: none;
+    background: $headerBgColor;
+
+    >a {
+      display: none;
+    }
+
+    ul {
+      display: block;
+    }
+
+    div.localeSeletor {
+      display: none;
+    }
+  }
+
+  div.localeSeletor {
+    order: 2;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px 0 0;
+
+
+    button {
+      @include headerTxt;
+      color: #ffffff;
+      position: relative;
+      display: flex;
+      align-self: center;
+      float: right;
+      margin-right: 10px;
+      padding: 8px 5px;
+      cursor: pointer;
+      text-transform: uppercase;
+      height: fit-content;
+      background-color: transparent;
+
+      i {
+        color: inherit;
+      }
+    }
+
+    button:focus {
+      outline: none;
+    }
+
+    button:focus-visible,
+    a:focus-visible {
+      @include focusVisibleForDark;
+    }
+
+    button:-moz-focusring,
+    a:-moz-focusring {
+      @include focusVisibleForDark;
+    }
+
+    ul {
+      margin: 10px 0 0 0;
+      padding: 0 0 10px 0;
+      list-style: none;
+      float: right;
+      clear: both;
+      display: none;
+      position: relative;
+      width: 100%;
+      border-bottom: 1px solid #343b44;
+
+
+      li {
+        clear: both;
+        padding: 0 0 0 10px;
+
+        a {
+          @include headerTxt;
+          color: #ffffff;
+          padding: 10px 5px;
+          margin-right: 10px;
+          width: 100%;
+          text-align: right;
+          cursor: pointer;
+        }
+      }
+    }
+
+    ul.show {
+      //visibility: visible;
+      display: block;
+    }
+  }
+
+  div.localeSeletor.bground {
+    background-color: $headerBgColor;
+  }
+}
+
+
+header.headerNavWrapper::before {
+  content: "";
+  background-color: $headerBgColor;
+  opacity: .0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  will-change: transform;
+  transition: opacity 0.4s;
+  transition-timing-function: ease-in;
+}
+
+header.headerNavWrapper.fillBground::before {
+  opacity: 1;
+
+}
+
+header.headerNavWrapper.fillBgroundQuick::before {
+  opacity: 1;
+  transition: opacity 0s;
+  @include minNavBottomBorder;
+}

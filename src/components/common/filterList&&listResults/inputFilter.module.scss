@@ -1,0 +1,109 @@
+@import "src/styles/scss";
+
+.wrapper {
+    margin: 15px 25% 0 25%;
+    padding: 0;
+
+    @include respond-below(md) {
+        margin: 15px 15% 0 15%;
+    }
+
+    @include respond-below(sm) {
+        margin: 15px 15px 0 15px;
+    }
+
+    @include respond-below(xs) {
+        margin: 15px 15px 0 15px;
+    }
+
+    form {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        label {
+            position: absolute;
+            top: -1000000rem;
+        }
+
+        input[type=search] {
+            // position: absolute;
+            color: $primaryColor;
+            z-index: 2;
+
+            background-color: #ffffff;
+            padding: 10px 60px 10px 45px;
+            //border: none !important;
+            border: 1px solid #c1d1d8;
+            font-size: 1.1rem;
+            line-height: 1.0rem;
+            font-weight: 400;
+            //border-radius: 3px;
+            border-radius: 999rem;
+            //box-shadow: $globalBoxShadowB;
+        }
+
+
+        input[type=search]:focus {
+            color: $headerBgColor;
+            background-color: #ffffff;
+            // outline: 3px solid $tertiaryColor !important;
+            outline: none !important;
+
+        }
+
+        input[type=search]:focus-visible {
+            //@include focusVisibleForDark;
+        }
+
+        input[type=search]:-moz-focusring {
+            //@include focusVisibleForDark;
+        }
+
+
+        input[type=search]::placeholder,
+        input[type=search]::-webkit-input-placeholder {
+            color: $primaryColor;
+            opacity: 1;
+            font-size: 1rem;
+            position: relative;
+
+        }
+
+
+        button.filterReset {
+            position: absolute;
+            display: flex;
+            left: 15px;
+            background-color: transparent;
+            padding: 0;
+            border: none;
+            z-index: 1;
+            cursor: pointer;
+            height: auto;
+            width: auto;
+            z-index: 10;
+            //color: $txtColorA;
+            color: #9196a5;
+
+
+            i {
+                font-size: 26px;
+                color: inherit;
+            }
+        }
+
+        button:hover {
+            i {
+                color: $tertiaryColor;
+            }
+        }
+
+        span {
+            text-align: center;
+            display: block;
+            font-size: 1.1rem;
+            margin: 10px 30px 0;
+        }
+    }
+}

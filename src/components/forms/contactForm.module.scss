@@ -1,0 +1,70 @@
+@import "src/styles/scss";
+
+.contactFormSection,
+.contactFormSectionSuccess {
+    background: $pageBgColor;
+
+    padding: 90px 15px 90px;
+
+    @include respond-below(md) {
+        padding: 20px 15px 15px;
+    }
+
+    @include respond-below(sm) {
+        padding: 0px;
+    }
+
+    .contactFormWrapper,
+    .contactSuccessWrapper {
+        display: block;
+        max-width: 992px;
+        margin: 0 auto;
+        border-radius: $globalBorderRadiusA;
+        background-color: #ffffff;
+        box-shadow: $globalBoxShadowB;
+
+        .contactForm {
+            display: block;
+            padding: 30px;
+
+
+
+            @include respond-below(sm) {
+                padding: 30px 15px 15px;
+            }
+
+            svg {
+                width: 90px;
+                height: auto;
+                display: block;
+                margin: 0 auto 30px;
+            }
+
+            p {
+                a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    white-space: nowrap;
+
+                }
+            }
+
+
+            input,
+            textarea {
+                background-color: #d7e7ef;
+                border: 1px solid #c8d5dc;
+            }
+
+            button {
+                display: flex;
+                margin: 15px auto;
+                align-items: center;
+                line-height: initial;
+                padding: 15px 30px;
+
+                i {}
+            }
+        }
+    }
+}
