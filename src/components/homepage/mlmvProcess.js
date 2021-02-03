@@ -17,7 +17,7 @@ const MLMVProcessSection = () => {
                             </div>
                         </div>
                         <div className={mlmvProcessStyles.content}>
-                            <p>Talk with one of our connectors about your ideas and goals. Together you can start thinking about different opportunities.</p>
+                            <p>Talk with one of our connectors/Kaitūhono’s about your ideas, goals and opportunities to create a good life.</p>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const MLMVProcessSection = () => {
                             </div>
                         </div>
                         <div className={mlmvProcessStyles.content}>
-                            <p>Decide who you want to support with your goals and budget.</p>
+                            <p>Decide who you want to involve to help you.</p>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const MLMVProcessSection = () => {
                             </div>
                         </div>
                         <div className={mlmvProcessStyles.content}>
-                            <p>Make a plan and create a budget for your plan.</p>
+                            <p>Make a plan and create a funding budget.</p>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const MLMVProcessSection = () => {
                             </div>
                         </div>
                         <div className={mlmvProcessStyles.content}>
-                            <p>Create an agreement with the people who will support you.</p>
+                            <p>Connect with the people and or organisations who will help you with your good life.</p>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ const MLMVProcessSection = () => {
                             </div>
                         </div>
                         <div className={mlmvProcessStyles.content}>
-                            <p>Start getting the support you need to achieve your goals.</p>
+                            <p>Live that good life.</p>
                         </div>
                     </div>
                 </div>
