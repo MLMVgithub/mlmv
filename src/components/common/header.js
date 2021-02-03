@@ -169,7 +169,7 @@ const Header = ({ location }) => {
               <ul className={""}>
                 <li>
                   <Link
-                    to={`/${i18n.language}/support-services`}
+                    to={`/${i18n.language}/resources`}
                     activeClassName={"activeNavItem"}
                     getProps={isPartiallyActive}
                     title={t("common:mainNavSupportServices")}>

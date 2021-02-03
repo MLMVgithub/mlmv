@@ -244,7 +244,7 @@ exports.createPages = async ({
 
 
   // Support services Page
-  const supportServicesTemplate = path.resolve(`src/templates/supportServices.js`)
+  const supportServicesTemplate = path.resolve(`src/templates/resources.js`)
   const supportServices = await graphql(`
     {
       allSanitySupportServices(sort: {fields: order, order: ASC}) {
@@ -285,12 +285,10 @@ exports.createPages = async ({
     supportServices.data.allSanitySupportServices.edges,
 
     ({ node }, language, i18n) => ({
-      path: "/" + language, // (1)
-      path: `/${language}/support-services`,
+      path: `/${language}/resources`,
       component: supportServicesTemplate,
 
       context: {
-        peerSupporters: node.id,
         tags: node.tags.tagsTitle,
       },
     }),

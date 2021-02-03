@@ -255,7 +255,7 @@ const FilterListResults = ({ location, currentPage, allPosts, allTags, toggleMod
                                             <PeerResultsWrapper edge={edge} />
                                         }
 
-                                        {location.pathname.includes("support-services") === true &&
+                                        {location.pathname.includes("resources") === true &&
                                             <SupportServicesWrapper edge={edge} />
                                         }
                                     </li>
