@@ -8,7 +8,6 @@ module.exports = {
     siteUrl: `https://prod-mlmv.netlify.app`, // No trailing slash allowed!
     // defaultImage: "/images/svg/logo-pixl.inline.svg", // Path to your image you placed in the 'static' folder
     defaultImage: "/images/svg/logo-mlmv-manifest.inline.svg", // Path to your image you placed in the 'static' folder
-
     author: "Peter Koenders - pkoenders@gmail.com",
     year: "2021",
   },
@@ -202,7 +201,7 @@ module.exports = {
       options: {
         name: `My Life My Voice`,
         short_name: `MLMV`,
-        start_url: `/`,
+        start_url: ``,
         background_color: `#121923`,
         theme_color: `#121923`,
         lang: `en`,
