@@ -201,7 +201,7 @@ module.exports = {
       options: {
         name: `My Life My Voice`,
         short_name: `MLMV`,
-        start_url: ``,
+        start_url: `https://prod-mlmv.netlify.app/en`,
         background_color: `#121923`,
         theme_color: `#121923`,
         lang: `en`,
