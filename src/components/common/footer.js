@@ -58,7 +58,7 @@ const Footer = ({ location }) => {
 
             <li>
               <Link
-                to={`/${i18n.language}/support-services`}
+                to={`/${i18n.language}/resources`}
                 activeClassName={"activeNavItem"}
                 title={t("common:mainNavSupportServices")}>
                 {t("common:mainNavSupportServices")}
