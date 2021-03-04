@@ -159,12 +159,12 @@ var plugins = [{
     "crossOrigin": "anonymous",
     "cache_busting_mode": "none",
     "localize": [{
-      "start_url": "/en",
+      "start_url": "/en/",
       "lang": "en",
       "name": "My Life My Voice",
       "short_name": "MLMV"
     }, {
-      "start_url": "/mi",
+      "start_url": "/mi/",
       "lang": "mi",
       "name": "Taku Ao Taku Reo",
       "short_name": "MLMV"

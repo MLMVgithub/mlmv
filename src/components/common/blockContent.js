@@ -1,5 +1,9 @@
-import BaseBlockContent from '@sanity/block-content-to-react'
 import React from 'react'
+import BaseBlockContent from '@sanity/block-content-to-react'
+import urlBuilder from '@sanity/image-url'
+
+const urlFor = source =>
+    urlBuilder({ projectId: "97psedqm", dataset: "mlmv-dev" }).image(source)
 
 const serializers = {
     types: {
@@ -15,12 +19,25 @@ const serializers = {
                     return <h4>{props.children}</h4>
                 case "blockquote":
                     return <blockquote>{props.children}</blockquote>
+
                 case "normal":
                     return <p>{props.children}</p>
+
                 default:
                     return <p>{props.children}</p>
             }
-        }
+        },
+
+        image: props => (
+            <figure>
+                <img
+                    src={urlFor(props.node.asset)
+                        //.width(600)
+                        .url()}
+                    alt={props.node.alt}
+                />
+            </figure>
+        )
     }
 }
 const BlockContent = ({ blocks }) => <BaseBlockContent blocks={blocks} serializers={serializers} />
