@@ -47,14 +47,14 @@ const Footer = ({ location }) => {
             </Link>
           </li>
 
-            {/* <li>
+            <li>
               <Link
                 to={`/${i18n.language}/peer-supporters`}
                 activeClassName={"activeNavItem"}
                 title={t("common:mainNavPeerSupporters")}>
                 {t("common:mainNavPeerSupporters")}
               </Link>
-            </li> */}
+            </li>
 
             <li>
               <Link
