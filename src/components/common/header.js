@@ -132,7 +132,7 @@ const Header = ({ location }) => {
                 {t("common:mainNavMLMV")}
               </Link>
             </li>
-            {<li>
+            {/* <li>
               <Link
                 to={`/${i18n.language}/peer-supporters`}
                 activeClassName={"activeNavItem"}
@@ -140,7 +140,7 @@ const Header = ({ location }) => {
                 title={t("common:mainNavPeerSupporters")}>
                 {t("common:mainNavPeerSupporters")}
               </Link>
-            </li>}
+            </li> */}
             <li>
               <Link
                 to={`/${i18n.language}/about`}
