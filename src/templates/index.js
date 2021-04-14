@@ -128,12 +128,12 @@ const IndexPage = ({ data, location, language }) => {
 
         <HeaderImg data={data} language={language} />
         <AlertSection data={data} language={language} />
-        <section className={HomepageStyles.wrapper}>
+        {/* <section className={HomepageStyles.wrapper}>
           <div className={HomepageStyles.homepageIntro}>
             <BlockContent blocks={data.sanityHomepageIntro.content.localized} />
             <Link to={`/${i18n.language}/peer-supporters`} className={'buttonSecondary'} >{t("index:ctaViewPeerSupports")}</Link>
           </div>
-        </section>
+        </section>  */}
         <ProcessSection />
         <SupportSection />
         <UsrCommentsSection data={data} language={language} />
