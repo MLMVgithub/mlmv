@@ -132,130 +132,130 @@ const Header = ({ location }) => {
                 {t("common:mainNavMLMV")}
               </Link>
             </li>
-            {<li>
+            {/* <li>
               <Link
                 to={`/${i18n.language}/peer-supporters`}
                 activeClassName={"activeNavItem"}
                 getProps={isPartiallyActive}
                 title={t("common:mainNavPeerSupporters")}>
                 {t("common:mainNavPeerSupporters")}
-              </Link>
-            </li>}
-            <li>
-              <Link
-                to={`/${i18n.language}/about`}
-                activeClassName={"activeNavItem"}
-                title={t("common:mainNavAbout")}>
-                {t("common:mainNavAbout")}
-              </Link>
+              </Link> */}
             </li>
+          <li>
+            <Link
+              to={`/${i18n.language}/about`}
+              activeClassName={"activeNavItem"}
+              title={t("common:mainNavAbout")}>
+              {t("common:mainNavAbout")}
+            </Link>
+          </li>
 
-            <li>
-              <Link
-                to={`/${i18n.language}/news-events`}
-                activeClassName={"activeNavItem"}
-                getProps={isPartiallyActive}
-                title={t("common:mainNavNewsEvents")}>
-                {t("common:mainNavNewsEvents")}
-              </Link>
-            </li>
+          <li>
+            <Link
+              to={`/${i18n.language}/news-events`}
+              activeClassName={"activeNavItem"}
+              getProps={isPartiallyActive}
+              title={t("common:mainNavNewsEvents")}>
+              {t("common:mainNavNewsEvents")}
+            </Link>
+          </li>
 
-            <li className="toggleMainMenu">
-              <button>
-                {t("common:mainNavMore")}
-                <i className={"material-icons"} aria-hidden="true">arrow_drop_down</i>
-                <i className={"material-icons"} aria-hidden="true">arrow_drop_up</i>
-              </button>
-              <ul className={""}>
-                <li>
-                  <Link
-                    to={`/${i18n.language}/resources`}
-                    activeClassName={"activeNavItem"}
-                    getProps={isPartiallyActive}
-                    title={t("common:mainNavSupportServices")}>
-                    <i className={"material-icons"} aria-hidden="true">support</i>
-                    {t("common:mainNavSupportServices")}
-                  </Link>
-                </li>
+          <li className="toggleMainMenu">
+            <button>
+              {t("common:mainNavMore")}
+              <i className={"material-icons"} aria-hidden="true">arrow_drop_down</i>
+              <i className={"material-icons"} aria-hidden="true">arrow_drop_up</i>
+            </button>
+            <ul className={""}>
+              <li>
+                <Link
+                  to={`/${i18n.language}/resources`}
+                  activeClassName={"activeNavItem"}
+                  getProps={isPartiallyActive}
+                  title={t("common:mainNavSupportServices")}>
+                  <i className={"material-icons"} aria-hidden="true">support</i>
+                  {t("common:mainNavSupportServices")}
+                </Link>
+              </li>
 
-                <li>
-                  <Link
-                    to={`/${i18n.language}/contact`}
-                    activeClassName={"activeNavItem"}
-                    title={t("common:mainNavContact")}>
-                    <i className={"material-icons"} aria-hidden="true">contact_page</i>
-                    {t("common:mainNavContact")}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to={`/${i18n.language}/terms-and-use`}
-                    activeClassName={"activeNavItem"}
-                    title={t("common:mainNavTerms")}>
-                    <i className={"material-icons"} aria-hidden="true">playlist_add_check</i>
-                    {t("common:mainNavTerms")}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to={`/${i18n.language}/accessibility`}
-                    activeClassName={"activeNavItem"}
-                    title={t("common:mainNavAccessibility")}>
-                    <i className={"material-icons"} aria-hidden="true">accessibility_new</i>
-                    {t("common:mainNavAccessibility")}
-                  </Link>
-                </li>
-              </ul>
-            </li>
+              <li>
+                <Link
+                  to={`/${i18n.language}/contact`}
+                  activeClassName={"activeNavItem"}
+                  title={t("common:mainNavContact")}>
+                  <i className={"material-icons"} aria-hidden="true">contact_page</i>
+                  {t("common:mainNavContact")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={`/${i18n.language}/terms-and-use`}
+                  activeClassName={"activeNavItem"}
+                  title={t("common:mainNavTerms")}>
+                  <i className={"material-icons"} aria-hidden="true">playlist_add_check</i>
+                  {t("common:mainNavTerms")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to={`/${i18n.language}/accessibility`}
+                  activeClassName={"activeNavItem"}
+                  title={t("common:mainNavAccessibility")}>
+                  <i className={"material-icons"} aria-hidden="true">accessibility_new</i>
+                  {t("common:mainNavAccessibility")}
+                </Link>
+              </li>
+            </ul>
+          </li>
 
 
-            <li className="closeMenu breakNav hide">
-              <button
-                onClick={toggleMobileNav}>
-                {t("common:mainNavCloseMenu")}
-                <i className={"material-icons"} aria-hidden="true">clear</i>
-              </button>
-            </li>
+          <li className="closeMenu breakNav hide">
+            <button
+              onClick={toggleMobileNav}>
+              {t("common:mainNavCloseMenu")}
+              <i className={"material-icons"} aria-hidden="true">clear</i>
+            </button>
+          </li>
           </ul>
 
 
-          <div className="localeSeletor" aria-label="Select language">
-            <button
-              name="selectLanguage"
-              onClick={handleLanguageSelector}
-              aria-label={'Current language is set to ' + currentLanguage + ' Click to change'}
-            >
-              {/* {currentLanguage} */}
-              <i className={"material-icons"} aria-hidden="true">language</i>
-            </button>
+        <div className="localeSeletor" aria-label="Select language">
+          <button
+            name="selectLanguage"
+            onClick={handleLanguageSelector}
+            aria-label={'Current language is set to ' + currentLanguage + ' Click to change'}
+          >
+            {/* {currentLanguage} */}
+            <i className={"material-icons"} aria-hidden="true">language</i>
+          </button>
 
-            <ul>
-              {i18n.language === "en"
-                ? ''
-                : <li>
-                  <Link
-                    to={`/en${newPathName}`}
-                    hrefLang="en"
-                    title="Switch language to English(NZ)" >
-                    English
+          <ul>
+            {i18n.language === "en"
+              ? ''
+              : <li>
+                <Link
+                  to={`/en${newPathName}`}
+                  hrefLang="en"
+                  title="Switch language to English(NZ)" >
+                  English
                   </Link>
-                </li>
-              }
-              {i18n.language === "mi"
-                ? ''
-                : <li>
-                  <Link
-                    to={`/mi${newPathName}`}
-                    hrefLang="mi"
-                    title="Switch language to Māori">
-                    Māori
+              </li>
+            }
+            {i18n.language === "mi"
+              ? ''
+              : <li>
+                <Link
+                  to={`/mi${newPathName}`}
+                  hrefLang="mi"
+                  title="Switch language to Māori">
+                  Māori
                   </Link>
-                </li>
-              }
-            </ul>
-          </div>
+              </li>
+            }
+          </ul>
+        </div>
         </nav>
-      </header >
+    </header >
     </>
   )
 };
