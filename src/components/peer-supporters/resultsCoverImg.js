@@ -13,7 +13,7 @@ const ResultsCoverImge = ({ edge }) => {
                         fluid={edge.node.coverImage.asset.fluid}
                         loading="lazy"
                     />
-                    <span className={listResults.resultsContentImgOverlay}></span>
+                    {/* <span className={listResults.resultsContentImgOverlay}></span> */}
                 </>
                 : ''
             }
