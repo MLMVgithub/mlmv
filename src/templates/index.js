@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import { useTranslation } from "react-i18next"
 import SEO from '../components/seo/seo'
 import Layout from "../components/layout"
@@ -108,7 +108,7 @@ export const query = graphql`
 `
 
 const IndexPage = ({ data, location, language }) => {
-  const { t, i18n } = useTranslation("index")
+  // const { t, i18n } = useTranslation("index")
 
   return (
     <>
