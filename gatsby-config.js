@@ -1,5 +1,4 @@
 module.exports = {
-
   /* Your site config here */
 
   siteMetadata: {
@@ -12,8 +11,6 @@ module.exports = {
     year: "2021",
   },
   plugins: [
-
-
     {
       resolve: `gatsby-source-sanity`,
       options: {
@@ -25,11 +22,9 @@ module.exports = {
 
         // If the Sanity GraphQL API was deployed using `--tag <name>`,
         // use `graphqlTag` to specify the tag name. Defaults to `default`.
-        graphqlTag: 'default',
+        graphqlTag: "default",
       },
     },
-
-
 
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
@@ -38,7 +33,6 @@ module.exports = {
     //     trackingId: "UA-7623107-7",
     //   },
     // },
-
 
     `gatsby-plugin-sass`,
 
@@ -67,27 +61,27 @@ module.exports = {
             {
               family: `Material+Icons`,
               // fontDisplay: 'swap',
-              strategy: 'base64', // 'base64' || 'cdn'
+              strategy: "base64", // 'base64' || 'cdn'
             },
 
             {
               family: "Roboto",
               variants: ["300", "400", "500", "700"],
               // fontDisplay: 'swap',
-              strategy: 'base64', // 'base64' || 'cdn'
+              strategy: "base64", // 'base64' || 'cdn'
             },
             {
               family: "Merriweather",
               variants: ["400", "700", "900"],
               // fontDisplay: 'swap',
-              strategy: 'base64',
+              strategy: "base64",
             },
 
             {
               family: "Noto+Serif",
               variants: ["700"],
               text: `“ ”`,
-              strategy: 'base64',
+              strategy: "base64",
             },
           ],
         },
@@ -105,12 +99,12 @@ module.exports = {
     },
 
     {
-      resolve: 'gatsby-plugin-react-svg',
+      resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /\.inline\.svg$/
-        }
-      }
+          include: /\.inline\.svg$/,
+        },
+      },
     },
 
     `gatsby-plugin-react-helmet`,
@@ -130,9 +124,9 @@ module.exports = {
       },
     },
 
-    //Yes, we want A11y
+    // Yes, we want A11y
     {
-      resolve: 'gatsby-plugin-react-axe',
+      resolve: "gatsby-plugin-react-axe",
       options: {
         // Number of milliseconds to wait for component updates to cease before
         // performing an analysis of all the changes. This defaults to 1000ms (1 second).
@@ -145,7 +139,6 @@ module.exports = {
         // See: https://github.com/dequelabs/axe-core/blob/master/doc/API.md#api-name-axeconfigure
         axeOptions: {
           // Your axe-core options.
-
         },
 
         // Context to pass to axe-core.
@@ -153,8 +146,6 @@ module.exports = {
         axeContext: undefined,
       },
     },
-
-
 
     //`gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -229,14 +220,10 @@ module.exports = {
       },
     },
 
-
-
-
     `gatsby-plugin-offline`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-
 
     `gatsby-plugin-netlify`,
 
@@ -256,5 +243,5 @@ module.exports = {
     //`gatsby-plugin-preact`
 
     // `gatsby-plugin-client-side-redirect` // keep it in last in list
-  ]
+  ],
 }

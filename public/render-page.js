@@ -1679,6 +1679,7 @@ function _arrayLikeToArray(arr, len) {
 }
 
 module.exports = _arrayLikeToArray;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1694,6 +1695,7 @@ function _arrayWithHoles(arr) {
 }
 
 module.exports = _arrayWithHoles;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1713,6 +1715,7 @@ function _assertThisInitialized(self) {
 }
 
 module.exports = _assertThisInitialized;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1760,6 +1763,7 @@ function _asyncToGenerator(fn) {
 }
 
 module.exports = _asyncToGenerator;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1777,6 +1781,7 @@ function _classCallCheck(instance, Constructor) {
 }
 
 module.exports = _classCallCheck;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1804,6 +1809,7 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1830,6 +1836,7 @@ function _defineProperty(obj, key, value) {
 }
 
 module.exports = _defineProperty;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -1955,7 +1962,7 @@ function _getPrototypeOf(o) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _inherits; });
-/* harmony import */ var _babel_runtime_helpers_esm_setPrototypeOf__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/setPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js");
+/* harmony import */ var _setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./setPrototypeOf.js */ "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js");
 
 function _inherits(subClass, superClass) {
   if (typeof superClass !== "function" && superClass !== null) {
@@ -1969,7 +1976,7 @@ function _inherits(subClass, superClass) {
       configurable: true
     }
   });
-  if (superClass) Object(_babel_runtime_helpers_esm_setPrototypeOf__WEBPACK_IMPORTED_MODULE_0__["default"])(subClass, superClass);
+  if (superClass) Object(_setPrototypeOf_js__WEBPACK_IMPORTED_MODULE_0__["default"])(subClass, superClass);
 }
 
 /***/ }),
@@ -1984,7 +1991,7 @@ function _inherits(subClass, superClass) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectSpread; });
-/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _defineProperty_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./defineProperty.js */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 
 function _objectSpread(target) {
   for (var i = 1; i < arguments.length; i++) {
@@ -1998,7 +2005,7 @@ function _objectSpread(target) {
     }
 
     ownKeys.forEach(function (key) {
-      Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]);
+      Object(_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]);
     });
   }
 
@@ -2017,16 +2024,17 @@ function _objectSpread(target) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _possibleConstructorReturn; });
-/* harmony import */ var _babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/typeof */ "./node_modules/@babel/runtime/helpers/esm/typeof.js");
-/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js");
+/* harmony import */ var _babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assertThisInitialized_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assertThisInitialized.js */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
 
 
 function _possibleConstructorReturn(self, call) {
-  if (call && (Object(_babel_runtime_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(call) === "object" || typeof call === "function")) {
+  if (call && (_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_0___default()(call) === "object" || typeof call === "function")) {
     return call;
   }
 
-  return Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(self);
+  return Object(_assertThisInitialized_js__WEBPACK_IMPORTED_MODULE_1__["default"])(self);
 }
 
 /***/ }),
@@ -2102,10 +2110,12 @@ function _extends() {
     return target;
   };
 
+  module.exports["default"] = module.exports, module.exports.__esModule = true;
   return _extends.apply(this, arguments);
 }
 
 module.exports = _extends;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -2114,15 +2124,18 @@ module.exports = _extends;
   !*** ./node_modules/@babel/runtime/helpers/inheritsLoose.js ***!
   \**************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
 
 function _inheritsLoose(subClass, superClass) {
   subClass.prototype = Object.create(superClass.prototype);
   subClass.prototype.constructor = subClass;
-  subClass.__proto__ = superClass;
+  setPrototypeOf(subClass, superClass);
 }
 
 module.exports = _inheritsLoose;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -2140,6 +2153,7 @@ function _interopRequireDefault(obj) {
 }
 
 module.exports = _interopRequireDefault;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -2150,21 +2164,19 @@ module.exports = _interopRequireDefault;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var _typeof = __webpack_require__(/*! @babel/runtime/helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js");
+var _typeof = __webpack_require__(/*! @babel/runtime/helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js")["default"];
 
-function _getRequireWildcardCache() {
+function _getRequireWildcardCache(nodeInterop) {
   if (typeof WeakMap !== "function") return null;
-  var cache = new WeakMap();
-
-  _getRequireWildcardCache = function _getRequireWildcardCache() {
-    return cache;
-  };
-
-  return cache;
+  var cacheBabelInterop = new WeakMap();
+  var cacheNodeInterop = new WeakMap();
+  return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) {
+    return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+  })(nodeInterop);
 }
 
-function _interopRequireWildcard(obj) {
-  if (obj && obj.__esModule) {
+function _interopRequireWildcard(obj, nodeInterop) {
+  if (!nodeInterop && obj && obj.__esModule) {
     return obj;
   }
 
@@ -2174,7 +2186,7 @@ function _interopRequireWildcard(obj) {
     };
   }
 
-  var cache = _getRequireWildcardCache();
+  var cache = _getRequireWildcardCache(nodeInterop);
 
   if (cache && cache.has(obj)) {
     return cache.get(obj);
@@ -2184,7 +2196,7 @@ function _interopRequireWildcard(obj) {
   var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
 
   for (var key in obj) {
-    if (Object.prototype.hasOwnProperty.call(obj, key)) {
+    if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
       var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
 
       if (desc && (desc.get || desc.set)) {
@@ -2205,6 +2217,7 @@ function _interopRequireWildcard(obj) {
 }
 
 module.exports = _interopRequireWildcard;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -2216,14 +2229,17 @@ module.exports = _interopRequireWildcard;
 /***/ (function(module, exports) {
 
 function _iterableToArrayLimit(arr, i) {
-  if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;
+  var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"];
+
+  if (_i == null) return;
   var _arr = [];
   var _n = true;
   var _d = false;
-  var _e = undefined;
+
+  var _s, _e;
 
   try {
-    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
+    for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) {
       _arr.push(_s.value);
 
       if (i && _arr.length === i) break;
@@ -2243,6 +2259,7 @@ function _iterableToArrayLimit(arr, i) {
 }
 
 module.exports = _iterableToArrayLimit;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -2258,6 +2275,7 @@ function _nonIterableRest() {
 }
 
 module.exports = _nonIterableRest;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -2268,7 +2286,7 @@ module.exports = _nonIterableRest;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var objectWithoutPropertiesLoose = __webpack_require__(/*! ./objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js");
+var objectWithoutPropertiesLoose = __webpack_require__(/*! ./objectWithoutPropertiesLoose.js */ "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js");
 
 function _objectWithoutProperties(source, excluded) {
   if (source == null) return {};
@@ -2290,6 +2308,7 @@ function _objectWithoutProperties(source, excluded) {
 }
 
 module.exports = _objectWithoutProperties;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -2316,6 +2335,29 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 }
 
 module.exports = _objectWithoutPropertiesLoose;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _setPrototypeOf(o, p) {
+  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  module.exports["default"] = module.exports, module.exports.__esModule = true;
+  return _setPrototypeOf(o, p);
+}
+
+module.exports = _setPrototypeOf;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -2326,19 +2368,20 @@ module.exports = _objectWithoutPropertiesLoose;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayWithHoles = __webpack_require__(/*! ./arrayWithHoles */ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js");
+var arrayWithHoles = __webpack_require__(/*! ./arrayWithHoles.js */ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js");
 
-var iterableToArrayLimit = __webpack_require__(/*! ./iterableToArrayLimit */ "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js");
+var iterableToArrayLimit = __webpack_require__(/*! ./iterableToArrayLimit.js */ "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js");
 
-var unsupportedIterableToArray = __webpack_require__(/*! ./unsupportedIterableToArray */ "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js");
+var unsupportedIterableToArray = __webpack_require__(/*! ./unsupportedIterableToArray.js */ "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js");
 
-var nonIterableRest = __webpack_require__(/*! ./nonIterableRest */ "./node_modules/@babel/runtime/helpers/nonIterableRest.js");
+var nonIterableRest = __webpack_require__(/*! ./nonIterableRest.js */ "./node_modules/@babel/runtime/helpers/nonIterableRest.js");
 
 function _slicedToArray(arr, i) {
   return arrayWithHoles(arr) || iterableToArrayLimit(arr, i) || unsupportedIterableToArray(arr, i) || nonIterableRest();
 }
 
 module.exports = _slicedToArray;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -2356,16 +2399,21 @@ function _typeof(obj) {
     module.exports = _typeof = function _typeof(obj) {
       return typeof obj;
     };
+
+    module.exports["default"] = module.exports, module.exports.__esModule = true;
   } else {
     module.exports = _typeof = function _typeof(obj) {
       return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
     };
+
+    module.exports["default"] = module.exports, module.exports.__esModule = true;
   }
 
   return _typeof(obj);
 }
 
 module.exports = _typeof;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -2376,7 +2424,7 @@ module.exports = _typeof;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayLikeToArray = __webpack_require__(/*! ./arrayLikeToArray */ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js");
+var arrayLikeToArray = __webpack_require__(/*! ./arrayLikeToArray.js */ "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js");
 
 function _unsupportedIterableToArray(o, minLen) {
   if (!o) return;
@@ -2388,6 +2436,7 @@ function _unsupportedIterableToArray(o, minLen) {
 }
 
 module.exports = _unsupportedIterableToArray;
+module.exports["default"] = module.exports, module.exports.__esModule = true;
 
 /***/ }),
 
@@ -4909,7 +4958,7 @@ module.exports = {
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, bundlesize, dependencies, deprecated, description, devDependencies, homepage, jsdelivr, keywords, license, main, name, repository, scripts, typings, unpkg, version, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"axios@^0.21.1\",\"_id\":\"axios@0.21.1\",\"_inBundle\":false,\"_integrity\":\"sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==\",\"_location\":\"/axios\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"axios@^0.21.1\",\"name\":\"axios\",\"escapedName\":\"axios\",\"rawSpec\":\"^0.21.1\",\"saveSpec\":null,\"fetchSpec\":\"^0.21.1\"},\"_requiredBy\":[\"/gatsby\"],\"_resolved\":\"https://registry.npmjs.org/axios/-/axios-0.21.1.tgz\",\"_shasum\":\"22563481962f4d6bde9a76d516ef0e5d3c09b2b8\",\"_spec\":\"axios@^0.21.1\",\"_where\":\"/Users/pkoenders/work/dev.mlmv/node_modules/gatsby\",\"author\":{\"name\":\"Matt Zabriskie\"},\"browser\":{\"./lib/adapters/http.js\":\"./lib/adapters/xhr.js\"},\"bugs\":{\"url\":\"https://github.com/axios/axios/issues\"},\"bundleDependencies\":false,\"bundlesize\":[{\"path\":\"./dist/axios.min.js\",\"threshold\":\"5kB\"}],\"dependencies\":{\"follow-redirects\":\"^1.10.0\"},\"deprecated\":false,\"description\":\"Promise based HTTP client for the browser and node.js\",\"devDependencies\":{\"bundlesize\":\"^0.17.0\",\"coveralls\":\"^3.0.0\",\"es6-promise\":\"^4.2.4\",\"grunt\":\"^1.0.2\",\"grunt-banner\":\"^0.6.0\",\"grunt-cli\":\"^1.2.0\",\"grunt-contrib-clean\":\"^1.1.0\",\"grunt-contrib-watch\":\"^1.0.0\",\"grunt-eslint\":\"^20.1.0\",\"grunt-karma\":\"^2.0.0\",\"grunt-mocha-test\":\"^0.13.3\",\"grunt-ts\":\"^6.0.0-beta.19\",\"grunt-webpack\":\"^1.0.18\",\"istanbul-instrumenter-loader\":\"^1.0.0\",\"jasmine-core\":\"^2.4.1\",\"karma\":\"^1.3.0\",\"karma-chrome-launcher\":\"^2.2.0\",\"karma-coverage\":\"^1.1.1\",\"karma-firefox-launcher\":\"^1.1.0\",\"karma-jasmine\":\"^1.1.1\",\"karma-jasmine-ajax\":\"^0.1.13\",\"karma-opera-launcher\":\"^1.0.0\",\"karma-safari-launcher\":\"^1.0.0\",\"karma-sauce-launcher\":\"^1.2.0\",\"karma-sinon\":\"^1.0.5\",\"karma-sourcemap-loader\":\"^0.3.7\",\"karma-webpack\":\"^1.7.0\",\"load-grunt-tasks\":\"^3.5.2\",\"minimist\":\"^1.2.0\",\"mocha\":\"^5.2.0\",\"sinon\":\"^4.5.0\",\"typescript\":\"^2.8.1\",\"url-search-params\":\"^0.10.0\",\"webpack\":\"^1.13.1\",\"webpack-dev-server\":\"^1.14.1\"},\"homepage\":\"https://github.com/axios/axios\",\"jsdelivr\":\"dist/axios.min.js\",\"keywords\":[\"xhr\",\"http\",\"ajax\",\"promise\",\"node\"],\"license\":\"MIT\",\"main\":\"index.js\",\"name\":\"axios\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/axios/axios.git\"},\"scripts\":{\"build\":\"NODE_ENV=production grunt build\",\"coveralls\":\"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js\",\"examples\":\"node ./examples/server.js\",\"fix\":\"eslint --fix lib/**/*.js\",\"postversion\":\"git push && git push --tags\",\"preversion\":\"npm test\",\"start\":\"node ./sandbox/server.js\",\"test\":\"grunt test && bundlesize\",\"version\":\"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json\"},\"typings\":\"./index.d.ts\",\"unpkg\":\"dist/axios.min.js\",\"version\":\"0.21.1\"}");
+module.exports = JSON.parse("{\"_from\":\"axios@^0.21.1\",\"_id\":\"axios@0.21.1\",\"_inBundle\":false,\"_integrity\":\"sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==\",\"_location\":\"/axios\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"axios@^0.21.1\",\"name\":\"axios\",\"escapedName\":\"axios\",\"rawSpec\":\"^0.21.1\",\"saveSpec\":null,\"fetchSpec\":\"^0.21.1\"},\"_requiredBy\":[\"/contentful-management\",\"/gatsby\",\"/gatsby-plugin-webfonts\",\"/gatsby-source-sanity\"],\"_resolved\":\"https://registry.npmjs.org/axios/-/axios-0.21.1.tgz\",\"_shasum\":\"22563481962f4d6bde9a76d516ef0e5d3c09b2b8\",\"_spec\":\"axios@^0.21.1\",\"_where\":\"/Users/pkoenders/work/mlmv/mlmv/node_modules/gatsby-plugin-webfonts\",\"author\":{\"name\":\"Matt Zabriskie\"},\"browser\":{\"./lib/adapters/http.js\":\"./lib/adapters/xhr.js\"},\"bugs\":{\"url\":\"https://github.com/axios/axios/issues\"},\"bundleDependencies\":false,\"bundlesize\":[{\"path\":\"./dist/axios.min.js\",\"threshold\":\"5kB\"}],\"dependencies\":{\"follow-redirects\":\"^1.10.0\"},\"deprecated\":false,\"description\":\"Promise based HTTP client for the browser and node.js\",\"devDependencies\":{\"bundlesize\":\"^0.17.0\",\"coveralls\":\"^3.0.0\",\"es6-promise\":\"^4.2.4\",\"grunt\":\"^1.0.2\",\"grunt-banner\":\"^0.6.0\",\"grunt-cli\":\"^1.2.0\",\"grunt-contrib-clean\":\"^1.1.0\",\"grunt-contrib-watch\":\"^1.0.0\",\"grunt-eslint\":\"^20.1.0\",\"grunt-karma\":\"^2.0.0\",\"grunt-mocha-test\":\"^0.13.3\",\"grunt-ts\":\"^6.0.0-beta.19\",\"grunt-webpack\":\"^1.0.18\",\"istanbul-instrumenter-loader\":\"^1.0.0\",\"jasmine-core\":\"^2.4.1\",\"karma\":\"^1.3.0\",\"karma-chrome-launcher\":\"^2.2.0\",\"karma-coverage\":\"^1.1.1\",\"karma-firefox-launcher\":\"^1.1.0\",\"karma-jasmine\":\"^1.1.1\",\"karma-jasmine-ajax\":\"^0.1.13\",\"karma-opera-launcher\":\"^1.0.0\",\"karma-safari-launcher\":\"^1.0.0\",\"karma-sauce-launcher\":\"^1.2.0\",\"karma-sinon\":\"^1.0.5\",\"karma-sourcemap-loader\":\"^0.3.7\",\"karma-webpack\":\"^1.7.0\",\"load-grunt-tasks\":\"^3.5.2\",\"minimist\":\"^1.2.0\",\"mocha\":\"^5.2.0\",\"sinon\":\"^4.5.0\",\"typescript\":\"^2.8.1\",\"url-search-params\":\"^0.10.0\",\"webpack\":\"^1.13.1\",\"webpack-dev-server\":\"^1.14.1\"},\"homepage\":\"https://github.com/axios/axios\",\"jsdelivr\":\"dist/axios.min.js\",\"keywords\":[\"xhr\",\"http\",\"ajax\",\"promise\",\"node\"],\"license\":\"MIT\",\"main\":\"index.js\",\"name\":\"axios\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/axios/axios.git\"},\"scripts\":{\"build\":\"NODE_ENV=production grunt build\",\"coveralls\":\"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js\",\"examples\":\"node ./examples/server.js\",\"fix\":\"eslint --fix lib/**/*.js\",\"postversion\":\"git push && git push --tags\",\"preversion\":\"npm test\",\"start\":\"node ./sandbox/server.js\",\"test\":\"grunt test && bundlesize\",\"version\":\"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json\"},\"typings\":\"./index.d.ts\",\"unpkg\":\"dist/axios.min.js\",\"version\":\"0.21.1\"}");
 
 /***/ }),
 
@@ -5091,14 +5140,19 @@ const bgWhiteBright = init(107, 49)
 /***/ (function(module, exports, __webpack_require__) {
 
 var debug;
-try {
-  /* eslint global-require: off */
-  debug = __webpack_require__(/*! debug */ "debug")("follow-redirects");
-}
-catch (error) {
-  debug = function () { /* */ };
-}
-module.exports = debug;
+
+module.exports = function () {
+  if (!debug) {
+    try {
+      /* eslint global-require: off */
+      debug = __webpack_require__(/*! debug */ "debug")("follow-redirects");
+    }
+    catch (error) {
+      debug = function () { /* */ };
+    }
+  }
+  debug.apply(null, arguments);
+};
 
 
 /***/ }),
@@ -5119,8 +5173,9 @@ var assert = __webpack_require__(/*! assert */ "assert");
 var debug = __webpack_require__(/*! ./debug */ "./node_modules/follow-redirects/debug.js");
 
 // Create handlers that pass events from native requests
+var events = ["abort", "aborted", "connect", "error", "socket", "timeout"];
 var eventHandlers = Object.create(null);
-["abort", "aborted", "connect", "error", "socket", "timeout"].forEach(function (event) {
+events.forEach(function (event) {
   eventHandlers[event] = function (arg1, arg2, arg3) {
     this._redirectable.emit(event, arg1, arg2, arg3);
   };
@@ -5172,6 +5227,11 @@ function RedirectableRequest(options, responseCallback) {
   this._performRequest();
 }
 RedirectableRequest.prototype = Object.create(Writable.prototype);
+
+RedirectableRequest.prototype.abort = function () {
+  abortRequest(this._currentRequest);
+  this.emit("abort");
+};
 
 // Writes buffered data to the current native request
 RedirectableRequest.prototype.write = function (data, encoding, callback) {
@@ -5252,40 +5312,58 @@ RedirectableRequest.prototype.removeHeader = function (name) {
 
 // Global timeout for all underlying requests
 RedirectableRequest.prototype.setTimeout = function (msecs, callback) {
+  var self = this;
   if (callback) {
-    this.once("timeout", callback);
+    this.on("timeout", callback);
   }
 
+  function destroyOnTimeout(socket) {
+    socket.setTimeout(msecs);
+    socket.removeListener("timeout", socket.destroy);
+    socket.addListener("timeout", socket.destroy);
+  }
+
+  // Sets up a timer to trigger a timeout event
+  function startTimer(socket) {
+    if (self._timeout) {
+      clearTimeout(self._timeout);
+    }
+    self._timeout = setTimeout(function () {
+      self.emit("timeout");
+      clearTimer();
+    }, msecs);
+    destroyOnTimeout(socket);
+  }
+
+  // Prevent a timeout from triggering
+  function clearTimer() {
+    clearTimeout(this._timeout);
+    if (callback) {
+      self.removeListener("timeout", callback);
+    }
+    if (!this.socket) {
+      self._currentRequest.removeListener("socket", startTimer);
+    }
+  }
+
+  // Start the timer when the socket is opened
   if (this.socket) {
-    startTimer(this, msecs);
+    startTimer(this.socket);
   }
   else {
-    var self = this;
-    this._currentRequest.once("socket", function () {
-      startTimer(self, msecs);
-    });
+    this._currentRequest.once("socket", startTimer);
   }
 
+  this.on("socket", destroyOnTimeout);
   this.once("response", clearTimer);
   this.once("error", clearTimer);
 
   return this;
 };
 
-function startTimer(request, msecs) {
-  clearTimeout(request._timeout);
-  request._timeout = setTimeout(function () {
-    request.emit("timeout");
-  }, msecs);
-}
-
-function clearTimer() {
-  clearTimeout(this._timeout);
-}
-
 // Proxy all other public ClientRequest methods
 [
-  "abort", "flushHeaders", "getHeader",
+  "flushHeaders", "getHeader",
   "setNoDelay", "setSocketKeepAlive",
 ].forEach(function (method) {
   RedirectableRequest.prototype[method] = function (a, b) {
@@ -5355,11 +5433,8 @@ RedirectableRequest.prototype._performRequest = function () {
 
   // Set up event handlers
   request._redirectable = this;
-  for (var event in eventHandlers) {
-    /* istanbul ignore else */
-    if (event) {
-      request.on(event, eventHandlers[event]);
-    }
+  for (var e = 0; e < events.length; e++) {
+    request.on(events[e], eventHandlers[events[e]]);
   }
 
   // End a redirected request
@@ -5417,9 +5492,7 @@ RedirectableRequest.prototype._processResponse = function (response) {
   if (location && this._options.followRedirects !== false &&
       statusCode >= 300 && statusCode < 400) {
     // Abort the current request
-    this._currentRequest.removeAllListeners();
-    this._currentRequest.on("error", noop);
-    this._currentRequest.abort();
+    abortRequest(this._currentRequest);
     // Discard the remainder of the response to avoid waiting for data
     response.destroy();
 
@@ -5512,7 +5585,7 @@ function wrap(protocols) {
     var wrappedProtocol = exports[scheme] = Object.create(nativeProtocol);
 
     // Executes a request, following redirects
-    wrappedProtocol.request = function (input, options, callback) {
+    function request(input, options, callback) {
       // Parse parameters
       if (typeof input === "string") {
         var urlStr = input;
@@ -5547,14 +5620,20 @@ function wrap(protocols) {
       assert.equal(options.protocol, protocol, "protocol mismatch");
       debug("options", options);
       return new RedirectableRequest(options, callback);
-    };
+    }
 
     // Executes a GET request, following redirects
-    wrappedProtocol.get = function (input, options, callback) {
-      var request = wrappedProtocol.request(input, options, callback);
-      request.end();
-      return request;
-    };
+    function get(input, options, callback) {
+      var wrappedRequest = wrappedProtocol.request(input, options, callback);
+      wrappedRequest.end();
+      return wrappedRequest;
+    }
+
+    // Expose the properties on the wrapped protocol
+    Object.defineProperties(wrappedProtocol, {
+      request: { value: request, configurable: true, enumerable: true, writable: true },
+      get: { value: get, configurable: true, enumerable: true, writable: true },
+    });
   });
   return exports;
 }
@@ -5603,6 +5682,14 @@ function createErrorType(code, defaultMessage) {
   CustomError.prototype.name = "Error [" + code + "]";
   CustomError.prototype.code = code;
   return CustomError;
+}
+
+function abortRequest(request) {
+  for (var e = 0; e < events.length; e++) {
+    request.removeListener(events[e], eventHandlers[events[e]]);
+  }
+  request.on("error", noop);
+  request.abort();
 }
 
 // Exports
@@ -6731,7 +6818,7 @@ var _fsExtra = _interopRequireDefault(__webpack_require__(/*! fs-extra */ "./nod
 
 var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ "./node_modules/axios/index.js"));
 
-var _postcss = _interopRequireDefault(__webpack_require__(/*! postcss */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/postcss.js"));
+var _postcss = _interopRequireDefault(__webpack_require__(/*! postcss */ "./node_modules/postcss/lib/postcss.js"));
 
 var _postcssJs = _interopRequireDefault(__webpack_require__(/*! postcss-js */ "./node_modules/postcss-js/index.mjs"));
 
@@ -8001,9 +8088,10 @@ const u = __webpack_require__(/*! universalify */ "./node_modules/gatsby-plugin-
 
 const fs = __webpack_require__(/*! graceful-fs */ "./node_modules/graceful-fs/graceful-fs.js");
 
-const api = ['access', 'appendFile', 'chmod', 'chown', 'close', 'copyFile', 'fchmod', 'fchown', 'fdatasync', 'fstat', 'fsync', 'ftruncate', 'futimes', 'lchmod', 'lchown', 'link', 'lstat', 'mkdir', 'mkdtemp', 'open', 'opendir', 'readdir', 'readFile', 'readlink', 'realpath', 'rename', 'rmdir', 'stat', 'symlink', 'truncate', 'unlink', 'utimes', 'writeFile'].filter(key => {
+const api = ['access', 'appendFile', 'chmod', 'chown', 'close', 'copyFile', 'fchmod', 'fchown', 'fdatasync', 'fstat', 'fsync', 'ftruncate', 'futimes', 'lchmod', 'lchown', 'link', 'lstat', 'mkdir', 'mkdtemp', 'open', 'opendir', 'readdir', 'readFile', 'readlink', 'realpath', 'rename', 'rm', 'rmdir', 'stat', 'symlink', 'truncate', 'unlink', 'utimes', 'writeFile'].filter(key => {
   // Some commands are not available on some systems. Ex:
   // fs.opendir was added in Node.js v12.12.0
+  // fs.rm was added in Node.js v14.14.0
   // fs.lchown is not available on at least some Linux
   return typeof fs[key] === 'function';
 }); // Export all keys:
@@ -9257,7 +9345,7 @@ try {
   _fs = __webpack_require__(/*! fs */ "fs");
 }
 
-const universalify = __webpack_require__(/*! universalify */ "./node_modules/gatsby-plugin-webfonts/node_modules/jsonfile/node_modules/universalify/index.js");
+const universalify = __webpack_require__(/*! universalify */ "./node_modules/gatsby-plugin-webfonts/node_modules/universalify/index.js");
 
 const {
   stringify,
@@ -9342,39 +9430,6 @@ module.exports = jsonfile;
 
 /***/ }),
 
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/jsonfile/node_modules/universalify/index.js":
-/*!******************************************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/jsonfile/node_modules/universalify/index.js ***!
-  \******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.fromCallback = function (fn) {
-  return Object.defineProperty(function (...args) {
-    if (typeof args[args.length - 1] === 'function') fn.apply(this, args);else {
-      return new Promise((resolve, reject) => {
-        fn.call(this, ...args, (err, res) => err != null ? reject(err) : resolve(res));
-      });
-    }
-  }, 'name', {
-    value: fn.name
-  });
-};
-
-exports.fromPromise = function (fn) {
-  return Object.defineProperty(function (...args) {
-    const cb = args[args.length - 1];
-    if (typeof cb !== 'function') return fn.apply(this, args);else fn.apply(this, args.slice(0, -1)).then(r => cb(null, r), cb);
-  }, 'name', {
-    value: fn.name
-  });
-};
-
-/***/ }),
-
 /***/ "./node_modules/gatsby-plugin-webfonts/node_modules/jsonfile/utils.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/gatsby-plugin-webfonts/node_modules/jsonfile/utils.js ***!
@@ -9406,4413 +9461,6 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/at-rule.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/at-rule.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let Container = __webpack_require__(/*! ./container */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/container.js");
-
-class AtRule extends Container {
-  constructor(defaults) {
-    super(defaults);
-    this.type = 'atrule';
-  }
-
-  append(...children) {
-    if (!this.proxyOf.nodes) this.nodes = [];
-    return super.append(...children);
-  }
-
-  prepend(...children) {
-    if (!this.proxyOf.nodes) this.nodes = [];
-    return super.prepend(...children);
-  }
-
-}
-
-module.exports = AtRule;
-AtRule.default = AtRule;
-Container.registerAtRule(AtRule);
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/comment.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/comment.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let Node = __webpack_require__(/*! ./node */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/node.js");
-
-class Comment extends Node {
-  constructor(defaults) {
-    super(defaults);
-    this.type = 'comment';
-  }
-
-}
-
-module.exports = Comment;
-Comment.default = Comment;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/container.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/container.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let {
-  isClean,
-  my
-} = __webpack_require__(/*! ./symbols */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/symbols.js");
-
-let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/declaration.js");
-
-let Comment = __webpack_require__(/*! ./comment */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/comment.js");
-
-let Node = __webpack_require__(/*! ./node */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/node.js");
-
-let parse, Rule, AtRule;
-
-function cleanSource(nodes) {
-  return nodes.map(i => {
-    if (i.nodes) i.nodes = cleanSource(i.nodes);
-    delete i.source;
-    return i;
-  });
-}
-
-function markDirtyUp(node) {
-  node[isClean] = false;
-
-  if (node.proxyOf.nodes) {
-    for (let i of node.proxyOf.nodes) {
-      markDirtyUp(i);
-    }
-  }
-}
-
-class Container extends Node {
-  push(child) {
-    child.parent = this;
-    this.proxyOf.nodes.push(child);
-    return this;
-  }
-
-  each(callback) {
-    if (!this.proxyOf.nodes) return undefined;
-    let iterator = this.getIterator();
-    let index, result;
-
-    while (this.indexes[iterator] < this.proxyOf.nodes.length) {
-      index = this.indexes[iterator];
-      result = callback(this.proxyOf.nodes[index], index);
-      if (result === false) break;
-      this.indexes[iterator] += 1;
-    }
-
-    delete this.indexes[iterator];
-    return result;
-  }
-
-  walk(callback) {
-    return this.each((child, i) => {
-      let result;
-
-      try {
-        result = callback(child, i);
-      } catch (e) {
-        throw child.addToError(e);
-      }
-
-      if (result !== false && child.walk) {
-        result = child.walk(callback);
-      }
-
-      return result;
-    });
-  }
-
-  walkDecls(prop, callback) {
-    if (!callback) {
-      callback = prop;
-      return this.walk((child, i) => {
-        if (child.type === 'decl') {
-          return callback(child, i);
-        }
-      });
-    }
-
-    if (prop instanceof RegExp) {
-      return this.walk((child, i) => {
-        if (child.type === 'decl' && prop.test(child.prop)) {
-          return callback(child, i);
-        }
-      });
-    }
-
-    return this.walk((child, i) => {
-      if (child.type === 'decl' && child.prop === prop) {
-        return callback(child, i);
-      }
-    });
-  }
-
-  walkRules(selector, callback) {
-    if (!callback) {
-      callback = selector;
-      return this.walk((child, i) => {
-        if (child.type === 'rule') {
-          return callback(child, i);
-        }
-      });
-    }
-
-    if (selector instanceof RegExp) {
-      return this.walk((child, i) => {
-        if (child.type === 'rule' && selector.test(child.selector)) {
-          return callback(child, i);
-        }
-      });
-    }
-
-    return this.walk((child, i) => {
-      if (child.type === 'rule' && child.selector === selector) {
-        return callback(child, i);
-      }
-    });
-  }
-
-  walkAtRules(name, callback) {
-    if (!callback) {
-      callback = name;
-      return this.walk((child, i) => {
-        if (child.type === 'atrule') {
-          return callback(child, i);
-        }
-      });
-    }
-
-    if (name instanceof RegExp) {
-      return this.walk((child, i) => {
-        if (child.type === 'atrule' && name.test(child.name)) {
-          return callback(child, i);
-        }
-      });
-    }
-
-    return this.walk((child, i) => {
-      if (child.type === 'atrule' && child.name === name) {
-        return callback(child, i);
-      }
-    });
-  }
-
-  walkComments(callback) {
-    return this.walk((child, i) => {
-      if (child.type === 'comment') {
-        return callback(child, i);
-      }
-    });
-  }
-
-  append(...children) {
-    for (let child of children) {
-      let nodes = this.normalize(child, this.last);
-
-      for (let node of nodes) this.proxyOf.nodes.push(node);
-    }
-
-    this.markDirty();
-    return this;
-  }
-
-  prepend(...children) {
-    children = children.reverse();
-
-    for (let child of children) {
-      let nodes = this.normalize(child, this.first, 'prepend').reverse();
-
-      for (let node of nodes) this.proxyOf.nodes.unshift(node);
-
-      for (let id in this.indexes) {
-        this.indexes[id] = this.indexes[id] + nodes.length;
-      }
-    }
-
-    this.markDirty();
-    return this;
-  }
-
-  cleanRaws(keepBetween) {
-    super.cleanRaws(keepBetween);
-
-    if (this.nodes) {
-      for (let node of this.nodes) node.cleanRaws(keepBetween);
-    }
-  }
-
-  insertBefore(exist, add) {
-    exist = this.index(exist);
-    let type = exist === 0 ? 'prepend' : false;
-    let nodes = this.normalize(add, this.proxyOf.nodes[exist], type).reverse();
-
-    for (let node of nodes) this.proxyOf.nodes.splice(exist, 0, node);
-
-    let index;
-
-    for (let id in this.indexes) {
-      index = this.indexes[id];
-
-      if (exist <= index) {
-        this.indexes[id] = index + nodes.length;
-      }
-    }
-
-    this.markDirty();
-    return this;
-  }
-
-  insertAfter(exist, add) {
-    exist = this.index(exist);
-    let nodes = this.normalize(add, this.proxyOf.nodes[exist]).reverse();
-
-    for (let node of nodes) this.proxyOf.nodes.splice(exist + 1, 0, node);
-
-    let index;
-
-    for (let id in this.indexes) {
-      index = this.indexes[id];
-
-      if (exist < index) {
-        this.indexes[id] = index + nodes.length;
-      }
-    }
-
-    this.markDirty();
-    return this;
-  }
-
-  removeChild(child) {
-    child = this.index(child);
-    this.proxyOf.nodes[child].parent = undefined;
-    this.proxyOf.nodes.splice(child, 1);
-    let index;
-
-    for (let id in this.indexes) {
-      index = this.indexes[id];
-
-      if (index >= child) {
-        this.indexes[id] = index - 1;
-      }
-    }
-
-    this.markDirty();
-    return this;
-  }
-
-  removeAll() {
-    for (let node of this.proxyOf.nodes) node.parent = undefined;
-
-    this.proxyOf.nodes = [];
-    this.markDirty();
-    return this;
-  }
-
-  replaceValues(pattern, opts, callback) {
-    if (!callback) {
-      callback = opts;
-      opts = {};
-    }
-
-    this.walkDecls(decl => {
-      if (opts.props && !opts.props.includes(decl.prop)) return;
-      if (opts.fast && !decl.value.includes(opts.fast)) return;
-      decl.value = decl.value.replace(pattern, callback);
-    });
-    this.markDirty();
-    return this;
-  }
-
-  every(condition) {
-    return this.nodes.every(condition);
-  }
-
-  some(condition) {
-    return this.nodes.some(condition);
-  }
-
-  index(child) {
-    if (typeof child === 'number') return child;
-    if (child.proxyOf) child = child.proxyOf;
-    return this.proxyOf.nodes.indexOf(child);
-  }
-
-  get first() {
-    if (!this.proxyOf.nodes) return undefined;
-    return this.proxyOf.nodes[0];
-  }
-
-  get last() {
-    if (!this.proxyOf.nodes) return undefined;
-    return this.proxyOf.nodes[this.proxyOf.nodes.length - 1];
-  }
-
-  normalize(nodes, sample) {
-    if (typeof nodes === 'string') {
-      nodes = cleanSource(parse(nodes).nodes);
-    } else if (Array.isArray(nodes)) {
-      nodes = nodes.slice(0);
-
-      for (let i of nodes) {
-        if (i.parent) i.parent.removeChild(i, 'ignore');
-      }
-    } else if (nodes.type === 'root' && this.type !== 'document') {
-      nodes = nodes.nodes.slice(0);
-
-      for (let i of nodes) {
-        if (i.parent) i.parent.removeChild(i, 'ignore');
-      }
-    } else if (nodes.type) {
-      nodes = [nodes];
-    } else if (nodes.prop) {
-      if (typeof nodes.value === 'undefined') {
-        throw new Error('Value field is missed in node creation');
-      } else if (typeof nodes.value !== 'string') {
-        nodes.value = String(nodes.value);
-      }
-
-      nodes = [new Declaration(nodes)];
-    } else if (nodes.selector) {
-      nodes = [new Rule(nodes)];
-    } else if (nodes.name) {
-      nodes = [new AtRule(nodes)];
-    } else if (nodes.text) {
-      nodes = [new Comment(nodes)];
-    } else {
-      throw new Error('Unknown node type in node creation');
-    }
-
-    let processed = nodes.map(i => {
-      // istanbul ignore next
-      if (!i[my]) Container.rebuild(i);
-      i = i.proxyOf;
-      if (i.parent) i.parent.removeChild(i);
-      if (i[isClean]) markDirtyUp(i);
-
-      if (typeof i.raws.before === 'undefined') {
-        if (sample && typeof sample.raws.before !== 'undefined') {
-          i.raws.before = sample.raws.before.replace(/\S/g, '');
-        }
-      }
-
-      i.parent = this;
-      return i;
-    });
-    return processed;
-  }
-
-  getProxyProcessor() {
-    return {
-      set(node, prop, value) {
-        if (node[prop] === value) return true;
-        node[prop] = value;
-
-        if (prop === 'name' || prop === 'params' || prop === 'selector') {
-          node.markDirty();
-        }
-
-        return true;
-      },
-
-      get(node, prop) {
-        if (prop === 'proxyOf') {
-          return node;
-        } else if (!node[prop]) {
-          return node[prop];
-        } else if (prop === 'each' || typeof prop === 'string' && prop.startsWith('walk')) {
-          return (...args) => {
-            return node[prop](...args.map(i => {
-              if (typeof i === 'function') {
-                return (child, index) => i(child.toProxy(), index);
-              } else {
-                return i;
-              }
-            }));
-          };
-        } else if (prop === 'every' || prop === 'some') {
-          return cb => {
-            return node[prop]((child, ...other) => cb(child.toProxy(), ...other));
-          };
-        } else if (prop === 'root') {
-          return () => node.root().toProxy();
-        } else if (prop === 'nodes') {
-          return node.nodes.map(i => i.toProxy());
-        } else if (prop === 'first' || prop === 'last') {
-          return node[prop].toProxy();
-        } else {
-          return node[prop];
-        }
-      }
-
-    };
-  }
-
-  getIterator() {
-    if (!this.lastEach) this.lastEach = 0;
-    if (!this.indexes) this.indexes = {};
-    this.lastEach += 1;
-    let iterator = this.lastEach;
-    this.indexes[iterator] = 0;
-    return iterator;
-  }
-
-}
-
-Container.registerParse = dependant => {
-  parse = dependant;
-};
-
-Container.registerRule = dependant => {
-  Rule = dependant;
-};
-
-Container.registerAtRule = dependant => {
-  AtRule = dependant;
-};
-
-module.exports = Container;
-Container.default = Container; // istanbul ignore next
-
-Container.rebuild = node => {
-  if (node.type === 'atrule') {
-    Object.setPrototypeOf(node, AtRule.prototype);
-  } else if (node.type === 'rule') {
-    Object.setPrototypeOf(node, Rule.prototype);
-  } else if (node.type === 'decl') {
-    Object.setPrototypeOf(node, Declaration.prototype);
-  } else if (node.type === 'comment') {
-    Object.setPrototypeOf(node, Comment.prototype);
-  }
-
-  node[my] = true;
-
-  if (node.nodes) {
-    node.nodes.forEach(child => {
-      Container.rebuild(child);
-    });
-  }
-};
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/css-syntax-error.js":
-/*!******************************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/css-syntax-error.js ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let {
-  red,
-  bold,
-  gray,
-  options: colorette
-} = __webpack_require__(/*! colorette */ "./node_modules/colorette/index.js");
-
-let terminalHighlight = __webpack_require__(/*! ./terminal-highlight */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/terminal-highlight.js");
-
-class CssSyntaxError extends Error {
-  constructor(message, line, column, source, file, plugin) {
-    super(message);
-    this.name = 'CssSyntaxError';
-    this.reason = message;
-
-    if (file) {
-      this.file = file;
-    }
-
-    if (source) {
-      this.source = source;
-    }
-
-    if (plugin) {
-      this.plugin = plugin;
-    }
-
-    if (typeof line !== 'undefined' && typeof column !== 'undefined') {
-      this.line = line;
-      this.column = column;
-    }
-
-    this.setMessage();
-
-    if (Error.captureStackTrace) {
-      Error.captureStackTrace(this, CssSyntaxError);
-    }
-  }
-
-  setMessage() {
-    this.message = this.plugin ? this.plugin + ': ' : '';
-    this.message += this.file ? this.file : '<css input>';
-
-    if (typeof this.line !== 'undefined') {
-      this.message += ':' + this.line + ':' + this.column;
-    }
-
-    this.message += ': ' + this.reason;
-  }
-
-  showSourceCode(color) {
-    if (!this.source) return '';
-    let css = this.source;
-    if (color == null) color = colorette.enabled;
-
-    if (terminalHighlight) {
-      if (color) css = terminalHighlight(css);
-    }
-
-    let lines = css.split(/\r?\n/);
-    let start = Math.max(this.line - 3, 0);
-    let end = Math.min(this.line + 2, lines.length);
-    let maxWidth = String(end).length;
-    let mark, aside;
-
-    if (color) {
-      mark = text => bold(red(text));
-
-      aside = text => gray(text);
-    } else {
-      mark = aside = str => str;
-    }
-
-    return lines.slice(start, end).map((line, index) => {
-      let number = start + 1 + index;
-      let gutter = ' ' + (' ' + number).slice(-maxWidth) + ' | ';
-
-      if (number === this.line) {
-        let spacing = aside(gutter.replace(/\d/g, ' ')) + line.slice(0, this.column - 1).replace(/[^\t]/g, ' ');
-        return mark('>') + aside(gutter) + line + '\n ' + spacing + mark('^');
-      }
-
-      return ' ' + aside(gutter) + line;
-    }).join('\n');
-  }
-
-  toString() {
-    let code = this.showSourceCode();
-
-    if (code) {
-      code = '\n\n' + code + '\n';
-    }
-
-    return this.name + ': ' + this.message + code;
-  }
-
-}
-
-module.exports = CssSyntaxError;
-CssSyntaxError.default = CssSyntaxError;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/declaration.js":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/declaration.js ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let Node = __webpack_require__(/*! ./node */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/node.js");
-
-class Declaration extends Node {
-  constructor(defaults) {
-    if (defaults && typeof defaults.value !== 'undefined' && typeof defaults.value !== 'string') {
-      defaults = { ...defaults,
-        value: String(defaults.value)
-      };
-    }
-
-    super(defaults);
-    this.type = 'decl';
-  }
-
-  get variable() {
-    return this.prop.startsWith('--') || this.prop[0] === '$';
-  }
-
-}
-
-module.exports = Declaration;
-Declaration.default = Declaration;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/document.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/document.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let Container = __webpack_require__(/*! ./container */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/container.js");
-
-let LazyResult, Processor;
-
-class Document extends Container {
-  constructor(defaults) {
-    // type needs to be passed to super, otherwise child roots won't be normalized correctly
-    super({
-      type: 'document',
-      ...defaults
-    });
-
-    if (!this.nodes) {
-      this.nodes = [];
-    }
-  }
-
-  toResult(opts = {}) {
-    let lazy = new LazyResult(new Processor(), this, opts);
-    return lazy.stringify();
-  }
-
-}
-
-Document.registerLazyResult = dependant => {
-  LazyResult = dependant;
-};
-
-Document.registerProcessor = dependant => {
-  Processor = dependant;
-};
-
-module.exports = Document;
-Document.default = Document;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/fromJSON.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/fromJSON.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/declaration.js");
-
-let PreviousMap = __webpack_require__(/*! ./previous-map */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/previous-map.js");
-
-let Comment = __webpack_require__(/*! ./comment */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/comment.js");
-
-let AtRule = __webpack_require__(/*! ./at-rule */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/at-rule.js");
-
-let Input = __webpack_require__(/*! ./input */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/input.js");
-
-let Root = __webpack_require__(/*! ./root */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/root.js");
-
-let Rule = __webpack_require__(/*! ./rule */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/rule.js");
-
-function fromJSON(json, inputs) {
-  if (Array.isArray(json)) return json.map(n => fromJSON(n));
-  let {
-    inputs: ownInputs,
-    ...defaults
-  } = json;
-
-  if (ownInputs) {
-    inputs = [];
-
-    for (let input of ownInputs) {
-      let inputHydrated = { ...input,
-        __proto__: Input.prototype
-      };
-
-      if (inputHydrated.map) {
-        inputHydrated.map = { ...inputHydrated.map,
-          __proto__: PreviousMap.prototype
-        };
-      }
-
-      inputs.push(inputHydrated);
-    }
-  }
-
-  if (defaults.nodes) {
-    defaults.nodes = json.nodes.map(n => fromJSON(n, inputs));
-  }
-
-  if (defaults.source) {
-    let {
-      inputId,
-      ...source
-    } = defaults.source;
-    defaults.source = source;
-
-    if (inputId != null) {
-      defaults.source.input = inputs[inputId];
-    }
-  }
-
-  if (defaults.type === 'root') {
-    return new Root(defaults);
-  } else if (defaults.type === 'decl') {
-    return new Declaration(defaults);
-  } else if (defaults.type === 'rule') {
-    return new Rule(defaults);
-  } else if (defaults.type === 'comment') {
-    return new Comment(defaults);
-  } else if (defaults.type === 'atrule') {
-    return new AtRule(defaults);
-  } else {
-    throw new Error('Unknown node type: ' + json.type);
-  }
-}
-
-module.exports = fromJSON;
-fromJSON.default = fromJSON;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/input.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/input.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let {
-  SourceMapConsumer,
-  SourceMapGenerator
-} = __webpack_require__(/*! source-map-js */ "./node_modules/source-map-js/source-map.js");
-
-let {
-  fileURLToPath,
-  pathToFileURL
-} = __webpack_require__(/*! url */ "url");
-
-let {
-  resolve,
-  isAbsolute
-} = __webpack_require__(/*! path */ "path");
-
-let {
-  nanoid
-} = __webpack_require__(/*! nanoid/non-secure */ "./node_modules/nanoid/non-secure/index.js");
-
-let terminalHighlight = __webpack_require__(/*! ./terminal-highlight */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/terminal-highlight.js");
-
-let CssSyntaxError = __webpack_require__(/*! ./css-syntax-error */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/css-syntax-error.js");
-
-let PreviousMap = __webpack_require__(/*! ./previous-map */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/previous-map.js");
-
-let fromOffsetCache = Symbol('fromOffsetCache');
-let sourceMapAvailable = Boolean(SourceMapConsumer && SourceMapGenerator);
-let pathAvailable = Boolean(resolve && isAbsolute);
-
-class Input {
-  constructor(css, opts = {}) {
-    if (css === null || typeof css === 'undefined' || typeof css === 'object' && !css.toString) {
-      throw new Error(`PostCSS received ${css} instead of CSS string`);
-    }
-
-    this.css = css.toString();
-
-    if (this.css[0] === '\uFEFF' || this.css[0] === '\uFFFE') {
-      this.hasBOM = true;
-      this.css = this.css.slice(1);
-    } else {
-      this.hasBOM = false;
-    }
-
-    if (opts.from) {
-      if (!pathAvailable || /^\w+:\/\//.test(opts.from) || isAbsolute(opts.from)) {
-        this.file = opts.from;
-      } else {
-        this.file = resolve(opts.from);
-      }
-    }
-
-    if (pathAvailable && sourceMapAvailable) {
-      let map = new PreviousMap(this.css, opts);
-
-      if (map.text) {
-        this.map = map;
-        let file = map.consumer().file;
-        if (!this.file && file) this.file = this.mapResolve(file);
-      }
-    }
-
-    if (!this.file) {
-      this.id = '<input css ' + nanoid(6) + '>';
-    }
-
-    if (this.map) this.map.file = this.from;
-  }
-
-  fromOffset(offset) {
-    let lastLine, lineToIndex;
-
-    if (!this[fromOffsetCache]) {
-      let lines = this.css.split('\n');
-      lineToIndex = new Array(lines.length);
-      let prevIndex = 0;
-
-      for (let i = 0, l = lines.length; i < l; i++) {
-        lineToIndex[i] = prevIndex;
-        prevIndex += lines[i].length + 1;
-      }
-
-      this[fromOffsetCache] = lineToIndex;
-    } else {
-      lineToIndex = this[fromOffsetCache];
-    }
-
-    lastLine = lineToIndex[lineToIndex.length - 1];
-    let min = 0;
-
-    if (offset >= lastLine) {
-      min = lineToIndex.length - 1;
-    } else {
-      let max = lineToIndex.length - 2;
-      let mid;
-
-      while (min < max) {
-        mid = min + (max - min >> 1);
-
-        if (offset < lineToIndex[mid]) {
-          max = mid - 1;
-        } else if (offset >= lineToIndex[mid + 1]) {
-          min = mid + 1;
-        } else {
-          min = mid;
-          break;
-        }
-      }
-    }
-
-    return {
-      line: min + 1,
-      col: offset - lineToIndex[min] + 1
-    };
-  }
-
-  error(message, line, column, opts = {}) {
-    let result;
-
-    if (!column) {
-      let pos = this.fromOffset(line);
-      line = pos.line;
-      column = pos.col;
-    }
-
-    let origin = this.origin(line, column);
-
-    if (origin) {
-      result = new CssSyntaxError(message, origin.line, origin.column, origin.source, origin.file, opts.plugin);
-    } else {
-      result = new CssSyntaxError(message, line, column, this.css, this.file, opts.plugin);
-    }
-
-    result.input = {
-      line,
-      column,
-      source: this.css
-    };
-
-    if (this.file) {
-      if (pathToFileURL) {
-        result.input.url = pathToFileURL(this.file).toString();
-      }
-
-      result.input.file = this.file;
-    }
-
-    return result;
-  }
-
-  origin(line, column) {
-    if (!this.map) return false;
-    let consumer = this.map.consumer();
-    let from = consumer.originalPositionFor({
-      line,
-      column
-    });
-    if (!from.source) return false;
-    let fromUrl;
-
-    if (isAbsolute(from.source)) {
-      fromUrl = pathToFileURL(from.source);
-    } else {
-      fromUrl = new URL(from.source, this.map.consumer().sourceRoot || pathToFileURL(this.map.mapFile));
-    }
-
-    let result = {
-      url: fromUrl.toString(),
-      line: from.line,
-      column: from.column
-    };
-
-    if (fromUrl.protocol === 'file:') {
-      if (fileURLToPath) {
-        result.file = fileURLToPath(fromUrl);
-      } else {
-        // istanbul ignore next
-        throw new Error(`file: protocol is not available in this PostCSS build`);
-      }
-    }
-
-    let source = consumer.sourceContentFor(from.source);
-    if (source) result.source = source;
-    return result;
-  }
-
-  mapResolve(file) {
-    if (/^\w+:\/\//.test(file)) {
-      return file;
-    }
-
-    return resolve(this.map.consumer().sourceRoot || this.map.root || '.', file);
-  }
-
-  get from() {
-    return this.file || this.id;
-  }
-
-  toJSON() {
-    let json = {};
-
-    for (let name of ['hasBOM', 'css', 'file', 'id']) {
-      if (this[name] != null) {
-        json[name] = this[name];
-      }
-    }
-
-    if (this.map) {
-      json.map = { ...this.map
-      };
-
-      if (json.map.consumerCache) {
-        json.map.consumerCache = undefined;
-      }
-    }
-
-    return json;
-  }
-
-}
-
-module.exports = Input;
-Input.default = Input;
-
-if (terminalHighlight && terminalHighlight.registerInput) {
-  terminalHighlight.registerInput(Input);
-}
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/lazy-result.js":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/lazy-result.js ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let {
-  isClean,
-  my
-} = __webpack_require__(/*! ./symbols */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/symbols.js");
-
-let MapGenerator = __webpack_require__(/*! ./map-generator */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/map-generator.js");
-
-let stringify = __webpack_require__(/*! ./stringify */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/stringify.js");
-
-let Container = __webpack_require__(/*! ./container */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/container.js");
-
-let Document = __webpack_require__(/*! ./document */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/document.js");
-
-let warnOnce = __webpack_require__(/*! ./warn-once */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/warn-once.js");
-
-let Result = __webpack_require__(/*! ./result */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/result.js");
-
-let parse = __webpack_require__(/*! ./parse */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/parse.js");
-
-let Root = __webpack_require__(/*! ./root */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/root.js");
-
-const TYPE_TO_CLASS_NAME = {
-  document: 'Document',
-  root: 'Root',
-  atrule: 'AtRule',
-  rule: 'Rule',
-  decl: 'Declaration',
-  comment: 'Comment'
-};
-const PLUGIN_PROPS = {
-  postcssPlugin: true,
-  prepare: true,
-  Once: true,
-  Document: true,
-  Root: true,
-  Declaration: true,
-  Rule: true,
-  AtRule: true,
-  Comment: true,
-  DeclarationExit: true,
-  RuleExit: true,
-  AtRuleExit: true,
-  CommentExit: true,
-  RootExit: true,
-  DocumentExit: true,
-  OnceExit: true
-};
-const NOT_VISITORS = {
-  postcssPlugin: true,
-  prepare: true,
-  Once: true
-};
-const CHILDREN = 0;
-
-function isPromise(obj) {
-  return typeof obj === 'object' && typeof obj.then === 'function';
-}
-
-function getEvents(node) {
-  let key = false;
-  let type = TYPE_TO_CLASS_NAME[node.type];
-
-  if (node.type === 'decl') {
-    key = node.prop.toLowerCase();
-  } else if (node.type === 'atrule') {
-    key = node.name.toLowerCase();
-  }
-
-  if (key && node.append) {
-    return [type, type + '-' + key, CHILDREN, type + 'Exit', type + 'Exit-' + key];
-  } else if (key) {
-    return [type, type + '-' + key, type + 'Exit', type + 'Exit-' + key];
-  } else if (node.append) {
-    return [type, CHILDREN, type + 'Exit'];
-  } else {
-    return [type, type + 'Exit'];
-  }
-}
-
-function toStack(node) {
-  let events;
-
-  if (node.type === 'document') {
-    events = ['Document', CHILDREN, 'DocumentExit'];
-  } else if (node.type === 'root') {
-    events = ['Root', CHILDREN, 'RootExit'];
-  } else {
-    events = getEvents(node);
-  }
-
-  return {
-    node,
-    events,
-    eventIndex: 0,
-    visitors: [],
-    visitorIndex: 0,
-    iterator: 0
-  };
-}
-
-function cleanMarks(node) {
-  node[isClean] = false;
-  if (node.nodes) node.nodes.forEach(i => cleanMarks(i));
-  return node;
-}
-
-let postcss = {};
-
-class LazyResult {
-  constructor(processor, css, opts) {
-    this.stringified = false;
-    this.processed = false;
-    let root;
-
-    if (typeof css === 'object' && css !== null && (css.type === 'root' || css.type === 'document')) {
-      root = cleanMarks(css);
-    } else if (css instanceof LazyResult || css instanceof Result) {
-      root = cleanMarks(css.root);
-
-      if (css.map) {
-        if (typeof opts.map === 'undefined') opts.map = {};
-        if (!opts.map.inline) opts.map.inline = false;
-        opts.map.prev = css.map;
-      }
-    } else {
-      let parser = parse;
-      if (opts.syntax) parser = opts.syntax.parse;
-      if (opts.parser) parser = opts.parser;
-      if (parser.parse) parser = parser.parse;
-
-      try {
-        root = parser(css, opts);
-      } catch (error) {
-        this.processed = true;
-        this.error = error;
-      }
-
-      if (root && !root[my]) {
-        // istanbul ignore next
-        Container.rebuild(root);
-      }
-    }
-
-    this.result = new Result(processor, root, opts);
-    this.helpers = { ...postcss,
-      result: this.result,
-      postcss
-    };
-    this.plugins = this.processor.plugins.map(plugin => {
-      if (typeof plugin === 'object' && plugin.prepare) {
-        return { ...plugin,
-          ...plugin.prepare(this.result)
-        };
-      } else {
-        return plugin;
-      }
-    });
-  }
-
-  get [Symbol.toStringTag]() {
-    return 'LazyResult';
-  }
-
-  get processor() {
-    return this.result.processor;
-  }
-
-  get opts() {
-    return this.result.opts;
-  }
-
-  get css() {
-    return this.stringify().css;
-  }
-
-  get content() {
-    return this.stringify().content;
-  }
-
-  get map() {
-    return this.stringify().map;
-  }
-
-  get root() {
-    return this.sync().root;
-  }
-
-  get messages() {
-    return this.sync().messages;
-  }
-
-  warnings() {
-    return this.sync().warnings();
-  }
-
-  toString() {
-    return this.css;
-  }
-
-  then(onFulfilled, onRejected) {
-    if (true) {
-      if (!('from' in this.opts)) {
-        warnOnce('Without `from` option PostCSS could generate wrong source map ' + 'and will not find Browserslist config. Set it to CSS file path ' + 'or to `undefined` to prevent this warning.');
-      }
-    }
-
-    return this.async().then(onFulfilled, onRejected);
-  }
-
-  catch(onRejected) {
-    return this.async().catch(onRejected);
-  }
-
-  finally(onFinally) {
-    return this.async().then(onFinally, onFinally);
-  }
-
-  async() {
-    if (this.error) return Promise.reject(this.error);
-    if (this.processed) return Promise.resolve(this.result);
-
-    if (!this.processing) {
-      this.processing = this.runAsync();
-    }
-
-    return this.processing;
-  }
-
-  sync() {
-    if (this.error) throw this.error;
-    if (this.processed) return this.result;
-    this.processed = true;
-
-    if (this.processing) {
-      throw this.getAsyncError();
-    }
-
-    for (let plugin of this.plugins) {
-      let promise = this.runOnRoot(plugin);
-
-      if (isPromise(promise)) {
-        throw this.getAsyncError();
-      }
-    }
-
-    this.prepareVisitors();
-
-    if (this.hasListener) {
-      let root = this.result.root;
-
-      while (!root[isClean]) {
-        root[isClean] = true;
-        this.walkSync(root);
-      }
-
-      if (this.listeners.OnceExit) {
-        if (root.type === 'document') {
-          for (let subRoot of root.nodes) {
-            this.visitSync(this.listeners.OnceExit, subRoot);
-          }
-        } else {
-          this.visitSync(this.listeners.OnceExit, root);
-        }
-      }
-    }
-
-    return this.result;
-  }
-
-  stringify() {
-    if (this.error) throw this.error;
-    if (this.stringified) return this.result;
-    this.stringified = true;
-    this.sync();
-    let opts = this.result.opts;
-    let str = stringify;
-    if (opts.syntax) str = opts.syntax.stringify;
-    if (opts.stringifier) str = opts.stringifier;
-    if (str.stringify) str = str.stringify;
-    let map = new MapGenerator(str, this.result.root, this.result.opts);
-    let data = map.generate();
-    this.result.css = data[0];
-    this.result.map = data[1];
-    return this.result;
-  }
-
-  walkSync(node) {
-    node[isClean] = true;
-    let events = getEvents(node);
-
-    for (let event of events) {
-      if (event === CHILDREN) {
-        if (node.nodes) {
-          node.each(child => {
-            if (!child[isClean]) this.walkSync(child);
-          });
-        }
-      } else {
-        let visitors = this.listeners[event];
-
-        if (visitors) {
-          if (this.visitSync(visitors, node.toProxy())) return;
-        }
-      }
-    }
-  }
-
-  visitSync(visitors, node) {
-    for (let [plugin, visitor] of visitors) {
-      this.result.lastPlugin = plugin;
-      let promise;
-
-      try {
-        promise = visitor(node, this.helpers);
-      } catch (e) {
-        throw this.handleError(e, node.proxyOf);
-      }
-
-      if (node.type !== 'root' && node.type !== 'document' && !node.parent) {
-        return true;
-      }
-
-      if (isPromise(promise)) {
-        throw this.getAsyncError();
-      }
-    }
-  }
-
-  runOnRoot(plugin) {
-    this.result.lastPlugin = plugin;
-
-    try {
-      if (typeof plugin === 'object' && plugin.Once) {
-        if (this.result.root.type === 'document') {
-          let roots = this.result.root.nodes.map(root => plugin.Once(root, this.helpers));
-
-          if (isPromise(roots[0])) {
-            return Promise.all(roots);
-          }
-
-          return roots;
-        }
-
-        return plugin.Once(this.result.root, this.helpers);
-      } else if (typeof plugin === 'function') {
-        return plugin(this.result.root, this.result);
-      }
-    } catch (error) {
-      throw this.handleError(error);
-    }
-  }
-
-  getAsyncError() {
-    throw new Error('Use process(css).then(cb) to work with async plugins');
-  }
-
-  handleError(error, node) {
-    let plugin = this.result.lastPlugin;
-
-    try {
-      if (node) node.addToError(error);
-      this.error = error;
-
-      if (error.name === 'CssSyntaxError' && !error.plugin) {
-        error.plugin = plugin.postcssPlugin;
-        error.setMessage();
-      } else if (plugin.postcssVersion) {
-        if (true) {
-          let pluginName = plugin.postcssPlugin;
-          let pluginVer = plugin.postcssVersion;
-          let runtimeVer = this.result.processor.version;
-          let a = pluginVer.split('.');
-          let b = runtimeVer.split('.');
-
-          if (a[0] !== b[0] || parseInt(a[1]) > parseInt(b[1])) {
-            console.error('Unknown error from PostCSS plugin. Your current PostCSS ' + 'version is ' + runtimeVer + ', but ' + pluginName + ' uses ' + pluginVer + '. Perhaps this is the source of the error below.');
-          }
-        }
-      }
-    } catch (err) {
-      // istanbul ignore next
-      if (console && console.error) console.error(err);
-    }
-
-    return error;
-  }
-
-  async runAsync() {
-    this.plugin = 0;
-
-    for (let i = 0; i < this.plugins.length; i++) {
-      let plugin = this.plugins[i];
-      let promise = this.runOnRoot(plugin);
-
-      if (isPromise(promise)) {
-        try {
-          await promise;
-        } catch (error) {
-          throw this.handleError(error);
-        }
-      }
-    }
-
-    this.prepareVisitors();
-
-    if (this.hasListener) {
-      let root = this.result.root;
-
-      while (!root[isClean]) {
-        root[isClean] = true;
-        let stack = [toStack(root)];
-
-        while (stack.length > 0) {
-          let promise = this.visitTick(stack);
-
-          if (isPromise(promise)) {
-            try {
-              await promise;
-            } catch (e) {
-              let node = stack[stack.length - 1].node;
-              throw this.handleError(e, node);
-            }
-          }
-        }
-      }
-
-      if (this.listeners.OnceExit) {
-        for (let [plugin, visitor] of this.listeners.OnceExit) {
-          this.result.lastPlugin = plugin;
-
-          try {
-            if (root.type === 'document') {
-              let roots = root.nodes.map(subRoot => visitor(subRoot, this.helpers));
-              await Promise.all(roots);
-            } else {
-              await visitor(root, this.helpers);
-            }
-          } catch (e) {
-            throw this.handleError(e);
-          }
-        }
-      }
-    }
-
-    this.processed = true;
-    return this.stringify();
-  }
-
-  prepareVisitors() {
-    this.listeners = {};
-
-    let add = (plugin, type, cb) => {
-      if (!this.listeners[type]) this.listeners[type] = [];
-      this.listeners[type].push([plugin, cb]);
-    };
-
-    for (let plugin of this.plugins) {
-      if (typeof plugin === 'object') {
-        for (let event in plugin) {
-          if (!PLUGIN_PROPS[event] && /^[A-Z]/.test(event)) {
-            throw new Error(`Unknown event ${event} in ${plugin.postcssPlugin}. ` + `Try to update PostCSS (${this.processor.version} now).`);
-          }
-
-          if (!NOT_VISITORS[event]) {
-            if (typeof plugin[event] === 'object') {
-              for (let filter in plugin[event]) {
-                if (filter === '*') {
-                  add(plugin, event, plugin[event][filter]);
-                } else {
-                  add(plugin, event + '-' + filter.toLowerCase(), plugin[event][filter]);
-                }
-              }
-            } else if (typeof plugin[event] === 'function') {
-              add(plugin, event, plugin[event]);
-            }
-          }
-        }
-      }
-    }
-
-    this.hasListener = Object.keys(this.listeners).length > 0;
-  }
-
-  visitTick(stack) {
-    let visit = stack[stack.length - 1];
-    let {
-      node,
-      visitors
-    } = visit;
-
-    if (node.type !== 'root' && node.type !== 'document' && !node.parent) {
-      stack.pop();
-      return;
-    }
-
-    if (visitors.length > 0 && visit.visitorIndex < visitors.length) {
-      let [plugin, visitor] = visitors[visit.visitorIndex];
-      visit.visitorIndex += 1;
-
-      if (visit.visitorIndex === visitors.length) {
-        visit.visitors = [];
-        visit.visitorIndex = 0;
-      }
-
-      this.result.lastPlugin = plugin;
-
-      try {
-        return visitor(node.toProxy(), this.helpers);
-      } catch (e) {
-        throw this.handleError(e, node);
-      }
-    }
-
-    if (visit.iterator !== 0) {
-      let iterator = visit.iterator;
-      let child;
-
-      while (child = node.nodes[node.indexes[iterator]]) {
-        node.indexes[iterator] += 1;
-
-        if (!child[isClean]) {
-          child[isClean] = true;
-          stack.push(toStack(child));
-          return;
-        }
-      }
-
-      visit.iterator = 0;
-      delete node.indexes[iterator];
-    }
-
-    let events = visit.events;
-
-    while (visit.eventIndex < events.length) {
-      let event = events[visit.eventIndex];
-      visit.eventIndex += 1;
-
-      if (event === CHILDREN) {
-        if (node.nodes && node.nodes.length) {
-          node[isClean] = true;
-          visit.iterator = node.getIterator();
-        }
-
-        return;
-      } else if (this.listeners[event]) {
-        visit.visitors = this.listeners[event];
-        return;
-      }
-    }
-
-    stack.pop();
-  }
-
-}
-
-LazyResult.registerPostcss = dependant => {
-  postcss = dependant;
-};
-
-module.exports = LazyResult;
-LazyResult.default = LazyResult;
-Root.registerLazyResult(LazyResult);
-Document.registerLazyResult(LazyResult);
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/list.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/list.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let list = {
-  split(string, separators, last) {
-    let array = [];
-    let current = '';
-    let split = false;
-    let func = 0;
-    let quote = false;
-    let escape = false;
-
-    for (let letter of string) {
-      if (escape) {
-        escape = false;
-      } else if (letter === '\\') {
-        escape = true;
-      } else if (quote) {
-        if (letter === quote) {
-          quote = false;
-        }
-      } else if (letter === '"' || letter === "'") {
-        quote = letter;
-      } else if (letter === '(') {
-        func += 1;
-      } else if (letter === ')') {
-        if (func > 0) func -= 1;
-      } else if (func === 0) {
-        if (separators.includes(letter)) split = true;
-      }
-
-      if (split) {
-        if (current !== '') array.push(current.trim());
-        current = '';
-        split = false;
-      } else {
-        current += letter;
-      }
-    }
-
-    if (last || current !== '') array.push(current.trim());
-    return array;
-  },
-
-  space(string) {
-    let spaces = [' ', '\n', '\t'];
-    return list.split(string, spaces);
-  },
-
-  comma(string) {
-    return list.split(string, [','], true);
-  }
-
-};
-module.exports = list;
-list.default = list;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/map-generator.js":
-/*!***************************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/map-generator.js ***!
-  \***************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let {
-  SourceMapConsumer,
-  SourceMapGenerator
-} = __webpack_require__(/*! source-map-js */ "./node_modules/source-map-js/source-map.js");
-
-let {
-  dirname,
-  resolve,
-  relative,
-  sep
-} = __webpack_require__(/*! path */ "path");
-
-let {
-  pathToFileURL
-} = __webpack_require__(/*! url */ "url");
-
-let sourceMapAvailable = Boolean(SourceMapConsumer && SourceMapGenerator);
-let pathAvailable = Boolean(dirname && resolve && relative && sep);
-
-class MapGenerator {
-  constructor(stringify, root, opts) {
-    this.stringify = stringify;
-    this.mapOpts = opts.map || {};
-    this.root = root;
-    this.opts = opts;
-  }
-
-  isMap() {
-    if (typeof this.opts.map !== 'undefined') {
-      return !!this.opts.map;
-    }
-
-    return this.previous().length > 0;
-  }
-
-  previous() {
-    if (!this.previousMaps) {
-      this.previousMaps = [];
-      this.root.walk(node => {
-        if (node.source && node.source.input.map) {
-          let map = node.source.input.map;
-
-          if (!this.previousMaps.includes(map)) {
-            this.previousMaps.push(map);
-          }
-        }
-      });
-    }
-
-    return this.previousMaps;
-  }
-
-  isInline() {
-    if (typeof this.mapOpts.inline !== 'undefined') {
-      return this.mapOpts.inline;
-    }
-
-    let annotation = this.mapOpts.annotation;
-
-    if (typeof annotation !== 'undefined' && annotation !== true) {
-      return false;
-    }
-
-    if (this.previous().length) {
-      return this.previous().some(i => i.inline);
-    }
-
-    return true;
-  }
-
-  isSourcesContent() {
-    if (typeof this.mapOpts.sourcesContent !== 'undefined') {
-      return this.mapOpts.sourcesContent;
-    }
-
-    if (this.previous().length) {
-      return this.previous().some(i => i.withContent());
-    }
-
-    return true;
-  }
-
-  clearAnnotation() {
-    if (this.mapOpts.annotation === false) return;
-    let node;
-
-    for (let i = this.root.nodes.length - 1; i >= 0; i--) {
-      node = this.root.nodes[i];
-      if (node.type !== 'comment') continue;
-
-      if (node.text.indexOf('# sourceMappingURL=') === 0) {
-        this.root.removeChild(i);
-      }
-    }
-  }
-
-  setSourcesContent() {
-    let already = {};
-    this.root.walk(node => {
-      if (node.source) {
-        let from = node.source.input.from;
-
-        if (from && !already[from]) {
-          already[from] = true;
-          this.map.setSourceContent(this.toUrl(this.path(from)), node.source.input.css);
-        }
-      }
-    });
-  }
-
-  applyPrevMaps() {
-    for (let prev of this.previous()) {
-      let from = this.toUrl(this.path(prev.file));
-      let root = prev.root || dirname(prev.file);
-      let map;
-
-      if (this.mapOpts.sourcesContent === false) {
-        map = new SourceMapConsumer(prev.text);
-
-        if (map.sourcesContent) {
-          map.sourcesContent = map.sourcesContent.map(() => null);
-        }
-      } else {
-        map = prev.consumer();
-      }
-
-      this.map.applySourceMap(map, from, this.toUrl(this.path(root)));
-    }
-  }
-
-  isAnnotation() {
-    if (this.isInline()) {
-      return true;
-    }
-
-    if (typeof this.mapOpts.annotation !== 'undefined') {
-      return this.mapOpts.annotation;
-    }
-
-    if (this.previous().length) {
-      return this.previous().some(i => i.annotation);
-    }
-
-    return true;
-  }
-
-  toBase64(str) {
-    if (Buffer) {
-      return Buffer.from(str).toString('base64');
-    } else {
-      // istanbul ignore next
-      return window.btoa(unescape(encodeURIComponent(str)));
-    }
-  }
-
-  addAnnotation() {
-    let content;
-
-    if (this.isInline()) {
-      content = 'data:application/json;base64,' + this.toBase64(this.map.toString());
-    } else if (typeof this.mapOpts.annotation === 'string') {
-      content = this.mapOpts.annotation;
-    } else if (typeof this.mapOpts.annotation === 'function') {
-      content = this.mapOpts.annotation(this.opts.to, this.root);
-    } else {
-      content = this.outputFile() + '.map';
-    }
-
-    let eol = '\n';
-    if (this.css.includes('\r\n')) eol = '\r\n';
-    this.css += eol + '/*# sourceMappingURL=' + content + ' */';
-  }
-
-  outputFile() {
-    if (this.opts.to) {
-      return this.path(this.opts.to);
-    }
-
-    if (this.opts.from) {
-      return this.path(this.opts.from);
-    }
-
-    return 'to.css';
-  }
-
-  generateMap() {
-    this.generateString();
-    if (this.isSourcesContent()) this.setSourcesContent();
-    if (this.previous().length > 0) this.applyPrevMaps();
-    if (this.isAnnotation()) this.addAnnotation();
-
-    if (this.isInline()) {
-      return [this.css];
-    }
-
-    return [this.css, this.map];
-  }
-
-  path(file) {
-    if (file.indexOf('<') === 0) return file;
-    if (/^\w+:\/\//.test(file)) return file;
-    if (this.mapOpts.absolute) return file;
-    let from = this.opts.to ? dirname(this.opts.to) : '.';
-
-    if (typeof this.mapOpts.annotation === 'string') {
-      from = dirname(resolve(from, this.mapOpts.annotation));
-    }
-
-    file = relative(from, file);
-    return file;
-  }
-
-  toUrl(path) {
-    if (sep === '\\') {
-      // istanbul ignore next
-      path = path.replace(/\\/g, '/');
-    }
-
-    return encodeURI(path).replace(/[#?]/g, encodeURIComponent);
-  }
-
-  sourcePath(node) {
-    if (this.mapOpts.from) {
-      return this.toUrl(this.mapOpts.from);
-    } else if (this.mapOpts.absolute) {
-      if (pathToFileURL) {
-        return pathToFileURL(node.source.input.from).toString();
-      } else {
-        // istanbul ignore next
-        throw new Error('`map.absolute` option is not available in this PostCSS build');
-      }
-    } else {
-      return this.toUrl(this.path(node.source.input.from));
-    }
-  }
-
-  generateString() {
-    this.css = '';
-    this.map = new SourceMapGenerator({
-      file: this.outputFile()
-    });
-    let line = 1;
-    let column = 1;
-    let noSource = '<no source>';
-    let mapping = {
-      source: '',
-      generated: {
-        line: 0,
-        column: 0
-      },
-      original: {
-        line: 0,
-        column: 0
-      }
-    };
-    let lines, last;
-    this.stringify(this.root, (str, node, type) => {
-      this.css += str;
-
-      if (node && type !== 'end') {
-        mapping.generated.line = line;
-        mapping.generated.column = column - 1;
-
-        if (node.source && node.source.start) {
-          mapping.source = this.sourcePath(node);
-          mapping.original.line = node.source.start.line;
-          mapping.original.column = node.source.start.column - 1;
-          this.map.addMapping(mapping);
-        } else {
-          mapping.source = noSource;
-          mapping.original.line = 1;
-          mapping.original.column = 0;
-          this.map.addMapping(mapping);
-        }
-      }
-
-      lines = str.match(/\n/g);
-
-      if (lines) {
-        line += lines.length;
-        last = str.lastIndexOf('\n');
-        column = str.length - last;
-      } else {
-        column += str.length;
-      }
-
-      if (node && type !== 'start') {
-        let p = node.parent || {
-          raws: {}
-        };
-
-        if (node.type !== 'decl' || node !== p.last || p.raws.semicolon) {
-          if (node.source && node.source.end) {
-            mapping.source = this.sourcePath(node);
-            mapping.original.line = node.source.end.line;
-            mapping.original.column = node.source.end.column - 1;
-            mapping.generated.line = line;
-            mapping.generated.column = column - 2;
-            this.map.addMapping(mapping);
-          } else {
-            mapping.source = noSource;
-            mapping.original.line = 1;
-            mapping.original.column = 0;
-            mapping.generated.line = line;
-            mapping.generated.column = column - 1;
-            this.map.addMapping(mapping);
-          }
-        }
-      }
-    });
-  }
-
-  generate() {
-    this.clearAnnotation();
-
-    if (pathAvailable && sourceMapAvailable && this.isMap()) {
-      return this.generateMap();
-    }
-
-    let result = '';
-    this.stringify(this.root, i => {
-      result += i;
-    });
-    return [result];
-  }
-
-}
-
-module.exports = MapGenerator;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/node.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/node.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let {
-  isClean,
-  my
-} = __webpack_require__(/*! ./symbols */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/symbols.js");
-
-let CssSyntaxError = __webpack_require__(/*! ./css-syntax-error */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/css-syntax-error.js");
-
-let Stringifier = __webpack_require__(/*! ./stringifier */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/stringifier.js");
-
-let stringify = __webpack_require__(/*! ./stringify */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/stringify.js");
-
-function cloneNode(obj, parent) {
-  let cloned = new obj.constructor();
-
-  for (let i in obj) {
-    if (!Object.prototype.hasOwnProperty.call(obj, i)) {
-      // istanbul ignore next
-      continue;
-    }
-
-    if (i === 'proxyCache') continue;
-    let value = obj[i];
-    let type = typeof value;
-
-    if (i === 'parent' && type === 'object') {
-      if (parent) cloned[i] = parent;
-    } else if (i === 'source') {
-      cloned[i] = value;
-    } else if (Array.isArray(value)) {
-      cloned[i] = value.map(j => cloneNode(j, cloned));
-    } else {
-      if (type === 'object' && value !== null) value = cloneNode(value);
-      cloned[i] = value;
-    }
-  }
-
-  return cloned;
-}
-
-class Node {
-  constructor(defaults = {}) {
-    this.raws = {};
-    this[isClean] = false;
-    this[my] = true;
-
-    for (let name in defaults) {
-      if (name === 'nodes') {
-        this.nodes = [];
-
-        for (let node of defaults[name]) {
-          if (typeof node.clone === 'function') {
-            this.append(node.clone());
-          } else {
-            this.append(node);
-          }
-        }
-      } else {
-        this[name] = defaults[name];
-      }
-    }
-  }
-
-  error(message, opts = {}) {
-    if (this.source) {
-      let pos = this.positionBy(opts);
-      return this.source.input.error(message, pos.line, pos.column, opts);
-    }
-
-    return new CssSyntaxError(message);
-  }
-
-  warn(result, text, opts) {
-    let data = {
-      node: this
-    };
-
-    for (let i in opts) data[i] = opts[i];
-
-    return result.warn(text, data);
-  }
-
-  remove() {
-    if (this.parent) {
-      this.parent.removeChild(this);
-    }
-
-    this.parent = undefined;
-    return this;
-  }
-
-  toString(stringifier = stringify) {
-    if (stringifier.stringify) stringifier = stringifier.stringify;
-    let result = '';
-    stringifier(this, i => {
-      result += i;
-    });
-    return result;
-  }
-
-  assign(overrides = {}) {
-    for (let name in overrides) {
-      this[name] = overrides[name];
-    }
-
-    return this;
-  }
-
-  clone(overrides = {}) {
-    let cloned = cloneNode(this);
-
-    for (let name in overrides) {
-      cloned[name] = overrides[name];
-    }
-
-    return cloned;
-  }
-
-  cloneBefore(overrides = {}) {
-    let cloned = this.clone(overrides);
-    this.parent.insertBefore(this, cloned);
-    return cloned;
-  }
-
-  cloneAfter(overrides = {}) {
-    let cloned = this.clone(overrides);
-    this.parent.insertAfter(this, cloned);
-    return cloned;
-  }
-
-  replaceWith(...nodes) {
-    if (this.parent) {
-      let bookmark = this;
-      let foundSelf = false;
-
-      for (let node of nodes) {
-        if (node === this) {
-          foundSelf = true;
-        } else if (foundSelf) {
-          this.parent.insertAfter(bookmark, node);
-          bookmark = node;
-        } else {
-          this.parent.insertBefore(bookmark, node);
-        }
-      }
-
-      if (!foundSelf) {
-        this.remove();
-      }
-    }
-
-    return this;
-  }
-
-  next() {
-    if (!this.parent) return undefined;
-    let index = this.parent.index(this);
-    return this.parent.nodes[index + 1];
-  }
-
-  prev() {
-    if (!this.parent) return undefined;
-    let index = this.parent.index(this);
-    return this.parent.nodes[index - 1];
-  }
-
-  before(add) {
-    this.parent.insertBefore(this, add);
-    return this;
-  }
-
-  after(add) {
-    this.parent.insertAfter(this, add);
-    return this;
-  }
-
-  root() {
-    let result = this;
-
-    while (result.parent && result.parent.type !== 'document') {
-      result = result.parent;
-    }
-
-    return result;
-  }
-
-  raw(prop, defaultType) {
-    let str = new Stringifier();
-    return str.raw(this, prop, defaultType);
-  }
-
-  cleanRaws(keepBetween) {
-    delete this.raws.before;
-    delete this.raws.after;
-    if (!keepBetween) delete this.raws.between;
-  }
-
-  toJSON(_, inputs) {
-    let fixed = {};
-    let emitInputs = inputs == null;
-    inputs = inputs || new Map();
-    let inputsNextIndex = 0;
-
-    for (let name in this) {
-      if (!Object.prototype.hasOwnProperty.call(this, name)) {
-        // istanbul ignore next
-        continue;
-      }
-
-      if (name === 'parent' || name === 'proxyCache') continue;
-      let value = this[name];
-
-      if (Array.isArray(value)) {
-        fixed[name] = value.map(i => {
-          if (typeof i === 'object' && i.toJSON) {
-            return i.toJSON(null, inputs);
-          } else {
-            return i;
-          }
-        });
-      } else if (typeof value === 'object' && value.toJSON) {
-        fixed[name] = value.toJSON(null, inputs);
-      } else if (name === 'source') {
-        let inputId = inputs.get(value.input);
-
-        if (inputId == null) {
-          inputId = inputsNextIndex;
-          inputs.set(value.input, inputsNextIndex);
-          inputsNextIndex++;
-        }
-
-        fixed[name] = {
-          inputId,
-          start: value.start,
-          end: value.end
-        };
-      } else {
-        fixed[name] = value;
-      }
-    }
-
-    if (emitInputs) {
-      fixed.inputs = [...inputs.keys()].map(input => input.toJSON());
-    }
-
-    return fixed;
-  }
-
-  positionInside(index) {
-    let string = this.toString();
-    let column = this.source.start.column;
-    let line = this.source.start.line;
-
-    for (let i = 0; i < index; i++) {
-      if (string[i] === '\n') {
-        column = 1;
-        line += 1;
-      } else {
-        column += 1;
-      }
-    }
-
-    return {
-      line,
-      column
-    };
-  }
-
-  positionBy(opts) {
-    let pos = this.source.start;
-
-    if (opts.index) {
-      pos = this.positionInside(opts.index);
-    } else if (opts.word) {
-      let index = this.toString().indexOf(opts.word);
-      if (index !== -1) pos = this.positionInside(index);
-    }
-
-    return pos;
-  }
-
-  getProxyProcessor() {
-    return {
-      set(node, prop, value) {
-        if (node[prop] === value) return true;
-        node[prop] = value;
-
-        if (prop === 'prop' || prop === 'value' || prop === 'name' || prop === 'params' || prop === 'important' || prop === 'text') {
-          node.markDirty();
-        }
-
-        return true;
-      },
-
-      get(node, prop) {
-        if (prop === 'proxyOf') {
-          return node;
-        } else if (prop === 'root') {
-          return () => node.root().toProxy();
-        } else {
-          return node[prop];
-        }
-      }
-
-    };
-  }
-
-  toProxy() {
-    if (!this.proxyCache) {
-      this.proxyCache = new Proxy(this, this.getProxyProcessor());
-    }
-
-    return this.proxyCache;
-  }
-
-  addToError(error) {
-    error.postcssNode = this;
-
-    if (error.stack && this.source && /\n\s{4}at /.test(error.stack)) {
-      let s = this.source;
-      error.stack = error.stack.replace(/\n\s{4}at /, `$&${s.input.from}:${s.start.line}:${s.start.column}$&`);
-    }
-
-    return error;
-  }
-
-  markDirty() {
-    if (this[isClean]) {
-      this[isClean] = false;
-      let next = this;
-
-      while (next = next.parent) {
-        next[isClean] = false;
-      }
-    }
-  }
-
-  get proxyOf() {
-    return this;
-  }
-
-}
-
-module.exports = Node;
-Node.default = Node;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/parse.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/parse.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let Container = __webpack_require__(/*! ./container */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/container.js");
-
-let Parser = __webpack_require__(/*! ./parser */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/parser.js");
-
-let Input = __webpack_require__(/*! ./input */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/input.js");
-
-function parse(css, opts) {
-  let input = new Input(css, opts);
-  let parser = new Parser(input);
-
-  try {
-    parser.parse();
-  } catch (e) {
-    if (true) {
-      if (e.name === 'CssSyntaxError' && opts && opts.from) {
-        if (/\.scss$/i.test(opts.from)) {
-          e.message += '\nYou tried to parse SCSS with ' + 'the standard CSS parser; ' + 'try again with the postcss-scss parser';
-        } else if (/\.sass/i.test(opts.from)) {
-          e.message += '\nYou tried to parse Sass with ' + 'the standard CSS parser; ' + 'try again with the postcss-sass parser';
-        } else if (/\.less$/i.test(opts.from)) {
-          e.message += '\nYou tried to parse Less with ' + 'the standard CSS parser; ' + 'try again with the postcss-less parser';
-        }
-      }
-    }
-
-    throw e;
-  }
-
-  return parser.root;
-}
-
-module.exports = parse;
-parse.default = parse;
-Container.registerParse(parse);
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/parser.js":
-/*!********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/parser.js ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/declaration.js");
-
-let tokenizer = __webpack_require__(/*! ./tokenize */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/tokenize.js");
-
-let Comment = __webpack_require__(/*! ./comment */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/comment.js");
-
-let AtRule = __webpack_require__(/*! ./at-rule */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/at-rule.js");
-
-let Root = __webpack_require__(/*! ./root */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/root.js");
-
-let Rule = __webpack_require__(/*! ./rule */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/rule.js");
-
-class Parser {
-  constructor(input) {
-    this.input = input;
-    this.root = new Root();
-    this.current = this.root;
-    this.spaces = '';
-    this.semicolon = false;
-    this.customProperty = false;
-    this.createTokenizer();
-    this.root.source = {
-      input,
-      start: {
-        offset: 0,
-        line: 1,
-        column: 1
-      }
-    };
-  }
-
-  createTokenizer() {
-    this.tokenizer = tokenizer(this.input);
-  }
-
-  parse() {
-    let token;
-
-    while (!this.tokenizer.endOfFile()) {
-      token = this.tokenizer.nextToken();
-
-      switch (token[0]) {
-        case 'space':
-          this.spaces += token[1];
-          break;
-
-        case ';':
-          this.freeSemicolon(token);
-          break;
-
-        case '}':
-          this.end(token);
-          break;
-
-        case 'comment':
-          this.comment(token);
-          break;
-
-        case 'at-word':
-          this.atrule(token);
-          break;
-
-        case '{':
-          this.emptyRule(token);
-          break;
-
-        default:
-          this.other(token);
-          break;
-      }
-    }
-
-    this.endFile();
-  }
-
-  comment(token) {
-    let node = new Comment();
-    this.init(node, token[2]);
-    node.source.end = this.getPosition(token[3] || token[2]);
-    let text = token[1].slice(2, -2);
-
-    if (/^\s*$/.test(text)) {
-      node.text = '';
-      node.raws.left = text;
-      node.raws.right = '';
-    } else {
-      let match = text.match(/^(\s*)([^]*\S)(\s*)$/);
-      node.text = match[2];
-      node.raws.left = match[1];
-      node.raws.right = match[3];
-    }
-  }
-
-  emptyRule(token) {
-    let node = new Rule();
-    this.init(node, token[2]);
-    node.selector = '';
-    node.raws.between = '';
-    this.current = node;
-  }
-
-  other(start) {
-    let end = false;
-    let type = null;
-    let colon = false;
-    let bracket = null;
-    let brackets = [];
-    let customProperty = start[1].startsWith('--');
-    let tokens = [];
-    let token = start;
-
-    while (token) {
-      type = token[0];
-      tokens.push(token);
-
-      if (type === '(' || type === '[') {
-        if (!bracket) bracket = token;
-        brackets.push(type === '(' ? ')' : ']');
-      } else if (customProperty && colon && type === '{') {
-        if (!bracket) bracket = token;
-        brackets.push('}');
-      } else if (brackets.length === 0) {
-        if (type === ';') {
-          if (colon) {
-            this.decl(tokens, customProperty);
-            return;
-          } else {
-            break;
-          }
-        } else if (type === '{') {
-          this.rule(tokens);
-          return;
-        } else if (type === '}') {
-          this.tokenizer.back(tokens.pop());
-          end = true;
-          break;
-        } else if (type === ':') {
-          colon = true;
-        }
-      } else if (type === brackets[brackets.length - 1]) {
-        brackets.pop();
-        if (brackets.length === 0) bracket = null;
-      }
-
-      token = this.tokenizer.nextToken();
-    }
-
-    if (this.tokenizer.endOfFile()) end = true;
-    if (brackets.length > 0) this.unclosedBracket(bracket);
-
-    if (end && colon) {
-      while (tokens.length) {
-        token = tokens[tokens.length - 1][0];
-        if (token !== 'space' && token !== 'comment') break;
-        this.tokenizer.back(tokens.pop());
-      }
-
-      this.decl(tokens, customProperty);
-    } else {
-      this.unknownWord(tokens);
-    }
-  }
-
-  rule(tokens) {
-    tokens.pop();
-    let node = new Rule();
-    this.init(node, tokens[0][2]);
-    node.raws.between = this.spacesAndCommentsFromEnd(tokens);
-    this.raw(node, 'selector', tokens);
-    this.current = node;
-  }
-
-  decl(tokens, customProperty) {
-    let node = new Declaration();
-    this.init(node, tokens[0][2]);
-    let last = tokens[tokens.length - 1];
-
-    if (last[0] === ';') {
-      this.semicolon = true;
-      tokens.pop();
-    }
-
-    node.source.end = this.getPosition(last[3] || last[2]);
-
-    while (tokens[0][0] !== 'word') {
-      if (tokens.length === 1) this.unknownWord(tokens);
-      node.raws.before += tokens.shift()[1];
-    }
-
-    node.source.start = this.getPosition(tokens[0][2]);
-    node.prop = '';
-
-    while (tokens.length) {
-      let type = tokens[0][0];
-
-      if (type === ':' || type === 'space' || type === 'comment') {
-        break;
-      }
-
-      node.prop += tokens.shift()[1];
-    }
-
-    node.raws.between = '';
-    let token;
-
-    while (tokens.length) {
-      token = tokens.shift();
-
-      if (token[0] === ':') {
-        node.raws.between += token[1];
-        break;
-      } else {
-        if (token[0] === 'word' && /\w/.test(token[1])) {
-          this.unknownWord([token]);
-        }
-
-        node.raws.between += token[1];
-      }
-    }
-
-    if (node.prop[0] === '_' || node.prop[0] === '*') {
-      node.raws.before += node.prop[0];
-      node.prop = node.prop.slice(1);
-    }
-
-    let firstSpaces = this.spacesAndCommentsFromStart(tokens);
-    this.precheckMissedSemicolon(tokens);
-
-    for (let i = tokens.length - 1; i >= 0; i--) {
-      token = tokens[i];
-
-      if (token[1].toLowerCase() === '!important') {
-        node.important = true;
-        let string = this.stringFrom(tokens, i);
-        string = this.spacesFromEnd(tokens) + string;
-        if (string !== ' !important') node.raws.important = string;
-        break;
-      } else if (token[1].toLowerCase() === 'important') {
-        let cache = tokens.slice(0);
-        let str = '';
-
-        for (let j = i; j > 0; j--) {
-          let type = cache[j][0];
-
-          if (str.trim().indexOf('!') === 0 && type !== 'space') {
-            break;
-          }
-
-          str = cache.pop()[1] + str;
-        }
-
-        if (str.trim().indexOf('!') === 0) {
-          node.important = true;
-          node.raws.important = str;
-          tokens = cache;
-        }
-      }
-
-      if (token[0] !== 'space' && token[0] !== 'comment') {
-        break;
-      }
-    }
-
-    let hasWord = tokens.some(i => i[0] !== 'space' && i[0] !== 'comment');
-    this.raw(node, 'value', tokens);
-
-    if (hasWord) {
-      node.raws.between += firstSpaces;
-    } else {
-      node.value = firstSpaces + node.value;
-    }
-
-    if (node.value.includes(':') && !customProperty) {
-      this.checkMissedSemicolon(tokens);
-    }
-  }
-
-  atrule(token) {
-    let node = new AtRule();
-    node.name = token[1].slice(1);
-
-    if (node.name === '') {
-      this.unnamedAtrule(node, token);
-    }
-
-    this.init(node, token[2]);
-    let type;
-    let prev;
-    let shift;
-    let last = false;
-    let open = false;
-    let params = [];
-    let brackets = [];
-
-    while (!this.tokenizer.endOfFile()) {
-      token = this.tokenizer.nextToken();
-      type = token[0];
-
-      if (type === '(' || type === '[') {
-        brackets.push(type === '(' ? ')' : ']');
-      } else if (type === '{' && brackets.length > 0) {
-        brackets.push('}');
-      } else if (type === brackets[brackets.length - 1]) {
-        brackets.pop();
-      }
-
-      if (brackets.length === 0) {
-        if (type === ';') {
-          node.source.end = this.getPosition(token[2]);
-          this.semicolon = true;
-          break;
-        } else if (type === '{') {
-          open = true;
-          break;
-        } else if (type === '}') {
-          if (params.length > 0) {
-            shift = params.length - 1;
-            prev = params[shift];
-
-            while (prev && prev[0] === 'space') {
-              prev = params[--shift];
-            }
-
-            if (prev) {
-              node.source.end = this.getPosition(prev[3] || prev[2]);
-            }
-          }
-
-          this.end(token);
-          break;
-        } else {
-          params.push(token);
-        }
-      } else {
-        params.push(token);
-      }
-
-      if (this.tokenizer.endOfFile()) {
-        last = true;
-        break;
-      }
-    }
-
-    node.raws.between = this.spacesAndCommentsFromEnd(params);
-
-    if (params.length) {
-      node.raws.afterName = this.spacesAndCommentsFromStart(params);
-      this.raw(node, 'params', params);
-
-      if (last) {
-        token = params[params.length - 1];
-        node.source.end = this.getPosition(token[3] || token[2]);
-        this.spaces = node.raws.between;
-        node.raws.between = '';
-      }
-    } else {
-      node.raws.afterName = '';
-      node.params = '';
-    }
-
-    if (open) {
-      node.nodes = [];
-      this.current = node;
-    }
-  }
-
-  end(token) {
-    if (this.current.nodes && this.current.nodes.length) {
-      this.current.raws.semicolon = this.semicolon;
-    }
-
-    this.semicolon = false;
-    this.current.raws.after = (this.current.raws.after || '') + this.spaces;
-    this.spaces = '';
-
-    if (this.current.parent) {
-      this.current.source.end = this.getPosition(token[2]);
-      this.current = this.current.parent;
-    } else {
-      this.unexpectedClose(token);
-    }
-  }
-
-  endFile() {
-    if (this.current.parent) this.unclosedBlock();
-
-    if (this.current.nodes && this.current.nodes.length) {
-      this.current.raws.semicolon = this.semicolon;
-    }
-
-    this.current.raws.after = (this.current.raws.after || '') + this.spaces;
-  }
-
-  freeSemicolon(token) {
-    this.spaces += token[1];
-
-    if (this.current.nodes) {
-      let prev = this.current.nodes[this.current.nodes.length - 1];
-
-      if (prev && prev.type === 'rule' && !prev.raws.ownSemicolon) {
-        prev.raws.ownSemicolon = this.spaces;
-        this.spaces = '';
-      }
-    }
-  } // Helpers
-
-
-  getPosition(offset) {
-    let pos = this.input.fromOffset(offset);
-    return {
-      offset,
-      line: pos.line,
-      column: pos.col
-    };
-  }
-
-  init(node, offset) {
-    this.current.push(node);
-    node.source = {
-      start: this.getPosition(offset),
-      input: this.input
-    };
-    node.raws.before = this.spaces;
-    this.spaces = '';
-    if (node.type !== 'comment') this.semicolon = false;
-  }
-
-  raw(node, prop, tokens) {
-    let token, type;
-    let length = tokens.length;
-    let value = '';
-    let clean = true;
-    let next, prev;
-    let pattern = /^([#.|])?(\w)+/i;
-
-    for (let i = 0; i < length; i += 1) {
-      token = tokens[i];
-      type = token[0];
-
-      if (type === 'comment' && node.type === 'rule') {
-        prev = tokens[i - 1];
-        next = tokens[i + 1];
-
-        if (prev[0] !== 'space' && next[0] !== 'space' && pattern.test(prev[1]) && pattern.test(next[1])) {
-          value += token[1];
-        } else {
-          clean = false;
-        }
-
-        continue;
-      }
-
-      if (type === 'comment' || type === 'space' && i === length - 1) {
-        clean = false;
-      } else {
-        value += token[1];
-      }
-    }
-
-    if (!clean) {
-      let raw = tokens.reduce((all, i) => all + i[1], '');
-      node.raws[prop] = {
-        value,
-        raw
-      };
-    }
-
-    node[prop] = value;
-  }
-
-  spacesAndCommentsFromEnd(tokens) {
-    let lastTokenType;
-    let spaces = '';
-
-    while (tokens.length) {
-      lastTokenType = tokens[tokens.length - 1][0];
-      if (lastTokenType !== 'space' && lastTokenType !== 'comment') break;
-      spaces = tokens.pop()[1] + spaces;
-    }
-
-    return spaces;
-  }
-
-  spacesAndCommentsFromStart(tokens) {
-    let next;
-    let spaces = '';
-
-    while (tokens.length) {
-      next = tokens[0][0];
-      if (next !== 'space' && next !== 'comment') break;
-      spaces += tokens.shift()[1];
-    }
-
-    return spaces;
-  }
-
-  spacesFromEnd(tokens) {
-    let lastTokenType;
-    let spaces = '';
-
-    while (tokens.length) {
-      lastTokenType = tokens[tokens.length - 1][0];
-      if (lastTokenType !== 'space') break;
-      spaces = tokens.pop()[1] + spaces;
-    }
-
-    return spaces;
-  }
-
-  stringFrom(tokens, from) {
-    let result = '';
-
-    for (let i = from; i < tokens.length; i++) {
-      result += tokens[i][1];
-    }
-
-    tokens.splice(from, tokens.length - from);
-    return result;
-  }
-
-  colon(tokens) {
-    let brackets = 0;
-    let token, type, prev;
-
-    for (let [i, element] of tokens.entries()) {
-      token = element;
-      type = token[0];
-
-      if (type === '(') {
-        brackets += 1;
-      }
-
-      if (type === ')') {
-        brackets -= 1;
-      }
-
-      if (brackets === 0 && type === ':') {
-        if (!prev) {
-          this.doubleColon(token);
-        } else if (prev[0] === 'word' && prev[1] === 'progid') {
-          continue;
-        } else {
-          return i;
-        }
-      }
-
-      prev = token;
-    }
-
-    return false;
-  } // Errors
-
-
-  unclosedBracket(bracket) {
-    throw this.input.error('Unclosed bracket', bracket[2]);
-  }
-
-  unknownWord(tokens) {
-    throw this.input.error('Unknown word', tokens[0][2]);
-  }
-
-  unexpectedClose(token) {
-    throw this.input.error('Unexpected }', token[2]);
-  }
-
-  unclosedBlock() {
-    let pos = this.current.source.start;
-    throw this.input.error('Unclosed block', pos.line, pos.column);
-  }
-
-  doubleColon(token) {
-    throw this.input.error('Double colon', token[2]);
-  }
-
-  unnamedAtrule(node, token) {
-    throw this.input.error('At-rule without name', token[2]);
-  }
-
-  precheckMissedSemicolon()
-  /* tokens */
-  {// Hook for Safe Parser
-  }
-
-  checkMissedSemicolon(tokens) {
-    let colon = this.colon(tokens);
-    if (colon === false) return;
-    let founded = 0;
-    let token;
-
-    for (let j = colon - 1; j >= 0; j--) {
-      token = tokens[j];
-
-      if (token[0] !== 'space') {
-        founded += 1;
-        if (founded === 2) break;
-      }
-    }
-
-    throw this.input.error('Missed semicolon', token[2]);
-  }
-
-}
-
-module.exports = Parser;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/postcss.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/postcss.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let CssSyntaxError = __webpack_require__(/*! ./css-syntax-error */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/css-syntax-error.js");
-
-let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/declaration.js");
-
-let LazyResult = __webpack_require__(/*! ./lazy-result */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/lazy-result.js");
-
-let Container = __webpack_require__(/*! ./container */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/container.js");
-
-let Processor = __webpack_require__(/*! ./processor */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/processor.js");
-
-let stringify = __webpack_require__(/*! ./stringify */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/stringify.js");
-
-let fromJSON = __webpack_require__(/*! ./fromJSON */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/fromJSON.js");
-
-let Document = __webpack_require__(/*! ./document */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/document.js");
-
-let Warning = __webpack_require__(/*! ./warning */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/warning.js");
-
-let Comment = __webpack_require__(/*! ./comment */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/comment.js");
-
-let AtRule = __webpack_require__(/*! ./at-rule */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/at-rule.js");
-
-let Result = __webpack_require__(/*! ./result.js */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/result.js");
-
-let Input = __webpack_require__(/*! ./input */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/input.js");
-
-let parse = __webpack_require__(/*! ./parse */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/parse.js");
-
-let list = __webpack_require__(/*! ./list */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/list.js");
-
-let Rule = __webpack_require__(/*! ./rule */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/rule.js");
-
-let Root = __webpack_require__(/*! ./root */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/root.js");
-
-let Node = __webpack_require__(/*! ./node */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/node.js");
-
-function postcss(...plugins) {
-  if (plugins.length === 1 && Array.isArray(plugins[0])) {
-    plugins = plugins[0];
-  }
-
-  return new Processor(plugins);
-}
-
-postcss.plugin = function plugin(name, initializer) {
-  if (console && console.warn) {
-    console.warn(name + ': postcss.plugin was deprecated. Migration guide:\n' + 'https://evilmartians.com/chronicles/postcss-8-plugin-migration');
-
-    if (({}).LANG && ({}).LANG.startsWith('cn')) {
-      // istanbul ignore next
-      console.warn(name + ': 里面 postcss.plugin 被弃用. 迁移指南:\n' + 'https://www.w3ctech.com/topic/2226');
-    }
-  }
-
-  function creator(...args) {
-    let transformer = initializer(...args);
-    transformer.postcssPlugin = name;
-    transformer.postcssVersion = new Processor().version;
-    return transformer;
-  }
-
-  let cache;
-  Object.defineProperty(creator, 'postcss', {
-    get() {
-      if (!cache) cache = creator();
-      return cache;
-    }
-
-  });
-
-  creator.process = function (css, processOpts, pluginOpts) {
-    return postcss([creator(pluginOpts)]).process(css, processOpts);
-  };
-
-  return creator;
-};
-
-postcss.stringify = stringify;
-postcss.parse = parse;
-postcss.fromJSON = fromJSON;
-postcss.list = list;
-
-postcss.comment = defaults => new Comment(defaults);
-
-postcss.atRule = defaults => new AtRule(defaults);
-
-postcss.decl = defaults => new Declaration(defaults);
-
-postcss.rule = defaults => new Rule(defaults);
-
-postcss.root = defaults => new Root(defaults);
-
-postcss.document = defaults => new Document(defaults);
-
-postcss.CssSyntaxError = CssSyntaxError;
-postcss.Declaration = Declaration;
-postcss.Container = Container;
-postcss.Document = Document;
-postcss.Comment = Comment;
-postcss.Warning = Warning;
-postcss.AtRule = AtRule;
-postcss.Result = Result;
-postcss.Input = Input;
-postcss.Rule = Rule;
-postcss.Root = Root;
-postcss.Node = Node;
-LazyResult.registerPostcss(postcss);
-module.exports = postcss;
-postcss.default = postcss;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/previous-map.js":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/previous-map.js ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let {
-  SourceMapConsumer,
-  SourceMapGenerator
-} = __webpack_require__(/*! source-map-js */ "./node_modules/source-map-js/source-map.js");
-
-let {
-  existsSync,
-  readFileSync
-} = __webpack_require__(/*! fs */ "fs");
-
-let {
-  dirname,
-  join
-} = __webpack_require__(/*! path */ "path");
-
-function fromBase64(str) {
-  if (Buffer) {
-    return Buffer.from(str, 'base64').toString();
-  } else {
-    // istanbul ignore next
-    return window.atob(str);
-  }
-}
-
-class PreviousMap {
-  constructor(css, opts) {
-    if (opts.map === false) return;
-    this.loadAnnotation(css);
-    this.inline = this.startWith(this.annotation, 'data:');
-    let prev = opts.map ? opts.map.prev : undefined;
-    let text = this.loadMap(opts.from, prev);
-
-    if (!this.mapFile && opts.from) {
-      this.mapFile = opts.from;
-    }
-
-    if (this.mapFile) this.root = dirname(this.mapFile);
-    if (text) this.text = text;
-  }
-
-  consumer() {
-    if (!this.consumerCache) {
-      this.consumerCache = new SourceMapConsumer(this.text);
-    }
-
-    return this.consumerCache;
-  }
-
-  withContent() {
-    return !!(this.consumer().sourcesContent && this.consumer().sourcesContent.length > 0);
-  }
-
-  startWith(string, start) {
-    if (!string) return false;
-    return string.substr(0, start.length) === start;
-  }
-
-  getAnnotationURL(sourceMapString) {
-    return sourceMapString.match(/\/\*\s*# sourceMappingURL=((?:(?!sourceMappingURL=).)*)\*\//)[1].trim();
-  }
-
-  loadAnnotation(css) {
-    let annotations = css.match(/\/\*\s*# sourceMappingURL=(?:(?!sourceMappingURL=).)*\*\//gm);
-
-    if (annotations && annotations.length > 0) {
-      // Locate the last sourceMappingURL to avoid picking up
-      // sourceMappingURLs from comments, strings, etc.
-      let lastAnnotation = annotations[annotations.length - 1];
-
-      if (lastAnnotation) {
-        this.annotation = this.getAnnotationURL(lastAnnotation);
-      }
-    }
-  }
-
-  decodeInline(text) {
-    let baseCharsetUri = /^data:application\/json;charset=utf-?8;base64,/;
-    let baseUri = /^data:application\/json;base64,/;
-    let charsetUri = /^data:application\/json;charset=utf-?8,/;
-    let uri = /^data:application\/json,/;
-
-    if (charsetUri.test(text) || uri.test(text)) {
-      return decodeURIComponent(text.substr(RegExp.lastMatch.length));
-    }
-
-    if (baseCharsetUri.test(text) || baseUri.test(text)) {
-      return fromBase64(text.substr(RegExp.lastMatch.length));
-    }
-
-    let encoding = text.match(/data:application\/json;([^,]+),/)[1];
-    throw new Error('Unsupported source map encoding ' + encoding);
-  }
-
-  loadFile(path) {
-    this.root = dirname(path);
-
-    if (existsSync(path)) {
-      this.mapFile = path;
-      return readFileSync(path, 'utf-8').toString().trim();
-    }
-  }
-
-  loadMap(file, prev) {
-    if (prev === false) return false;
-
-    if (prev) {
-      if (typeof prev === 'string') {
-        return prev;
-      } else if (typeof prev === 'function') {
-        let prevPath = prev(file);
-
-        if (prevPath) {
-          let map = this.loadFile(prevPath);
-
-          if (!map) {
-            throw new Error('Unable to load previous source map: ' + prevPath.toString());
-          }
-
-          return map;
-        }
-      } else if (prev instanceof SourceMapConsumer) {
-        return SourceMapGenerator.fromSourceMap(prev).toString();
-      } else if (prev instanceof SourceMapGenerator) {
-        return prev.toString();
-      } else if (this.isMap(prev)) {
-        return JSON.stringify(prev);
-      } else {
-        throw new Error('Unsupported previous source map format: ' + prev.toString());
-      }
-    } else if (this.inline) {
-      return this.decodeInline(this.annotation);
-    } else if (this.annotation) {
-      let map = this.annotation;
-      if (file) map = join(dirname(file), map);
-      return this.loadFile(map);
-    }
-  }
-
-  isMap(map) {
-    if (typeof map !== 'object') return false;
-    return typeof map.mappings === 'string' || typeof map._mappings === 'string' || Array.isArray(map.sections);
-  }
-
-}
-
-module.exports = PreviousMap;
-PreviousMap.default = PreviousMap;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/processor.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/processor.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let LazyResult = __webpack_require__(/*! ./lazy-result */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/lazy-result.js");
-
-let Document = __webpack_require__(/*! ./document */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/document.js");
-
-let Root = __webpack_require__(/*! ./root */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/root.js");
-
-class Processor {
-  constructor(plugins = []) {
-    this.version = '8.3.5';
-    this.plugins = this.normalize(plugins);
-  }
-
-  use(plugin) {
-    this.plugins = this.plugins.concat(this.normalize([plugin]));
-    return this;
-  }
-
-  process(css, opts = {}) {
-    if (this.plugins.length === 0 && typeof opts.parser === 'undefined' && typeof opts.stringifier === 'undefined' && typeof opts.syntax === 'undefined' && !opts.hideNothingWarning) {
-      if (true) {
-        if (typeof console !== 'undefined' && console.warn) {
-          console.warn('You did not set any plugins, parser, or stringifier. ' + 'Right now, PostCSS does nothing. Pick plugins for your case ' + 'on https://www.postcss.parts/ and use them in postcss.config.js.');
-        }
-      }
-    }
-
-    return new LazyResult(this, css, opts);
-  }
-
-  normalize(plugins) {
-    let normalized = [];
-
-    for (let i of plugins) {
-      if (i.postcss === true) {
-        i = i();
-      } else if (i.postcss) {
-        i = i.postcss;
-      }
-
-      if (typeof i === 'object' && Array.isArray(i.plugins)) {
-        normalized = normalized.concat(i.plugins);
-      } else if (typeof i === 'object' && i.postcssPlugin) {
-        normalized.push(i);
-      } else if (typeof i === 'function') {
-        normalized.push(i);
-      } else if (typeof i === 'object' && (i.parse || i.stringify)) {
-        if (true) {
-          throw new Error('PostCSS syntaxes cannot be used as plugins. Instead, please use ' + 'one of the syntax/parser/stringifier options as outlined ' + 'in your PostCSS runner documentation.');
-        }
-      } else {
-        throw new Error(i + ' is not a PostCSS plugin');
-      }
-    }
-
-    return normalized;
-  }
-
-}
-
-module.exports = Processor;
-Processor.default = Processor;
-Root.registerProcessor(Processor);
-Document.registerProcessor(Processor);
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/result.js":
-/*!********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/result.js ***!
-  \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let Warning = __webpack_require__(/*! ./warning */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/warning.js");
-
-class Result {
-  constructor(processor, root, opts) {
-    this.processor = processor;
-    this.messages = [];
-    this.root = root;
-    this.opts = opts;
-    this.css = undefined;
-    this.map = undefined;
-  }
-
-  toString() {
-    return this.css;
-  }
-
-  warn(text, opts = {}) {
-    if (!opts.plugin) {
-      if (this.lastPlugin && this.lastPlugin.postcssPlugin) {
-        opts.plugin = this.lastPlugin.postcssPlugin;
-      }
-    }
-
-    let warning = new Warning(text, opts);
-    this.messages.push(warning);
-    return warning;
-  }
-
-  warnings() {
-    return this.messages.filter(i => i.type === 'warning');
-  }
-
-  get content() {
-    return this.css;
-  }
-
-}
-
-module.exports = Result;
-Result.default = Result;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/root.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/root.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let Container = __webpack_require__(/*! ./container */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/container.js");
-
-let LazyResult, Processor;
-
-class Root extends Container {
-  constructor(defaults) {
-    super(defaults);
-    this.type = 'root';
-    if (!this.nodes) this.nodes = [];
-  }
-
-  removeChild(child, ignore) {
-    let index = this.index(child);
-
-    if (!ignore && index === 0 && this.nodes.length > 1) {
-      this.nodes[1].raws.before = this.nodes[index].raws.before;
-    }
-
-    return super.removeChild(child);
-  }
-
-  normalize(child, sample, type) {
-    let nodes = super.normalize(child);
-
-    if (sample) {
-      if (type === 'prepend') {
-        if (this.nodes.length > 1) {
-          sample.raws.before = this.nodes[1].raws.before;
-        } else {
-          delete sample.raws.before;
-        }
-      } else if (this.first !== sample) {
-        for (let node of nodes) {
-          node.raws.before = sample.raws.before;
-        }
-      }
-    }
-
-    return nodes;
-  }
-
-  toResult(opts = {}) {
-    let lazy = new LazyResult(new Processor(), this, opts);
-    return lazy.stringify();
-  }
-
-}
-
-Root.registerLazyResult = dependant => {
-  LazyResult = dependant;
-};
-
-Root.registerProcessor = dependant => {
-  Processor = dependant;
-};
-
-module.exports = Root;
-Root.default = Root;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/rule.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/rule.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let Container = __webpack_require__(/*! ./container */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/container.js");
-
-let list = __webpack_require__(/*! ./list */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/list.js");
-
-class Rule extends Container {
-  constructor(defaults) {
-    super(defaults);
-    this.type = 'rule';
-    if (!this.nodes) this.nodes = [];
-  }
-
-  get selectors() {
-    return list.comma(this.selector);
-  }
-
-  set selectors(values) {
-    let match = this.selector ? this.selector.match(/,\s*/) : null;
-    let sep = match ? match[0] : ',' + this.raw('between', 'beforeOpen');
-    this.selector = values.join(sep);
-  }
-
-}
-
-module.exports = Rule;
-Rule.default = Rule;
-Container.registerRule(Rule);
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/stringifier.js":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/stringifier.js ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-const DEFAULT_RAW = {
-  colon: ': ',
-  indent: '    ',
-  beforeDecl: '\n',
-  beforeRule: '\n',
-  beforeOpen: ' ',
-  beforeClose: '\n',
-  beforeComment: '\n',
-  after: '\n',
-  emptyBody: '',
-  commentLeft: ' ',
-  commentRight: ' ',
-  semicolon: false
-};
-
-function capitalize(str) {
-  return str[0].toUpperCase() + str.slice(1);
-}
-
-class Stringifier {
-  constructor(builder) {
-    this.builder = builder;
-  }
-
-  stringify(node, semicolon) {
-    /* istanbul ignore if */
-    if (!this[node.type]) {
-      throw new Error('Unknown AST node type ' + node.type + '. ' + 'Maybe you need to change PostCSS stringifier.');
-    }
-
-    this[node.type](node, semicolon);
-  }
-
-  document(node) {
-    this.body(node);
-  }
-
-  root(node) {
-    this.body(node);
-    if (node.raws.after) this.builder(node.raws.after);
-  }
-
-  comment(node) {
-    let left = this.raw(node, 'left', 'commentLeft');
-    let right = this.raw(node, 'right', 'commentRight');
-    this.builder('/*' + left + node.text + right + '*/', node);
-  }
-
-  decl(node, semicolon) {
-    let between = this.raw(node, 'between', 'colon');
-    let string = node.prop + between + this.rawValue(node, 'value');
-
-    if (node.important) {
-      string += node.raws.important || ' !important';
-    }
-
-    if (semicolon) string += ';';
-    this.builder(string, node);
-  }
-
-  rule(node) {
-    this.block(node, this.rawValue(node, 'selector'));
-
-    if (node.raws.ownSemicolon) {
-      this.builder(node.raws.ownSemicolon, node, 'end');
-    }
-  }
-
-  atrule(node, semicolon) {
-    let name = '@' + node.name;
-    let params = node.params ? this.rawValue(node, 'params') : '';
-
-    if (typeof node.raws.afterName !== 'undefined') {
-      name += node.raws.afterName;
-    } else if (params) {
-      name += ' ';
-    }
-
-    if (node.nodes) {
-      this.block(node, name + params);
-    } else {
-      let end = (node.raws.between || '') + (semicolon ? ';' : '');
-      this.builder(name + params + end, node);
-    }
-  }
-
-  body(node) {
-    let last = node.nodes.length - 1;
-
-    while (last > 0) {
-      if (node.nodes[last].type !== 'comment') break;
-      last -= 1;
-    }
-
-    let semicolon = this.raw(node, 'semicolon');
-
-    for (let i = 0; i < node.nodes.length; i++) {
-      let child = node.nodes[i];
-      let before = this.raw(child, 'before');
-      if (before) this.builder(before);
-      this.stringify(child, last !== i || semicolon);
-    }
-  }
-
-  block(node, start) {
-    let between = this.raw(node, 'between', 'beforeOpen');
-    this.builder(start + between + '{', node, 'start');
-    let after;
-
-    if (node.nodes && node.nodes.length) {
-      this.body(node);
-      after = this.raw(node, 'after');
-    } else {
-      after = this.raw(node, 'after', 'emptyBody');
-    }
-
-    if (after) this.builder(after);
-    this.builder('}', node, 'end');
-  }
-
-  raw(node, own, detect) {
-    let value;
-    if (!detect) detect = own; // Already had
-
-    if (own) {
-      value = node.raws[own];
-      if (typeof value !== 'undefined') return value;
-    }
-
-    let parent = node.parent;
-
-    if (detect === 'before') {
-      // Hack for first rule in CSS
-      if (!parent || parent.type === 'root' && parent.first === node) {
-        return '';
-      } // `root` nodes in `document` should use only their own raws
-
-
-      if (parent && parent.type === 'document') {
-        return '';
-      }
-    } // Floating child without parent
-
-
-    if (!parent) return DEFAULT_RAW[detect]; // Detect style by other nodes
-
-    let root = node.root();
-    if (!root.rawCache) root.rawCache = {};
-
-    if (typeof root.rawCache[detect] !== 'undefined') {
-      return root.rawCache[detect];
-    }
-
-    if (detect === 'before' || detect === 'after') {
-      return this.beforeAfter(node, detect);
-    } else {
-      let method = 'raw' + capitalize(detect);
-
-      if (this[method]) {
-        value = this[method](root, node);
-      } else {
-        root.walk(i => {
-          value = i.raws[own];
-          if (typeof value !== 'undefined') return false;
-        });
-      }
-    }
-
-    if (typeof value === 'undefined') value = DEFAULT_RAW[detect];
-    root.rawCache[detect] = value;
-    return value;
-  }
-
-  rawSemicolon(root) {
-    let value;
-    root.walk(i => {
-      if (i.nodes && i.nodes.length && i.last.type === 'decl') {
-        value = i.raws.semicolon;
-        if (typeof value !== 'undefined') return false;
-      }
-    });
-    return value;
-  }
-
-  rawEmptyBody(root) {
-    let value;
-    root.walk(i => {
-      if (i.nodes && i.nodes.length === 0) {
-        value = i.raws.after;
-        if (typeof value !== 'undefined') return false;
-      }
-    });
-    return value;
-  }
-
-  rawIndent(root) {
-    if (root.raws.indent) return root.raws.indent;
-    let value;
-    root.walk(i => {
-      let p = i.parent;
-
-      if (p && p !== root && p.parent && p.parent === root) {
-        if (typeof i.raws.before !== 'undefined') {
-          let parts = i.raws.before.split('\n');
-          value = parts[parts.length - 1];
-          value = value.replace(/\S/g, '');
-          return false;
-        }
-      }
-    });
-    return value;
-  }
-
-  rawBeforeComment(root, node) {
-    let value;
-    root.walkComments(i => {
-      if (typeof i.raws.before !== 'undefined') {
-        value = i.raws.before;
-
-        if (value.includes('\n')) {
-          value = value.replace(/[^\n]+$/, '');
-        }
-
-        return false;
-      }
-    });
-
-    if (typeof value === 'undefined') {
-      value = this.raw(node, null, 'beforeDecl');
-    } else if (value) {
-      value = value.replace(/\S/g, '');
-    }
-
-    return value;
-  }
-
-  rawBeforeDecl(root, node) {
-    let value;
-    root.walkDecls(i => {
-      if (typeof i.raws.before !== 'undefined') {
-        value = i.raws.before;
-
-        if (value.includes('\n')) {
-          value = value.replace(/[^\n]+$/, '');
-        }
-
-        return false;
-      }
-    });
-
-    if (typeof value === 'undefined') {
-      value = this.raw(node, null, 'beforeRule');
-    } else if (value) {
-      value = value.replace(/\S/g, '');
-    }
-
-    return value;
-  }
-
-  rawBeforeRule(root) {
-    let value;
-    root.walk(i => {
-      if (i.nodes && (i.parent !== root || root.first !== i)) {
-        if (typeof i.raws.before !== 'undefined') {
-          value = i.raws.before;
-
-          if (value.includes('\n')) {
-            value = value.replace(/[^\n]+$/, '');
-          }
-
-          return false;
-        }
-      }
-    });
-    if (value) value = value.replace(/\S/g, '');
-    return value;
-  }
-
-  rawBeforeClose(root) {
-    let value;
-    root.walk(i => {
-      if (i.nodes && i.nodes.length > 0) {
-        if (typeof i.raws.after !== 'undefined') {
-          value = i.raws.after;
-
-          if (value.includes('\n')) {
-            value = value.replace(/[^\n]+$/, '');
-          }
-
-          return false;
-        }
-      }
-    });
-    if (value) value = value.replace(/\S/g, '');
-    return value;
-  }
-
-  rawBeforeOpen(root) {
-    let value;
-    root.walk(i => {
-      if (i.type !== 'decl') {
-        value = i.raws.between;
-        if (typeof value !== 'undefined') return false;
-      }
-    });
-    return value;
-  }
-
-  rawColon(root) {
-    let value;
-    root.walkDecls(i => {
-      if (typeof i.raws.between !== 'undefined') {
-        value = i.raws.between.replace(/[^\s:]/g, '');
-        return false;
-      }
-    });
-    return value;
-  }
-
-  beforeAfter(node, detect) {
-    let value;
-
-    if (node.type === 'decl') {
-      value = this.raw(node, null, 'beforeDecl');
-    } else if (node.type === 'comment') {
-      value = this.raw(node, null, 'beforeComment');
-    } else if (detect === 'before') {
-      value = this.raw(node, null, 'beforeRule');
-    } else {
-      value = this.raw(node, null, 'beforeClose');
-    }
-
-    let buf = node.parent;
-    let depth = 0;
-
-    while (buf && buf.type !== 'root') {
-      depth += 1;
-      buf = buf.parent;
-    }
-
-    if (value.includes('\n')) {
-      let indent = this.raw(node, null, 'indent');
-
-      if (indent.length) {
-        for (let step = 0; step < depth; step++) value += indent;
-      }
-    }
-
-    return value;
-  }
-
-  rawValue(node, prop) {
-    let value = node[prop];
-    let raw = node.raws[prop];
-
-    if (raw && raw.value === value) {
-      return raw.raw;
-    }
-
-    return value;
-  }
-
-}
-
-module.exports = Stringifier;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/stringify.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/stringify.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let Stringifier = __webpack_require__(/*! ./stringifier */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/stringifier.js");
-
-function stringify(node, builder) {
-  let str = new Stringifier(builder);
-  str.stringify(node);
-}
-
-module.exports = stringify;
-stringify.default = stringify;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/symbols.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/symbols.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports.isClean = Symbol('isClean');
-module.exports.my = Symbol('my');
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/terminal-highlight.js":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/terminal-highlight.js ***!
-  \********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let {
-  cyan,
-  gray,
-  green,
-  yellow,
-  magenta
-} = __webpack_require__(/*! colorette */ "./node_modules/colorette/index.js");
-
-let tokenizer = __webpack_require__(/*! ./tokenize */ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/tokenize.js");
-
-let Input;
-
-function registerInput(dependant) {
-  Input = dependant;
-}
-
-const HIGHLIGHT_THEME = {
-  'brackets': cyan,
-  'at-word': cyan,
-  'comment': gray,
-  'string': green,
-  'class': yellow,
-  'hash': magenta,
-  'call': cyan,
-  '(': cyan,
-  ')': cyan,
-  '{': yellow,
-  '}': yellow,
-  '[': yellow,
-  ']': yellow,
-  ':': yellow,
-  ';': yellow
-};
-
-function getTokenType([type, value], processor) {
-  if (type === 'word') {
-    if (value[0] === '.') {
-      return 'class';
-    }
-
-    if (value[0] === '#') {
-      return 'hash';
-    }
-  }
-
-  if (!processor.endOfFile()) {
-    let next = processor.nextToken();
-    processor.back(next);
-    if (next[0] === 'brackets' || next[0] === '(') return 'call';
-  }
-
-  return type;
-}
-
-function terminalHighlight(css) {
-  let processor = tokenizer(new Input(css), {
-    ignoreErrors: true
-  });
-  let result = '';
-
-  while (!processor.endOfFile()) {
-    let token = processor.nextToken();
-    let color = HIGHLIGHT_THEME[getTokenType(token, processor)];
-
-    if (color) {
-      result += token[1].split(/\r?\n/).map(i => color(i)).join('\n');
-    } else {
-      result += token[1];
-    }
-  }
-
-  return result;
-}
-
-terminalHighlight.registerInput = registerInput;
-module.exports = terminalHighlight;
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/tokenize.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/tokenize.js ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-const SINGLE_QUOTE = "'".charCodeAt(0);
-const DOUBLE_QUOTE = '"'.charCodeAt(0);
-const BACKSLASH = '\\'.charCodeAt(0);
-const SLASH = '/'.charCodeAt(0);
-const NEWLINE = '\n'.charCodeAt(0);
-const SPACE = ' '.charCodeAt(0);
-const FEED = '\f'.charCodeAt(0);
-const TAB = '\t'.charCodeAt(0);
-const CR = '\r'.charCodeAt(0);
-const OPEN_SQUARE = '['.charCodeAt(0);
-const CLOSE_SQUARE = ']'.charCodeAt(0);
-const OPEN_PARENTHESES = '('.charCodeAt(0);
-const CLOSE_PARENTHESES = ')'.charCodeAt(0);
-const OPEN_CURLY = '{'.charCodeAt(0);
-const CLOSE_CURLY = '}'.charCodeAt(0);
-const SEMICOLON = ';'.charCodeAt(0);
-const ASTERISK = '*'.charCodeAt(0);
-const COLON = ':'.charCodeAt(0);
-const AT = '@'.charCodeAt(0);
-const RE_AT_END = /[\t\n\f\r "#'()/;[\\\]{}]/g;
-const RE_WORD_END = /[\t\n\f\r !"#'():;@[\\\]{}]|\/(?=\*)/g;
-const RE_BAD_BRACKET = /.[\n"'(/\\]/;
-const RE_HEX_ESCAPE = /[\da-f]/i;
-
-module.exports = function tokenizer(input, options = {}) {
-  let css = input.css.valueOf();
-  let ignore = options.ignoreErrors;
-  let code, next, quote, content, escape;
-  let escaped, escapePos, prev, n, currentToken;
-  let length = css.length;
-  let pos = 0;
-  let buffer = [];
-  let returned = [];
-
-  function position() {
-    return pos;
-  }
-
-  function unclosed(what) {
-    throw input.error('Unclosed ' + what, pos);
-  }
-
-  function endOfFile() {
-    return returned.length === 0 && pos >= length;
-  }
-
-  function nextToken(opts) {
-    if (returned.length) return returned.pop();
-    if (pos >= length) return;
-    let ignoreUnclosed = opts ? opts.ignoreUnclosed : false;
-    code = css.charCodeAt(pos);
-
-    switch (code) {
-      case NEWLINE:
-      case SPACE:
-      case TAB:
-      case CR:
-      case FEED:
-        {
-          next = pos;
-
-          do {
-            next += 1;
-            code = css.charCodeAt(next);
-          } while (code === SPACE || code === NEWLINE || code === TAB || code === CR || code === FEED);
-
-          currentToken = ['space', css.slice(pos, next)];
-          pos = next - 1;
-          break;
-        }
-
-      case OPEN_SQUARE:
-      case CLOSE_SQUARE:
-      case OPEN_CURLY:
-      case CLOSE_CURLY:
-      case COLON:
-      case SEMICOLON:
-      case CLOSE_PARENTHESES:
-        {
-          let controlChar = String.fromCharCode(code);
-          currentToken = [controlChar, controlChar, pos];
-          break;
-        }
-
-      case OPEN_PARENTHESES:
-        {
-          prev = buffer.length ? buffer.pop()[1] : '';
-          n = css.charCodeAt(pos + 1);
-
-          if (prev === 'url' && n !== SINGLE_QUOTE && n !== DOUBLE_QUOTE && n !== SPACE && n !== NEWLINE && n !== TAB && n !== FEED && n !== CR) {
-            next = pos;
-
-            do {
-              escaped = false;
-              next = css.indexOf(')', next + 1);
-
-              if (next === -1) {
-                if (ignore || ignoreUnclosed) {
-                  next = pos;
-                  break;
-                } else {
-                  unclosed('bracket');
-                }
-              }
-
-              escapePos = next;
-
-              while (css.charCodeAt(escapePos - 1) === BACKSLASH) {
-                escapePos -= 1;
-                escaped = !escaped;
-              }
-            } while (escaped);
-
-            currentToken = ['brackets', css.slice(pos, next + 1), pos, next];
-            pos = next;
-          } else {
-            next = css.indexOf(')', pos + 1);
-            content = css.slice(pos, next + 1);
-
-            if (next === -1 || RE_BAD_BRACKET.test(content)) {
-              currentToken = ['(', '(', pos];
-            } else {
-              currentToken = ['brackets', content, pos, next];
-              pos = next;
-            }
-          }
-
-          break;
-        }
-
-      case SINGLE_QUOTE:
-      case DOUBLE_QUOTE:
-        {
-          quote = code === SINGLE_QUOTE ? "'" : '"';
-          next = pos;
-
-          do {
-            escaped = false;
-            next = css.indexOf(quote, next + 1);
-
-            if (next === -1) {
-              if (ignore || ignoreUnclosed) {
-                next = pos + 1;
-                break;
-              } else {
-                unclosed('string');
-              }
-            }
-
-            escapePos = next;
-
-            while (css.charCodeAt(escapePos - 1) === BACKSLASH) {
-              escapePos -= 1;
-              escaped = !escaped;
-            }
-          } while (escaped);
-
-          currentToken = ['string', css.slice(pos, next + 1), pos, next];
-          pos = next;
-          break;
-        }
-
-      case AT:
-        {
-          RE_AT_END.lastIndex = pos + 1;
-          RE_AT_END.test(css);
-
-          if (RE_AT_END.lastIndex === 0) {
-            next = css.length - 1;
-          } else {
-            next = RE_AT_END.lastIndex - 2;
-          }
-
-          currentToken = ['at-word', css.slice(pos, next + 1), pos, next];
-          pos = next;
-          break;
-        }
-
-      case BACKSLASH:
-        {
-          next = pos;
-          escape = true;
-
-          while (css.charCodeAt(next + 1) === BACKSLASH) {
-            next += 1;
-            escape = !escape;
-          }
-
-          code = css.charCodeAt(next + 1);
-
-          if (escape && code !== SLASH && code !== SPACE && code !== NEWLINE && code !== TAB && code !== CR && code !== FEED) {
-            next += 1;
-
-            if (RE_HEX_ESCAPE.test(css.charAt(next))) {
-              while (RE_HEX_ESCAPE.test(css.charAt(next + 1))) {
-                next += 1;
-              }
-
-              if (css.charCodeAt(next + 1) === SPACE) {
-                next += 1;
-              }
-            }
-          }
-
-          currentToken = ['word', css.slice(pos, next + 1), pos, next];
-          pos = next;
-          break;
-        }
-
-      default:
-        {
-          if (code === SLASH && css.charCodeAt(pos + 1) === ASTERISK) {
-            next = css.indexOf('*/', pos + 2) + 1;
-
-            if (next === 0) {
-              if (ignore || ignoreUnclosed) {
-                next = css.length;
-              } else {
-                unclosed('comment');
-              }
-            }
-
-            currentToken = ['comment', css.slice(pos, next + 1), pos, next];
-            pos = next;
-          } else {
-            RE_WORD_END.lastIndex = pos + 1;
-            RE_WORD_END.test(css);
-
-            if (RE_WORD_END.lastIndex === 0) {
-              next = css.length - 1;
-            } else {
-              next = RE_WORD_END.lastIndex - 2;
-            }
-
-            currentToken = ['word', css.slice(pos, next + 1), pos, next];
-            buffer.push(currentToken);
-            pos = next;
-          }
-
-          break;
-        }
-    }
-
-    pos++;
-    return currentToken;
-  }
-
-  function back(token) {
-    returned.push(token);
-  }
-
-  return {
-    back,
-    nextToken,
-    endOfFile,
-    position
-  };
-};
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/warn-once.js":
-/*!***********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/warn-once.js ***!
-  \***********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-let printed = {};
-
-module.exports = function warnOnce(message) {
-  if (printed[message]) return;
-  printed[message] = true;
-
-  if (typeof console !== 'undefined' && console.warn) {
-    console.warn(message);
-  }
-};
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/warning.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-webfonts/node_modules/postcss/lib/warning.js ***!
-  \*********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-class Warning {
-  constructor(text, opts = {}) {
-    this.type = 'warning';
-    this.text = text;
-
-    if (opts.node && opts.node.source) {
-      let pos = opts.node.positionBy(opts);
-      this.line = pos.line;
-      this.column = pos.column;
-    }
-
-    for (let opt in opts) this[opt] = opts[opt];
-  }
-
-  toString() {
-    if (this.node) {
-      return this.node.error(this.text, {
-        plugin: this.plugin,
-        index: this.index,
-        word: this.word
-      }).message;
-    }
-
-    if (this.plugin) {
-      return this.plugin + ': ' + this.text;
-    }
-
-    return this.text;
-  }
-
-}
-
-module.exports = Warning;
-Warning.default = Warning;
-
-/***/ }),
-
 /***/ "./node_modules/gatsby-plugin-webfonts/node_modules/universalify/index.js":
 /*!********************************************************************************!*\
   !*** ./node_modules/gatsby-plugin-webfonts/node_modules/universalify/index.js ***!
@@ -13827,7 +9475,7 @@ exports.fromCallback = function (fn) {
   return Object.defineProperty(function (...args) {
     if (typeof args[args.length - 1] === 'function') fn.apply(this, args);else {
       return new Promise((resolve, reject) => {
-        fn.apply(this, args.concat([(err, res) => err ? reject(err) : resolve(res)]));
+        fn.call(this, ...args, (err, res) => err != null ? reject(err) : resolve(res));
       });
     }
   }, 'name', {
@@ -14289,12 +9937,16 @@ exports.onRenderBody = ({
 
 module.exports = clone
 
+var getPrototypeOf = Object.getPrototypeOf || function (obj) {
+  return obj.__proto__
+}
+
 function clone (obj) {
   if (obj === null || typeof obj !== 'object')
     return obj
 
   if (obj instanceof Object)
-    var copy = { __proto__: obj.__proto__ }
+    var copy = { __proto__: getPrototypeOf(obj) }
   else
     var copy = Object.create(null)
 
@@ -14485,6 +10137,25 @@ function patch (fs) {
         }
       })
     }
+  }
+
+  var fs$copyFile = fs.copyFile
+  if (fs$copyFile)
+    fs.copyFile = copyFile
+  function copyFile (src, dest, flags, cb) {
+    if (typeof flags === 'function') {
+      cb = flags
+      flags = 0
+    }
+    return fs$copyFile(src, dest, flags, function (err) {
+      if (err && (err.code === 'EMFILE' || err.code === 'ENFILE'))
+        enqueue([fs$copyFile, [src, dest, flags, cb]])
+      else {
+        if (typeof cb === 'function')
+          cb.apply(this, arguments)
+        retry()
+      }
+    })
   }
 
   var fs$readdir = fs.readdir
@@ -14825,10 +10496,14 @@ try {
   process.cwd()
 } catch (er) {}
 
-var chdir = process.chdir
-process.chdir = function(d) {
-  cwd = null
-  chdir.call(process, d)
+// This check is needed until node.js 12 is required
+if (typeof process.chdir === 'function') {
+  var chdir = process.chdir
+  process.chdir = function (d) {
+    cwd = null
+    chdir.call(process, d)
+  }
+  if (Object.setPrototypeOf) Object.setPrototypeOf(process.chdir, chdir)
 }
 
 module.exports = patch
@@ -14943,7 +10618,7 @@ function patch (fs) {
     }
 
     // This ensures `util.promisify` works as it does for native `fs.read`.
-    read.__proto__ = fs$read
+    if (Object.setPrototypeOf) Object.setPrototypeOf(read, fs$read)
     return read
   })(fs.read)
 
@@ -15155,226 +10830,19 @@ function patch (fs) {
 
 /***/ }),
 
-/***/ "./node_modules/html-parse-stringify2/index.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/html-parse-stringify2/index.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/html-parse-stringify/dist/html-parse-stringify.module.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/html-parse-stringify/dist/html-parse-stringify.module.js ***!
+  \*******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = {
-    parse: __webpack_require__(/*! ./lib/parse */ "./node_modules/html-parse-stringify2/lib/parse.js"),
-    stringify: __webpack_require__(/*! ./lib/stringify */ "./node_modules/html-parse-stringify2/lib/stringify.js")
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/html-parse-stringify2/lib/parse-tag.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/html-parse-stringify2/lib/parse-tag.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var attrRE = /([\w-]+)|=|(['"])([.\s\S]*?)\2/g;
-var voidElements = __webpack_require__(/*! void-elements */ "./node_modules/void-elements/index.js");
-
-module.exports = function (tag) {
-    var i = 0;
-    var key;
-    var expectingValueAfterEquals = true;
-    var res = {
-        type: 'tag',
-        name: '',
-        voidElement: false,
-        attrs: {},
-        children: []
-    };
-
-    tag.replace(attrRE, function (match) {
-        if (match === '=') {
-            expectingValueAfterEquals = true;
-            i++;
-            return;
-        }
-
-        if (!expectingValueAfterEquals) {
-            if (key) {
-                res.attrs[key] = key; // boolean attribute
-            }
-            key=match;
-        } else {
-            if (i === 0) {
-                if (voidElements[match] || tag.charAt(tag.length - 2) === '/') {
-                    res.voidElement = true;
-                }
-                res.name = match;
-            } else {
-                res.attrs[key] = match.replace(/^['"]|['"]$/g, '');
-                key=undefined;
-            }
-        }
-        i++;
-        expectingValueAfterEquals = false;
-    });
-
-    return res;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/html-parse-stringify2/lib/parse.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/html-parse-stringify2/lib/parse.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/*jshint -W030 */
-var tagRE = /(?:<!--[\S\s]*?-->|<(?:"[^"]*"['"]*|'[^']*'['"]*|[^'">])+>)/g;
-var parseTag = __webpack_require__(/*! ./parse-tag */ "./node_modules/html-parse-stringify2/lib/parse-tag.js");
-// re-used obj for quick lookups of components
-var empty = Object.create ? Object.create(null) : {};
-// common logic for pushing a child node onto a list
-function pushTextNode(list, html, level, start, ignoreWhitespace) {
-    // calculate correct end of the content slice in case there's
-    // no tag after the text node.
-    var end = html.indexOf('<', start);
-    var content = html.slice(start, end === -1 ? undefined : end);
-    // if a node is nothing but whitespace, collapse it as the spec states:
-    // https://www.w3.org/TR/html4/struct/text.html#h-9.1
-    if (/^\s*$/.test(content)) {
-        content = ' ';
-    }
-    // don't add whitespace-only text nodes if they would be trailing text nodes
-    // or if they would be leading whitespace-only text nodes:
-    //  * end > -1 indicates this is not a trailing text node
-    //  * leading node is when level is -1 and list has length 0
-    if ((!ignoreWhitespace && end > -1 && level + list.length >= 0) || content !== ' ') {
-        list.push({
-            type: 'text',
-            content: content
-        });
-    }
-}
-
-module.exports = function parse(html, options) {
-    options || (options = {});
-    options.components || (options.components = empty);
-    var result = [];
-    var current;
-    var level = -1;
-    var arr = [];
-    var byTag = {};
-    var inComponent = false;
-
-    html.replace(tagRE, function (tag, index) {
-        if (inComponent) {
-            if (tag !== ('</' + current.name + '>')) {
-                return;
-            } else {
-                inComponent = false;
-            }
-        }
-
-        var isOpen = tag.charAt(1) !== '/';
-        var isComment = tag.indexOf('<!--') === 0;
-        var start = index + tag.length;
-        var nextChar = html.charAt(start);
-        var parent;
-
-        if (isOpen && !isComment) {
-            level++;
-
-            current = parseTag(tag);
-            if (current.type === 'tag' && options.components[current.name]) {
-                current.type = 'component';
-                inComponent = true;
-            }
-
-            if (!current.voidElement && !inComponent && nextChar && nextChar !== '<') {
-                pushTextNode(current.children, html, level, start, options.ignoreWhitespace);
-            }
-
-            byTag[current.tagName] = current;
-
-            // if we're at root, push new base node
-            if (level === 0) {
-                result.push(current);
-            }
-
-            parent = arr[level - 1];
-
-            if (parent) {
-                parent.children.push(current);
-            }
-
-            arr[level] = current;
-        }
-
-        if (isComment || !isOpen || current.voidElement) {
-            if (!isComment) {
-                level--;
-            }
-            if (!inComponent && nextChar !== '<' && nextChar) {
-                // trailing text node
-                // if we're at the root, push a base text node. otherwise add as
-                // a child to the current node.
-                parent = level === -1 ? result : arr[level].children;
-                pushTextNode(parent, html, level, start, options.ignoreWhitespace);
-            }
-        }
-    });
-
-    // If the "html" passed isn't actually html, add it as a text node.
-    if (!result.length && html.length) {
-        pushTextNode(result, html, 0, 0, options.ignoreWhitespace);
-    }
-
-    return result;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/html-parse-stringify2/lib/stringify.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/html-parse-stringify2/lib/stringify.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function attrString(attrs) {
-    var buff = [];
-    for (var key in attrs) {
-        buff.push(key + '="' + attrs[key] + '"');
-    }
-    if (!buff.length) {
-        return '';
-    }
-    return ' ' + buff.join(' ');
-}
-
-function stringify(buff, doc) {
-    switch (doc.type) {
-    case 'text':
-        return buff + doc.content;
-    case 'tag':
-        buff += '<' + doc.name + (doc.attrs ? attrString(doc.attrs) : '') + (doc.voidElement ? '/>' : '>');
-        if (doc.voidElement) {
-            return buff;
-        }
-        return buff + doc.children.reduce(stringify, '') + '</' + doc.name + '>';
-    }
-}
-
-module.exports = function (doc) {
-    return doc.reduce(function (token, rootEl) {
-        return token + stringify('', rootEl);
-    }, '');
-};
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var void_elements__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! void-elements */ "./node_modules/void-elements/index.js");
+/* harmony import */ var void_elements__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(void_elements__WEBPACK_IMPORTED_MODULE_0__);
+var t=/\s([^'"/\s><]+?)[\s/>]|([^\s=]+)=\s?(".*?"|'.*?')/g;function n(n){var r={type:"tag",name:"",voidElement:!1,attrs:{},children:[]},i=n.match(/<\/?([^\s]+?)[/\s>]/);if(i&&(r.name=i[1],(void_elements__WEBPACK_IMPORTED_MODULE_0___default.a[i[1]]||"/"===n.charAt(n.length-2))&&(r.voidElement=!0),r.name.startsWith("!--"))){var s=n.indexOf("--\x3e");return{type:"comment",comment:-1!==s?n.slice(4,s):""}}for(var a=new RegExp(t),c=null;null!==(c=a.exec(n));)if(c[0].trim())if(c[1]){var o=c[1].trim(),l=[o,""];o.indexOf("=")>-1&&(l=o.split("=")),r.attrs[l[0]]=l[1],a.lastIndex--}else c[2]&&(r.attrs[c[2]]=c[3].trim().substring(1,c[3].length-1));return r}var r=/<[a-zA-Z0-9\-\!\/](?:"[^"]*"|'[^']*'|[^'">])*>/g,i=/^\s*$/,s=Object.create(null);function a(e,t){switch(t.type){case"text":return e+t.content;case"tag":return e+="<"+t.name+(t.attrs?function(e){var t=[];for(var n in e)t.push(n+'="'+e[n]+'"');return t.length?" "+t.join(" "):""}(t.attrs):"")+(t.voidElement?"/>":">"),t.voidElement?e:e+t.children.reduce(a,"")+"</"+t.name+">";case"comment":return e+"\x3c!--"+t.comment+"--\x3e"}}var c={parse:function(e,t){t||(t={}),t.components||(t.components=s);var a,c=[],o=[],l=-1,m=!1;if(0!==e.indexOf("<")){var u=e.indexOf("<");c.push({type:"text",content:-1===u?e:e.substring(0,u)})}return e.replace(r,function(r,s){if(m){if(r!=="</"+a.name+">")return;m=!1}var u,f="/"!==r.charAt(1),h=r.startsWith("\x3c!--"),p=s+r.length,d=e.charAt(p);if(h){var v=n(r);return l<0?(c.push(v),c):((u=o[l]).children.push(v),c)}if(f&&(l++,"tag"===(a=n(r)).type&&t.components[a.name]&&(a.type="component",m=!0),a.voidElement||m||!d||"<"===d||a.children.push({type:"text",content:e.slice(p,e.indexOf("<",p))}),0===l&&c.push(a),(u=o[l-1])&&u.children.push(a),o[l]=a),(!f||a.voidElement)&&(l>-1&&(a.voidElement||a.name===r.slice(2,-1))&&(l--,a=-1===l?c:o[l]),!m&&"<"!==d&&d)){u=-1===l?c:o[l].children;var x=e.indexOf("<",p),g=e.slice(p,-1===x?void 0:x);i.test(g)&&(g=" "),(x>-1&&l+u.length>=0||" "!==g)&&u.push({type:"text",content:g})}}),c},stringify:function(e){return e.reduce(function(e,t){return e+a("",t)},"")}};/* harmony default export */ __webpack_exports__["default"] = (c);
+//# sourceMappingURL=html-parse-stringify.module.js.map
 
 
 /***/ }),
@@ -15597,7 +11065,12 @@ function getLastOfPath(object, path, Empty) {
     if (canNotTraverseDeeper()) return {};
     var key = cleanKey(stack.shift());
     if (!object[key] && Empty) object[key] = new Empty();
-    object = object[key];
+
+    if (Object.prototype.hasOwnProperty.call(object, key)) {
+      object = object[key];
+    } else {
+      object = {};
+    }
   }
 
   if (canNotTraverseDeeper()) return {};
@@ -15679,6 +11152,43 @@ function escape(data) {
 }
 var isIE10 = typeof window !== 'undefined' && window.navigator && window.navigator.userAgent && window.navigator.userAgent.indexOf('MSIE') > -1;
 
+function deepFind(obj, path) {
+  var keySeparator = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '.';
+  if (!obj) return undefined;
+  if (obj[path]) return obj[path];
+  var paths = path.split(keySeparator);
+  var current = obj;
+
+  for (var i = 0; i < paths.length; ++i) {
+    if (typeof current[paths[i]] === 'string' && i + 1 < paths.length) {
+      return undefined;
+    }
+
+    if (current[paths[i]] === undefined) {
+      var j = 2;
+      var p = paths.slice(i, i + j).join(keySeparator);
+      var mix = current[p];
+
+      while (mix === undefined && paths.length > i + j) {
+        j++;
+        p = paths.slice(i, i + j).join(keySeparator);
+        mix = current[p];
+      }
+
+      if (mix === undefined) return undefined;
+      if (typeof mix === 'string') return mix;
+      if (p && typeof mix[p] === 'string') return mix[p];
+      var joinedPath = paths.slice(i + j).join(keySeparator);
+      if (joinedPath) return deepFind(mix, joinedPath, keySeparator);
+      return undefined;
+    }
+
+    current = current[paths[i]];
+  }
+
+  return current;
+}
+
 var ResourceStore = function (_EventEmitter) {
   Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(ResourceStore, _EventEmitter);
 
@@ -15705,6 +11215,10 @@ var ResourceStore = function (_EventEmitter) {
       _this.options.keySeparator = '.';
     }
 
+    if (_this.options.ignoreJSONStructure === undefined) {
+      _this.options.ignoreJSONStructure = true;
+    }
+
     return _this;
   }
 
@@ -15729,6 +11243,7 @@ var ResourceStore = function (_EventEmitter) {
     value: function getResource(lng, ns, key) {
       var options = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
       var keySeparator = options.keySeparator !== undefined ? options.keySeparator : this.options.keySeparator;
+      var ignoreJSONStructure = options.ignoreJSONStructure !== undefined ? options.ignoreJSONStructure : this.options.ignoreJSONStructure;
       var path = [lng, ns];
       if (key && typeof key !== 'string') path = path.concat(key);
       if (key && typeof key === 'string') path = path.concat(keySeparator ? key.split(keySeparator) : key);
@@ -15737,7 +11252,9 @@ var ResourceStore = function (_EventEmitter) {
         path = lng.split('.');
       }
 
-      return getPath(this.data, path);
+      var result = getPath(this.data, path);
+      if (result || !ignoreJSONStructure || typeof key !== 'string') return result;
+      return deepFind(this.data && this.data[lng] && this.data[lng][ns], key, keySeparator);
     }
   }, {
     key: "addResource",
@@ -15969,27 +11486,32 @@ var Translator = function (_EventEmitter) {
 
       if (handleAsObjectInI18nFormat && res && handleAsObject && noObject.indexOf(resType) < 0 && !(typeof joinArrays === 'string' && resType === '[object Array]')) {
         if (!options.returnObjects && !this.options.returnObjects) {
-          this.logger.warn('accessing an object - but returnObjects options is not enabled!');
-          return this.options.returnedObjectHandler ? this.options.returnedObjectHandler(resUsedKey, res, options) : "key '".concat(key, " (").concat(this.language, ")' returned an object instead of string.");
+          if (!this.options.returnedObjectHandler) {
+            this.logger.warn('accessing an object - but returnObjects options is not enabled!');
+          }
+
+          return this.options.returnedObjectHandler ? this.options.returnedObjectHandler(resUsedKey, res, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
+            ns: namespaces
+          })) : "key '".concat(key, " (").concat(this.language, ")' returned an object instead of string.");
         }
 
         if (keySeparator) {
           var resTypeIsArray = resType === '[object Array]';
-          var copy$$1 = resTypeIsArray ? [] : {};
+          var copy = resTypeIsArray ? [] : {};
           var newKeyToUse = resTypeIsArray ? resExactUsedKey : resUsedKey;
 
           for (var m in res) {
             if (Object.prototype.hasOwnProperty.call(res, m)) {
               var deepKey = "".concat(newKeyToUse).concat(keySeparator).concat(m);
-              copy$$1[m] = this.translate(deepKey, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
+              copy[m] = this.translate(deepKey, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
                 joinArrays: false,
                 ns: namespaces
               }));
-              if (copy$$1[m] === deepKey) copy$$1[m] = res[m];
+              if (copy[m] === deepKey) copy[m] = res[m];
             }
           }
 
-          res = copy$$1;
+          res = copy;
         }
       } else if (handleAsObjectInI18nFormat && typeof joinArrays === 'string' && resType === '[object Array]') {
         res = res.join(joinArrays);
@@ -15997,16 +11519,14 @@ var Translator = function (_EventEmitter) {
       } else {
         var usedDefault = false;
         var usedKey = false;
+        var needsPluralHandling = options.count !== undefined && typeof options.count !== 'string';
+        var hasDefaultValue = Translator.hasDefaultValue(options);
+        var defaultValueSuffix = needsPluralHandling ? this.pluralResolver.getSuffix(lng, options.count) : '';
+        var defaultValue = options["defaultValue".concat(defaultValueSuffix)] || options.defaultValue;
 
-        if (!this.isValidLookup(res) && options.defaultValue !== undefined) {
+        if (!this.isValidLookup(res) && hasDefaultValue) {
           usedDefault = true;
-
-          if (options.count !== undefined) {
-            var suffix = this.pluralResolver.getSuffix(lng, options.count);
-            res = options["defaultValue".concat(suffix)];
-          }
-
-          if (!res) res = options.defaultValue;
+          res = defaultValue;
         }
 
         if (!this.isValidLookup(res)) {
@@ -16014,10 +11534,10 @@ var Translator = function (_EventEmitter) {
           res = key;
         }
 
-        var updateMissing = options.defaultValue && options.defaultValue !== res && this.options.updateMissing;
+        var updateMissing = hasDefaultValue && defaultValue !== res && this.options.updateMissing;
 
         if (usedKey || usedDefault || updateMissing) {
-          this.logger.log(updateMissing ? 'updateKey' : 'missingKey', lng, namespace, key, updateMissing ? options.defaultValue : res);
+          this.logger.log(updateMissing ? 'updateKey' : 'missingKey', lng, namespace, key, updateMissing ? defaultValue : res);
 
           if (keySeparator) {
             var fk = this.resolve(key, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
@@ -16039,29 +11559,25 @@ var Translator = function (_EventEmitter) {
             lngs.push(options.lng || this.language);
           }
 
-          var send = function send(l, k) {
+          var send = function send(l, k, fallbackValue) {
             if (_this2.options.missingKeyHandler) {
-              _this2.options.missingKeyHandler(l, namespace, k, updateMissing ? options.defaultValue : res, updateMissing, options);
+              _this2.options.missingKeyHandler(l, namespace, k, updateMissing ? fallbackValue : res, updateMissing, options);
             } else if (_this2.backendConnector && _this2.backendConnector.saveMissing) {
-              _this2.backendConnector.saveMissing(l, namespace, k, updateMissing ? options.defaultValue : res, updateMissing, options);
+              _this2.backendConnector.saveMissing(l, namespace, k, updateMissing ? fallbackValue : res, updateMissing, options);
             }
 
             _this2.emit('missingKey', l, namespace, k, res);
           };
 
           if (this.options.saveMissing) {
-            var needsPluralHandling = options.count !== undefined && typeof options.count !== 'string';
-
             if (this.options.saveMissingPlurals && needsPluralHandling) {
-              lngs.forEach(function (l) {
-                var plurals = _this2.pluralResolver.getPluralFormsOfKey(l, key);
-
-                plurals.forEach(function (p) {
-                  return send([l], p);
+              lngs.forEach(function (language) {
+                _this2.pluralResolver.getSuffixes(language).forEach(function (suffix) {
+                  send([language], key + suffix, options["defaultValue".concat(suffix)] || defaultValue);
                 });
               });
             } else {
-              send(lngs, key);
+              send(lngs, key, defaultValue);
             }
           }
         }
@@ -16153,7 +11669,7 @@ var Translator = function (_EventEmitter) {
         var namespaces = extracted.namespaces;
         if (_this4.options.fallbackNS) namespaces = namespaces.concat(_this4.options.fallbackNS);
         var needsPluralHandling = options.count !== undefined && typeof options.count !== 'string';
-        var needsContextHandling = options.context !== undefined && typeof options.context === 'string' && options.context !== '';
+        var needsContextHandling = options.context !== undefined && (typeof options.context === 'string' || typeof options.context === 'number') && options.context !== '';
         var codes = options.lngs ? options.lngs : _this4.languageUtils.toResolveHierarchy(options.lng || _this4.language, options.fallbackLng);
         namespaces.forEach(function (ns) {
           if (_this4.isValidLookup(found)) return;
@@ -16211,6 +11727,19 @@ var Translator = function (_EventEmitter) {
       var options = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
       if (this.i18nFormat && this.i18nFormat.getResource) return this.i18nFormat.getResource(code, ns, key, options);
       return this.resourceStore.getResource(code, ns, key, options);
+    }
+  }], [{
+    key: "hasDefaultValue",
+    value: function hasDefaultValue(options) {
+      var prefix = 'defaultValue';
+
+      for (var option in options) {
+        if (Object.prototype.hasOwnProperty.call(options, option) && prefix === option.substring(0, prefix.length) && undefined !== options[option]) {
+          return true;
+        }
+      }
+
+      return false;
     }
   }]);
 
@@ -16374,15 +11903,15 @@ var LanguageUtil = function () {
 }();
 
 var sets = [{
-  lngs: ['ach', 'ak', 'am', 'arn', 'br', 'fil', 'gun', 'ln', 'mfe', 'mg', 'mi', 'oc', 'pt', 'pt-BR', 'tg', 'ti', 'tr', 'uz', 'wa'],
+  lngs: ['ach', 'ak', 'am', 'arn', 'br', 'fil', 'gun', 'ln', 'mfe', 'mg', 'mi', 'oc', 'pt', 'pt-BR', 'tg', 'tl', 'ti', 'tr', 'uz', 'wa'],
   nr: [1, 2],
   fc: 1
 }, {
-  lngs: ['af', 'an', 'ast', 'az', 'bg', 'bn', 'ca', 'da', 'de', 'dev', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fi', 'fo', 'fur', 'fy', 'gl', 'gu', 'ha', 'hi', 'hu', 'hy', 'ia', 'it', 'kn', 'ku', 'lb', 'mai', 'ml', 'mn', 'mr', 'nah', 'nap', 'nb', 'ne', 'nl', 'nn', 'no', 'nso', 'pa', 'pap', 'pms', 'ps', 'pt-PT', 'rm', 'sco', 'se', 'si', 'so', 'son', 'sq', 'sv', 'sw', 'ta', 'te', 'tk', 'ur', 'yo'],
+  lngs: ['af', 'an', 'ast', 'az', 'bg', 'bn', 'ca', 'da', 'de', 'dev', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fi', 'fo', 'fur', 'fy', 'gl', 'gu', 'ha', 'hi', 'hu', 'hy', 'ia', 'it', 'kk', 'kn', 'ku', 'lb', 'mai', 'ml', 'mn', 'mr', 'nah', 'nap', 'nb', 'ne', 'nl', 'nn', 'no', 'nso', 'pa', 'pap', 'pms', 'ps', 'pt-PT', 'rm', 'sco', 'se', 'si', 'so', 'son', 'sq', 'sv', 'sw', 'ta', 'te', 'tk', 'ur', 'yo'],
   nr: [1, 2],
   fc: 2
 }, {
-  lngs: ['ay', 'bo', 'cgg', 'fa', 'ht', 'id', 'ja', 'jbo', 'ka', 'kk', 'km', 'ko', 'ky', 'lo', 'ms', 'sah', 'su', 'th', 'tt', 'ug', 'vi', 'wo', 'zh'],
+  lngs: ['ay', 'bo', 'cgg', 'fa', 'ht', 'id', 'ja', 'jbo', 'ka', 'km', 'ko', 'ky', 'lo', 'ms', 'sah', 'su', 'th', 'tt', 'ug', 'vi', 'wo', 'zh'],
   nr: [1],
   fc: 3
 }, {
@@ -16579,17 +12108,24 @@ var PluralResolver = function () {
   }, {
     key: "getPluralFormsOfKey",
     value: function getPluralFormsOfKey(code, key) {
+      return this.getSuffixes(code).map(function (suffix) {
+        return key + suffix;
+      });
+    }
+  }, {
+    key: "getSuffixes",
+    value: function getSuffixes(code) {
       var _this = this;
 
-      var ret = [];
       var rule = this.getRule(code);
-      if (!rule) return ret;
-      rule.numbers.forEach(function (n) {
-        var suffix = _this.getSuffix(code, n);
 
-        ret.push("".concat(key).concat(suffix));
+      if (!rule) {
+        return [];
+      }
+
+      return rule.numbers.map(function (number) {
+        return _this.getSuffix(code, number);
       });
-      return ret;
     }
   }, {
     key: "getSuffix",
@@ -16706,13 +12242,17 @@ var Interpolator = function () {
       var handleFormat = function handleFormat(key) {
         if (key.indexOf(_this.formatSeparator) < 0) {
           var path = getPathWithDefaults(data, defaultData, key);
-          return _this.alwaysFormat ? _this.format(path, undefined, lng) : path;
+          return _this.alwaysFormat ? _this.format(path, undefined, lng, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, data, {
+            interpolationkey: key
+          })) : path;
         }
 
         var p = key.split(_this.formatSeparator);
         var k = p.shift().trim();
         var f = p.join(_this.formatSeparator).trim();
-        return _this.format(getPathWithDefaults(data, defaultData, k), f, lng, options);
+        return _this.format(getPathWithDefaults(data, defaultData, k), f, lng, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, data, {
+          interpolationkey: k
+        }));
       };
 
       this.resetRegExp();
@@ -16751,8 +12291,16 @@ var Interpolator = function () {
             value = makeString(value);
           }
 
-          str = str.replace(match[0], todo.safeValue(value));
-          todo.regex.lastIndex = 0;
+          var safeValue = todo.safeValue(value);
+          str = str.replace(match[0], safeValue);
+
+          if (skipOnVariables) {
+            todo.regex.lastIndex += safeValue.length;
+            todo.regex.lastIndex -= match[0].length;
+          } else {
+            todo.regex.lastIndex = 0;
+          }
+
           replaces++;
 
           if (replaces >= _this.maxReplaces) {
@@ -16801,7 +12349,7 @@ var Interpolator = function () {
         var formatters = [];
         var doReduce = false;
 
-        if (match[0].includes(this.formatSeparator) && !/{.*}/.test(match[1])) {
+        if (match[0].indexOf(this.formatSeparator) !== -1 && !/{.*}/.test(match[1])) {
           var r = match[1].split(this.formatSeparator).map(function (elem) {
             return elem.trim();
           });
@@ -16821,7 +12369,9 @@ var Interpolator = function () {
 
         if (doReduce) {
           value = formatters.reduce(function (v, f) {
-            return _this2.format(v, f, options.lng, options);
+            return _this2.format(v, f, options.lng, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
+              interpolationkey: match[1].trim()
+            }));
           }, value.trim());
         }
 
@@ -17283,6 +12833,11 @@ var I18n = function (_EventEmitter) {
         });
       }
 
+      if (this.options.fallbackLng && !this.services.languageDetector && !this.options.lng) {
+        var codes = this.services.languageUtils.getFallbackCodes(this.options.fallbackLng);
+        if (codes.length > 0 && codes[0] !== 'dev') this.options.lng = codes[0];
+      }
+
       if (!this.services.languageDetector && !this.options.lng) {
         this.logger.warn('init: no languageDetector is used and no lng is defined');
       }
@@ -17308,7 +12863,8 @@ var I18n = function (_EventEmitter) {
       var deferred = defer();
 
       var load = function load() {
-        _this2.changeLanguage(_this2.options.lng, function (err, t) {
+        var finish = function finish(err, t) {
+          if (_this2.isInitialized) _this2.logger.warn('init: i18next is already initialized. You should call init just once!');
           _this2.isInitialized = true;
           if (!_this2.options.isClone) _this2.logger.log('initialized', _this2.options);
 
@@ -17316,7 +12872,11 @@ var I18n = function (_EventEmitter) {
 
           deferred.resolve(t);
           callback(err, t);
-        });
+        };
+
+        if (_this2.languages && _this2.options.compatibilityAPI !== 'v1' && !_this2.isInitialized) return finish(null, _this2.t.bind(_this2));
+
+        _this2.changeLanguage(_this2.options.lng, finish);
       };
 
       if (this.options.resources || !this.options.initImmediate) {
@@ -17450,6 +13010,7 @@ var I18n = function (_EventEmitter) {
       };
 
       var setLng = function setLng(lngs) {
+        if (!lng && !lngs && _this4.services.languageDetector) lngs = [];
         var l = typeof lngs === 'string' ? lngs : _this4.services.languageUtils.getBestMatchFromCodes(lngs);
 
         if (l) {
@@ -17661,6 +13222,16 @@ var I18n = function (_EventEmitter) {
         hasLoadedNamespace: clone.hasLoadedNamespace.bind(clone)
       };
       return clone;
+    }
+  }, {
+    key: "toJSON",
+    value: function toJSON() {
+      return {
+        options: this.options,
+        store: this.store,
+        language: this.language,
+        languages: this.languages
+      };
     }
   }]);
 
@@ -18562,7 +14133,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-let postcss = __webpack_require__(/*! postcss */ "./node_modules/postcss-js/node_modules/postcss/lib/postcss.js")
+let postcss = __webpack_require__(/*! postcss */ "./node_modules/postcss/lib/postcss.js")
 
 let processResult = __webpack_require__(/*! ./process-result */ "./node_modules/postcss-js/process-result.js")
 let parse = __webpack_require__(/*! ./parser */ "./node_modules/postcss-js/parser.js")
@@ -18629,17 +14200,268 @@ const sync = _index_js__WEBPACK_IMPORTED_MODULE_0__.sync
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/at-rule.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/at-rule.js ***!
-  \*********************************************************************/
+/***/ "./node_modules/postcss-js/objectifier.js":
+/*!************************************************!*\
+  !*** ./node_modules/postcss-js/objectifier.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+let camelcase = __webpack_require__(/*! camelcase-css */ "./node_modules/camelcase-css/index.js")
+
+let UNITLESS = {
+  boxFlex: true,
+  boxFlexGroup: true,
+  columnCount: true,
+  flex: true,
+  flexGrow: true,
+  flexPositive: true,
+  flexShrink: true,
+  flexNegative: true,
+  fontWeight: true,
+  lineClamp: true,
+  lineHeight: true,
+  opacity: true,
+  order: true,
+  orphans: true,
+  tabSize: true,
+  widows: true,
+  zIndex: true,
+  zoom: true,
+  fillOpacity: true,
+  strokeDashoffset: true,
+  strokeOpacity: true,
+  strokeWidth: true
+}
+
+function atRule (node) {
+  if (typeof node.nodes === 'undefined') {
+    return true
+  } else {
+    return process(node)
+  }
+}
+
+function process (node) {
+  let name
+  let result = {}
+
+  node.each(child => {
+    if (child.type === 'atrule') {
+      name = '@' + child.name
+      if (child.params) name += ' ' + child.params
+      if (typeof result[name] === 'undefined') {
+        result[name] = atRule(child)
+      } else if (Array.isArray(result[name])) {
+        result[name].push(atRule(child))
+      } else {
+        result[name] = [result[name], atRule(child)]
+      }
+    } else if (child.type === 'rule') {
+      let body = process(child)
+      if (result[child.selector]) {
+        for (let i in body) {
+          result[child.selector][i] = body[i]
+        }
+      } else {
+        result[child.selector] = body
+      }
+    } else if (child.type === 'decl') {
+      if (child.prop[0] === '-' && child.prop[1] === '-') {
+        name = child.prop
+      } else {
+        name = camelcase(child.prop)
+      }
+      let value = child.value
+      if (!isNaN(child.value) && UNITLESS[name]) {
+        value = parseFloat(child.value)
+      }
+      if (child.important) value += ' !important'
+      if (typeof result[name] === 'undefined') {
+        result[name] = value
+      } else if (Array.isArray(result[name])) {
+        result[name].push(value)
+      } else {
+        result[name] = [result[name], value]
+      }
+    }
+  })
+  return result
+}
+
+module.exports = process
+
+
+/***/ }),
+
+/***/ "./node_modules/postcss-js/parser.js":
+/*!*******************************************!*\
+  !*** ./node_modules/postcss-js/parser.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+let postcss = __webpack_require__(/*! postcss */ "./node_modules/postcss/lib/postcss.js")
+
+let IMPORTANT = /\s*!important\s*$/i
+
+let UNITLESS = {
+  'box-flex': true,
+  'box-flex-group': true,
+  'column-count': true,
+  'flex': true,
+  'flex-grow': true,
+  'flex-positive': true,
+  'flex-shrink': true,
+  'flex-negative': true,
+  'font-weight': true,
+  'line-clamp': true,
+  'line-height': true,
+  'opacity': true,
+  'order': true,
+  'orphans': true,
+  'tab-size': true,
+  'widows': true,
+  'z-index': true,
+  'zoom': true,
+  'fill-opacity': true,
+  'stroke-dashoffset': true,
+  'stroke-opacity': true,
+  'stroke-width': true
+}
+
+function dashify (str) {
+  return str
+    .replace(/([A-Z])/g, '-$1')
+    .replace(/^ms-/, '-ms-')
+    .toLowerCase()
+}
+
+function decl (parent, name, value) {
+  if (value === false || value === null) return
+
+  name = dashify(name)
+  if (typeof value === 'number') {
+    if (value === 0 || UNITLESS[name]) {
+      value = value.toString()
+    } else {
+      value += 'px'
+    }
+  }
+
+  if (name === 'css-float') name = 'float'
+
+  if (IMPORTANT.test(value)) {
+    value = value.replace(IMPORTANT, '')
+    parent.push(postcss.decl({ prop: name, value, important: true }))
+  } else {
+    parent.push(postcss.decl({ prop: name, value }))
+  }
+}
+
+function atRule (parent, parts, value) {
+  let node = postcss.atRule({ name: parts[1], params: parts[3] || '' })
+  if (typeof value === 'object') {
+    node.nodes = []
+    parse(value, node)
+  }
+  parent.push(node)
+}
+
+function parse (obj, parent) {
+  let name, value, node
+  for (name in obj) {
+    value = obj[name]
+    if (value === null || typeof value === 'undefined') {
+      continue
+    } else if (name[0] === '@') {
+      let parts = name.match(/@(\S+)(\s+([\W\w]*)\s*)?/)
+      if (Array.isArray(value)) {
+        for (let i of value) {
+          atRule(parent, parts, i)
+        }
+      } else {
+        atRule(parent, parts, value)
+      }
+    } else if (Array.isArray(value)) {
+      for (let i of value) {
+        decl(parent, name, i)
+      }
+    } else if (typeof value === 'object') {
+      node = postcss.rule({ selector: name })
+      parse(value, node)
+      parent.push(node)
+    } else {
+      decl(parent, name, value)
+    }
+  }
+}
+
+module.exports = function (obj) {
+  let root = postcss.root()
+  parse(obj, root)
+  return root
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/postcss-js/process-result.js":
+/*!***************************************************!*\
+  !*** ./node_modules/postcss-js/process-result.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+let objectify = __webpack_require__(/*! ./objectifier */ "./node_modules/postcss-js/objectifier.js")
+
+module.exports = function processResult (result) {
+  if (console && console.warn) {
+    result.warnings().forEach(warn => {
+      let source = warn.plugin || 'PostCSS'
+      console.warn(source + ': ' + warn.text)
+    })
+  }
+  return objectify(result.root)
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/postcss-js/sync.js":
+/*!*****************************************!*\
+  !*** ./node_modules/postcss-js/sync.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+let postcss = __webpack_require__(/*! postcss */ "./node_modules/postcss/lib/postcss.js")
+
+let processResult = __webpack_require__(/*! ./process-result */ "./node_modules/postcss-js/process-result.js")
+let parse = __webpack_require__(/*! ./parser */ "./node_modules/postcss-js/parser.js")
+
+module.exports = function (plugins) {
+  let processor = postcss(plugins)
+  return input => {
+    let result = processor.process(input, { parser: parse, from: undefined })
+    return processResult(result)
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/postcss/lib/at-rule.js":
+/*!*********************************************!*\
+  !*** ./node_modules/postcss/lib/at-rule.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss-js/node_modules/postcss/lib/container.js")
+let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss/lib/container.js")
 
 class AtRule extends Container {
   constructor(defaults) {
@@ -18666,17 +14488,17 @@ Container.registerAtRule(AtRule)
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/comment.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/comment.js ***!
-  \*********************************************************************/
+/***/ "./node_modules/postcss/lib/comment.js":
+/*!*********************************************!*\
+  !*** ./node_modules/postcss/lib/comment.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let Node = __webpack_require__(/*! ./node */ "./node_modules/postcss-js/node_modules/postcss/lib/node.js")
+let Node = __webpack_require__(/*! ./node */ "./node_modules/postcss/lib/node.js")
 
 class Comment extends Node {
   constructor(defaults) {
@@ -18691,20 +14513,20 @@ Comment.default = Comment
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/container.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/container.js ***!
-  \***********************************************************************/
+/***/ "./node_modules/postcss/lib/container.js":
+/*!***********************************************!*\
+  !*** ./node_modules/postcss/lib/container.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let { isClean, my } = __webpack_require__(/*! ./symbols */ "./node_modules/postcss-js/node_modules/postcss/lib/symbols.js")
-let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/postcss-js/node_modules/postcss/lib/declaration.js")
-let Comment = __webpack_require__(/*! ./comment */ "./node_modules/postcss-js/node_modules/postcss/lib/comment.js")
-let Node = __webpack_require__(/*! ./node */ "./node_modules/postcss-js/node_modules/postcss/lib/node.js")
+let { isClean, my } = __webpack_require__(/*! ./symbols */ "./node_modules/postcss/lib/symbols.js")
+let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/postcss/lib/declaration.js")
+let Comment = __webpack_require__(/*! ./comment */ "./node_modules/postcss/lib/comment.js")
+let Node = __webpack_require__(/*! ./node */ "./node_modules/postcss/lib/node.js")
 
 let parse, Rule, AtRule
 
@@ -19135,10 +14957,10 @@ Container.rebuild = node => {
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/css-syntax-error.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/css-syntax-error.js ***!
-  \******************************************************************************/
+/***/ "./node_modules/postcss/lib/css-syntax-error.js":
+/*!******************************************************!*\
+  !*** ./node_modules/postcss/lib/css-syntax-error.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19147,7 +14969,7 @@ Container.rebuild = node => {
 
 let { red, bold, gray, options: colorette } = __webpack_require__(/*! colorette */ "./node_modules/colorette/index.js")
 
-let terminalHighlight = __webpack_require__(/*! ./terminal-highlight */ "./node_modules/postcss-js/node_modules/postcss/lib/terminal-highlight.js")
+let terminalHighlight = __webpack_require__(/*! ./terminal-highlight */ "./node_modules/postcss/lib/terminal-highlight.js")
 
 class CssSyntaxError extends Error {
   constructor(message, line, column, source, file, plugin) {
@@ -19239,17 +15061,17 @@ CssSyntaxError.default = CssSyntaxError
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/declaration.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/declaration.js ***!
-  \*************************************************************************/
+/***/ "./node_modules/postcss/lib/declaration.js":
+/*!*************************************************!*\
+  !*** ./node_modules/postcss/lib/declaration.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let Node = __webpack_require__(/*! ./node */ "./node_modules/postcss-js/node_modules/postcss/lib/node.js")
+let Node = __webpack_require__(/*! ./node */ "./node_modules/postcss/lib/node.js")
 
 class Declaration extends Node {
   constructor(defaults) {
@@ -19275,17 +15097,17 @@ Declaration.default = Declaration
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/document.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/document.js ***!
-  \**********************************************************************/
+/***/ "./node_modules/postcss/lib/document.js":
+/*!**********************************************!*\
+  !*** ./node_modules/postcss/lib/document.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss-js/node_modules/postcss/lib/container.js")
+let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss/lib/container.js")
 
 let LazyResult, Processor
 
@@ -19320,23 +15142,23 @@ Document.default = Document
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/fromJSON.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/fromJSON.js ***!
-  \**********************************************************************/
+/***/ "./node_modules/postcss/lib/fromJSON.js":
+/*!**********************************************!*\
+  !*** ./node_modules/postcss/lib/fromJSON.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/postcss-js/node_modules/postcss/lib/declaration.js")
-let PreviousMap = __webpack_require__(/*! ./previous-map */ "./node_modules/postcss-js/node_modules/postcss/lib/previous-map.js")
-let Comment = __webpack_require__(/*! ./comment */ "./node_modules/postcss-js/node_modules/postcss/lib/comment.js")
-let AtRule = __webpack_require__(/*! ./at-rule */ "./node_modules/postcss-js/node_modules/postcss/lib/at-rule.js")
-let Input = __webpack_require__(/*! ./input */ "./node_modules/postcss-js/node_modules/postcss/lib/input.js")
-let Root = __webpack_require__(/*! ./root */ "./node_modules/postcss-js/node_modules/postcss/lib/root.js")
-let Rule = __webpack_require__(/*! ./rule */ "./node_modules/postcss-js/node_modules/postcss/lib/rule.js")
+let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/postcss/lib/declaration.js")
+let PreviousMap = __webpack_require__(/*! ./previous-map */ "./node_modules/postcss/lib/previous-map.js")
+let Comment = __webpack_require__(/*! ./comment */ "./node_modules/postcss/lib/comment.js")
+let AtRule = __webpack_require__(/*! ./at-rule */ "./node_modules/postcss/lib/at-rule.js")
+let Input = __webpack_require__(/*! ./input */ "./node_modules/postcss/lib/input.js")
+let Root = __webpack_require__(/*! ./root */ "./node_modules/postcss/lib/root.js")
+let Rule = __webpack_require__(/*! ./rule */ "./node_modules/postcss/lib/rule.js")
 
 function fromJSON(json, inputs) {
   if (Array.isArray(json)) return json.map(n => fromJSON(n))
@@ -19386,10 +15208,10 @@ fromJSON.default = fromJSON
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/input.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/input.js ***!
-  \*******************************************************************/
+/***/ "./node_modules/postcss/lib/input.js":
+/*!*******************************************!*\
+  !*** ./node_modules/postcss/lib/input.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19401,9 +15223,9 @@ let { fileURLToPath, pathToFileURL } = __webpack_require__(/*! url */ "url")
 let { resolve, isAbsolute } = __webpack_require__(/*! path */ "path")
 let { nanoid } = __webpack_require__(/*! nanoid/non-secure */ "./node_modules/nanoid/non-secure/index.js")
 
-let terminalHighlight = __webpack_require__(/*! ./terminal-highlight */ "./node_modules/postcss-js/node_modules/postcss/lib/terminal-highlight.js")
-let CssSyntaxError = __webpack_require__(/*! ./css-syntax-error */ "./node_modules/postcss-js/node_modules/postcss/lib/css-syntax-error.js")
-let PreviousMap = __webpack_require__(/*! ./previous-map */ "./node_modules/postcss-js/node_modules/postcss/lib/previous-map.js")
+let terminalHighlight = __webpack_require__(/*! ./terminal-highlight */ "./node_modules/postcss/lib/terminal-highlight.js")
+let CssSyntaxError = __webpack_require__(/*! ./css-syntax-error */ "./node_modules/postcss/lib/css-syntax-error.js")
+let PreviousMap = __webpack_require__(/*! ./previous-map */ "./node_modules/postcss/lib/previous-map.js")
 
 let fromOffsetCache = Symbol('fromOffsetCache')
 
@@ -19614,25 +15436,25 @@ if (terminalHighlight && terminalHighlight.registerInput) {
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/lazy-result.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/lazy-result.js ***!
-  \*************************************************************************/
+/***/ "./node_modules/postcss/lib/lazy-result.js":
+/*!*************************************************!*\
+  !*** ./node_modules/postcss/lib/lazy-result.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let { isClean, my } = __webpack_require__(/*! ./symbols */ "./node_modules/postcss-js/node_modules/postcss/lib/symbols.js")
-let MapGenerator = __webpack_require__(/*! ./map-generator */ "./node_modules/postcss-js/node_modules/postcss/lib/map-generator.js")
-let stringify = __webpack_require__(/*! ./stringify */ "./node_modules/postcss-js/node_modules/postcss/lib/stringify.js")
-let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss-js/node_modules/postcss/lib/container.js")
-let Document = __webpack_require__(/*! ./document */ "./node_modules/postcss-js/node_modules/postcss/lib/document.js")
-let warnOnce = __webpack_require__(/*! ./warn-once */ "./node_modules/postcss-js/node_modules/postcss/lib/warn-once.js")
-let Result = __webpack_require__(/*! ./result */ "./node_modules/postcss-js/node_modules/postcss/lib/result.js")
-let parse = __webpack_require__(/*! ./parse */ "./node_modules/postcss-js/node_modules/postcss/lib/parse.js")
-let Root = __webpack_require__(/*! ./root */ "./node_modules/postcss-js/node_modules/postcss/lib/root.js")
+let { isClean, my } = __webpack_require__(/*! ./symbols */ "./node_modules/postcss/lib/symbols.js")
+let MapGenerator = __webpack_require__(/*! ./map-generator */ "./node_modules/postcss/lib/map-generator.js")
+let stringify = __webpack_require__(/*! ./stringify */ "./node_modules/postcss/lib/stringify.js")
+let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss/lib/container.js")
+let Document = __webpack_require__(/*! ./document */ "./node_modules/postcss/lib/document.js")
+let warnOnce = __webpack_require__(/*! ./warn-once */ "./node_modules/postcss/lib/warn-once.js")
+let Result = __webpack_require__(/*! ./result */ "./node_modules/postcss/lib/result.js")
+let parse = __webpack_require__(/*! ./parse */ "./node_modules/postcss/lib/parse.js")
+let Root = __webpack_require__(/*! ./root */ "./node_modules/postcss/lib/root.js")
 
 const TYPE_TO_CLASS_NAME = {
   document: 'Document',
@@ -20174,10 +15996,10 @@ Document.registerLazyResult(LazyResult)
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/list.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/list.js ***!
-  \******************************************************************/
+/***/ "./node_modules/postcss/lib/list.js":
+/*!******************************************!*\
+  !*** ./node_modules/postcss/lib/list.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20242,10 +16064,10 @@ list.default = list
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/map-generator.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/map-generator.js ***!
-  \***************************************************************************/
+/***/ "./node_modules/postcss/lib/map-generator.js":
+/*!***************************************************!*\
+  !*** ./node_modules/postcss/lib/map-generator.js ***!
+  \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20554,20 +16376,20 @@ module.exports = MapGenerator
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/node.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/node.js ***!
-  \******************************************************************/
+/***/ "./node_modules/postcss/lib/node.js":
+/*!******************************************!*\
+  !*** ./node_modules/postcss/lib/node.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let { isClean, my } = __webpack_require__(/*! ./symbols */ "./node_modules/postcss-js/node_modules/postcss/lib/symbols.js")
-let CssSyntaxError = __webpack_require__(/*! ./css-syntax-error */ "./node_modules/postcss-js/node_modules/postcss/lib/css-syntax-error.js")
-let Stringifier = __webpack_require__(/*! ./stringifier */ "./node_modules/postcss-js/node_modules/postcss/lib/stringifier.js")
-let stringify = __webpack_require__(/*! ./stringify */ "./node_modules/postcss-js/node_modules/postcss/lib/stringify.js")
+let { isClean, my } = __webpack_require__(/*! ./symbols */ "./node_modules/postcss/lib/symbols.js")
+let CssSyntaxError = __webpack_require__(/*! ./css-syntax-error */ "./node_modules/postcss/lib/css-syntax-error.js")
+let Stringifier = __webpack_require__(/*! ./stringifier */ "./node_modules/postcss/lib/stringifier.js")
+let stringify = __webpack_require__(/*! ./stringify */ "./node_modules/postcss/lib/stringify.js")
 
 function cloneNode(obj, parent) {
   let cloned = new obj.constructor()
@@ -20886,19 +16708,19 @@ Node.default = Node
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/parse.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/parse.js ***!
-  \*******************************************************************/
+/***/ "./node_modules/postcss/lib/parse.js":
+/*!*******************************************!*\
+  !*** ./node_modules/postcss/lib/parse.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss-js/node_modules/postcss/lib/container.js")
-let Parser = __webpack_require__(/*! ./parser */ "./node_modules/postcss-js/node_modules/postcss/lib/parser.js")
-let Input = __webpack_require__(/*! ./input */ "./node_modules/postcss-js/node_modules/postcss/lib/input.js")
+let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss/lib/container.js")
+let Parser = __webpack_require__(/*! ./parser */ "./node_modules/postcss/lib/parser.js")
+let Input = __webpack_require__(/*! ./input */ "./node_modules/postcss/lib/input.js")
 
 function parse(css, opts) {
   let input = new Input(css, opts)
@@ -20940,22 +16762,22 @@ Container.registerParse(parse)
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/parser.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/parser.js ***!
-  \********************************************************************/
+/***/ "./node_modules/postcss/lib/parser.js":
+/*!********************************************!*\
+  !*** ./node_modules/postcss/lib/parser.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/postcss-js/node_modules/postcss/lib/declaration.js")
-let tokenizer = __webpack_require__(/*! ./tokenize */ "./node_modules/postcss-js/node_modules/postcss/lib/tokenize.js")
-let Comment = __webpack_require__(/*! ./comment */ "./node_modules/postcss-js/node_modules/postcss/lib/comment.js")
-let AtRule = __webpack_require__(/*! ./at-rule */ "./node_modules/postcss-js/node_modules/postcss/lib/at-rule.js")
-let Root = __webpack_require__(/*! ./root */ "./node_modules/postcss-js/node_modules/postcss/lib/root.js")
-let Rule = __webpack_require__(/*! ./rule */ "./node_modules/postcss-js/node_modules/postcss/lib/rule.js")
+let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/postcss/lib/declaration.js")
+let tokenizer = __webpack_require__(/*! ./tokenize */ "./node_modules/postcss/lib/tokenize.js")
+let Comment = __webpack_require__(/*! ./comment */ "./node_modules/postcss/lib/comment.js")
+let AtRule = __webpack_require__(/*! ./at-rule */ "./node_modules/postcss/lib/at-rule.js")
+let Root = __webpack_require__(/*! ./root */ "./node_modules/postcss/lib/root.js")
+let Rule = __webpack_require__(/*! ./rule */ "./node_modules/postcss/lib/rule.js")
 
 class Parser {
   constructor(input) {
@@ -21511,34 +17333,34 @@ module.exports = Parser
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/postcss.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/postcss.js ***!
-  \*********************************************************************/
+/***/ "./node_modules/postcss/lib/postcss.js":
+/*!*********************************************!*\
+  !*** ./node_modules/postcss/lib/postcss.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let CssSyntaxError = __webpack_require__(/*! ./css-syntax-error */ "./node_modules/postcss-js/node_modules/postcss/lib/css-syntax-error.js")
-let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/postcss-js/node_modules/postcss/lib/declaration.js")
-let LazyResult = __webpack_require__(/*! ./lazy-result */ "./node_modules/postcss-js/node_modules/postcss/lib/lazy-result.js")
-let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss-js/node_modules/postcss/lib/container.js")
-let Processor = __webpack_require__(/*! ./processor */ "./node_modules/postcss-js/node_modules/postcss/lib/processor.js")
-let stringify = __webpack_require__(/*! ./stringify */ "./node_modules/postcss-js/node_modules/postcss/lib/stringify.js")
-let fromJSON = __webpack_require__(/*! ./fromJSON */ "./node_modules/postcss-js/node_modules/postcss/lib/fromJSON.js")
-let Document = __webpack_require__(/*! ./document */ "./node_modules/postcss-js/node_modules/postcss/lib/document.js")
-let Warning = __webpack_require__(/*! ./warning */ "./node_modules/postcss-js/node_modules/postcss/lib/warning.js")
-let Comment = __webpack_require__(/*! ./comment */ "./node_modules/postcss-js/node_modules/postcss/lib/comment.js")
-let AtRule = __webpack_require__(/*! ./at-rule */ "./node_modules/postcss-js/node_modules/postcss/lib/at-rule.js")
-let Result = __webpack_require__(/*! ./result.js */ "./node_modules/postcss-js/node_modules/postcss/lib/result.js")
-let Input = __webpack_require__(/*! ./input */ "./node_modules/postcss-js/node_modules/postcss/lib/input.js")
-let parse = __webpack_require__(/*! ./parse */ "./node_modules/postcss-js/node_modules/postcss/lib/parse.js")
-let list = __webpack_require__(/*! ./list */ "./node_modules/postcss-js/node_modules/postcss/lib/list.js")
-let Rule = __webpack_require__(/*! ./rule */ "./node_modules/postcss-js/node_modules/postcss/lib/rule.js")
-let Root = __webpack_require__(/*! ./root */ "./node_modules/postcss-js/node_modules/postcss/lib/root.js")
-let Node = __webpack_require__(/*! ./node */ "./node_modules/postcss-js/node_modules/postcss/lib/node.js")
+let CssSyntaxError = __webpack_require__(/*! ./css-syntax-error */ "./node_modules/postcss/lib/css-syntax-error.js")
+let Declaration = __webpack_require__(/*! ./declaration */ "./node_modules/postcss/lib/declaration.js")
+let LazyResult = __webpack_require__(/*! ./lazy-result */ "./node_modules/postcss/lib/lazy-result.js")
+let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss/lib/container.js")
+let Processor = __webpack_require__(/*! ./processor */ "./node_modules/postcss/lib/processor.js")
+let stringify = __webpack_require__(/*! ./stringify */ "./node_modules/postcss/lib/stringify.js")
+let fromJSON = __webpack_require__(/*! ./fromJSON */ "./node_modules/postcss/lib/fromJSON.js")
+let Document = __webpack_require__(/*! ./document */ "./node_modules/postcss/lib/document.js")
+let Warning = __webpack_require__(/*! ./warning */ "./node_modules/postcss/lib/warning.js")
+let Comment = __webpack_require__(/*! ./comment */ "./node_modules/postcss/lib/comment.js")
+let AtRule = __webpack_require__(/*! ./at-rule */ "./node_modules/postcss/lib/at-rule.js")
+let Result = __webpack_require__(/*! ./result.js */ "./node_modules/postcss/lib/result.js")
+let Input = __webpack_require__(/*! ./input */ "./node_modules/postcss/lib/input.js")
+let parse = __webpack_require__(/*! ./parse */ "./node_modules/postcss/lib/parse.js")
+let list = __webpack_require__(/*! ./list */ "./node_modules/postcss/lib/list.js")
+let Rule = __webpack_require__(/*! ./rule */ "./node_modules/postcss/lib/rule.js")
+let Root = __webpack_require__(/*! ./root */ "./node_modules/postcss/lib/root.js")
+let Node = __webpack_require__(/*! ./node */ "./node_modules/postcss/lib/node.js")
 
 function postcss(...plugins) {
   if (plugins.length === 1 && Array.isArray(plugins[0])) {
@@ -21618,10 +17440,10 @@ postcss.default = postcss
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/previous-map.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/previous-map.js ***!
-  \**************************************************************************/
+/***/ "./node_modules/postcss/lib/previous-map.js":
+/*!**************************************************!*\
+  !*** ./node_modules/postcss/lib/previous-map.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21775,19 +17597,19 @@ PreviousMap.default = PreviousMap
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/processor.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/processor.js ***!
-  \***********************************************************************/
+/***/ "./node_modules/postcss/lib/processor.js":
+/*!***********************************************!*\
+  !*** ./node_modules/postcss/lib/processor.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let LazyResult = __webpack_require__(/*! ./lazy-result */ "./node_modules/postcss-js/node_modules/postcss/lib/lazy-result.js")
-let Document = __webpack_require__(/*! ./document */ "./node_modules/postcss-js/node_modules/postcss/lib/document.js")
-let Root = __webpack_require__(/*! ./root */ "./node_modules/postcss-js/node_modules/postcss/lib/root.js")
+let LazyResult = __webpack_require__(/*! ./lazy-result */ "./node_modules/postcss/lib/lazy-result.js")
+let Document = __webpack_require__(/*! ./document */ "./node_modules/postcss/lib/document.js")
+let Root = __webpack_require__(/*! ./root */ "./node_modules/postcss/lib/root.js")
 
 class Processor {
   constructor(plugins = []) {
@@ -21861,17 +17683,17 @@ Document.registerProcessor(Processor)
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/result.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/result.js ***!
-  \********************************************************************/
+/***/ "./node_modules/postcss/lib/result.js":
+/*!********************************************!*\
+  !*** ./node_modules/postcss/lib/result.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let Warning = __webpack_require__(/*! ./warning */ "./node_modules/postcss-js/node_modules/postcss/lib/warning.js")
+let Warning = __webpack_require__(/*! ./warning */ "./node_modules/postcss/lib/warning.js")
 
 class Result {
   constructor(processor, root, opts) {
@@ -21915,17 +17737,17 @@ Result.default = Result
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/root.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/root.js ***!
-  \******************************************************************/
+/***/ "./node_modules/postcss/lib/root.js":
+/*!******************************************!*\
+  !*** ./node_modules/postcss/lib/root.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss-js/node_modules/postcss/lib/container.js")
+let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss/lib/container.js")
 
 let LazyResult, Processor
 
@@ -21986,18 +17808,18 @@ Root.default = Root
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/rule.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/rule.js ***!
-  \******************************************************************/
+/***/ "./node_modules/postcss/lib/rule.js":
+/*!******************************************!*\
+  !*** ./node_modules/postcss/lib/rule.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss-js/node_modules/postcss/lib/container.js")
-let list = __webpack_require__(/*! ./list */ "./node_modules/postcss-js/node_modules/postcss/lib/list.js")
+let Container = __webpack_require__(/*! ./container */ "./node_modules/postcss/lib/container.js")
+let list = __webpack_require__(/*! ./list */ "./node_modules/postcss/lib/list.js")
 
 class Rule extends Container {
   constructor(defaults) {
@@ -22025,10 +17847,10 @@ Container.registerRule(Rule)
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/stringifier.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/stringifier.js ***!
-  \*************************************************************************/
+/***/ "./node_modules/postcss/lib/stringifier.js":
+/*!*************************************************!*\
+  !*** ./node_modules/postcss/lib/stringifier.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22388,17 +18210,17 @@ module.exports = Stringifier
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/stringify.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/stringify.js ***!
-  \***********************************************************************/
+/***/ "./node_modules/postcss/lib/stringify.js":
+/*!***********************************************!*\
+  !*** ./node_modules/postcss/lib/stringify.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-let Stringifier = __webpack_require__(/*! ./stringifier */ "./node_modules/postcss-js/node_modules/postcss/lib/stringifier.js")
+let Stringifier = __webpack_require__(/*! ./stringifier */ "./node_modules/postcss/lib/stringifier.js")
 
 function stringify(node, builder) {
   let str = new Stringifier(builder)
@@ -22411,10 +18233,10 @@ stringify.default = stringify
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/symbols.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/symbols.js ***!
-  \*********************************************************************/
+/***/ "./node_modules/postcss/lib/symbols.js":
+/*!*********************************************!*\
+  !*** ./node_modules/postcss/lib/symbols.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22428,10 +18250,10 @@ module.exports.my = Symbol('my')
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/terminal-highlight.js":
-/*!********************************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/terminal-highlight.js ***!
-  \********************************************************************************/
+/***/ "./node_modules/postcss/lib/terminal-highlight.js":
+/*!********************************************************!*\
+  !*** ./node_modules/postcss/lib/terminal-highlight.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22440,7 +18262,7 @@ module.exports.my = Symbol('my')
 
 let { cyan, gray, green, yellow, magenta } = __webpack_require__(/*! colorette */ "./node_modules/colorette/index.js")
 
-let tokenizer = __webpack_require__(/*! ./tokenize */ "./node_modules/postcss-js/node_modules/postcss/lib/tokenize.js")
+let tokenizer = __webpack_require__(/*! ./tokenize */ "./node_modules/postcss/lib/tokenize.js")
 
 let Input
 
@@ -22510,10 +18332,10 @@ module.exports = terminalHighlight
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/tokenize.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/tokenize.js ***!
-  \**********************************************************************/
+/***/ "./node_modules/postcss/lib/tokenize.js":
+/*!**********************************************!*\
+  !*** ./node_modules/postcss/lib/tokenize.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22788,10 +18610,10 @@ module.exports = function tokenizer(input, options = {}) {
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/warn-once.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/warn-once.js ***!
-  \***********************************************************************/
+/***/ "./node_modules/postcss/lib/warn-once.js":
+/*!***********************************************!*\
+  !*** ./node_modules/postcss/lib/warn-once.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22812,10 +18634,10 @@ module.exports = function warnOnce(message) {
 
 /***/ }),
 
-/***/ "./node_modules/postcss-js/node_modules/postcss/lib/warning.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/postcss-js/node_modules/postcss/lib/warning.js ***!
-  \*********************************************************************/
+/***/ "./node_modules/postcss/lib/warning.js":
+/*!*********************************************!*\
+  !*** ./node_modules/postcss/lib/warning.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22855,257 +18677,6 @@ class Warning {
 
 module.exports = Warning
 Warning.default = Warning
-
-
-/***/ }),
-
-/***/ "./node_modules/postcss-js/objectifier.js":
-/*!************************************************!*\
-  !*** ./node_modules/postcss-js/objectifier.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-let camelcase = __webpack_require__(/*! camelcase-css */ "./node_modules/camelcase-css/index.js")
-
-let UNITLESS = {
-  boxFlex: true,
-  boxFlexGroup: true,
-  columnCount: true,
-  flex: true,
-  flexGrow: true,
-  flexPositive: true,
-  flexShrink: true,
-  flexNegative: true,
-  fontWeight: true,
-  lineClamp: true,
-  lineHeight: true,
-  opacity: true,
-  order: true,
-  orphans: true,
-  tabSize: true,
-  widows: true,
-  zIndex: true,
-  zoom: true,
-  fillOpacity: true,
-  strokeDashoffset: true,
-  strokeOpacity: true,
-  strokeWidth: true
-}
-
-function atRule (node) {
-  if (typeof node.nodes === 'undefined') {
-    return true
-  } else {
-    return process(node)
-  }
-}
-
-function process (node) {
-  let name
-  let result = {}
-
-  node.each(child => {
-    if (child.type === 'atrule') {
-      name = '@' + child.name
-      if (child.params) name += ' ' + child.params
-      if (typeof result[name] === 'undefined') {
-        result[name] = atRule(child)
-      } else if (Array.isArray(result[name])) {
-        result[name].push(atRule(child))
-      } else {
-        result[name] = [result[name], atRule(child)]
-      }
-    } else if (child.type === 'rule') {
-      let body = process(child)
-      if (result[child.selector]) {
-        for (let i in body) {
-          result[child.selector][i] = body[i]
-        }
-      } else {
-        result[child.selector] = body
-      }
-    } else if (child.type === 'decl') {
-      if (child.prop[0] === '-' && child.prop[1] === '-') {
-        name = child.prop
-      } else {
-        name = camelcase(child.prop)
-      }
-      let value = child.value
-      if (!isNaN(child.value) && UNITLESS[name]) {
-        value = parseFloat(child.value)
-      }
-      if (child.important) value += ' !important'
-      if (typeof result[name] === 'undefined') {
-        result[name] = value
-      } else if (Array.isArray(result[name])) {
-        result[name].push(value)
-      } else {
-        result[name] = [result[name], value]
-      }
-    }
-  })
-  return result
-}
-
-module.exports = process
-
-
-/***/ }),
-
-/***/ "./node_modules/postcss-js/parser.js":
-/*!*******************************************!*\
-  !*** ./node_modules/postcss-js/parser.js ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-let postcss = __webpack_require__(/*! postcss */ "./node_modules/postcss-js/node_modules/postcss/lib/postcss.js")
-
-let IMPORTANT = /\s*!important\s*$/i
-
-let UNITLESS = {
-  'box-flex': true,
-  'box-flex-group': true,
-  'column-count': true,
-  'flex': true,
-  'flex-grow': true,
-  'flex-positive': true,
-  'flex-shrink': true,
-  'flex-negative': true,
-  'font-weight': true,
-  'line-clamp': true,
-  'line-height': true,
-  'opacity': true,
-  'order': true,
-  'orphans': true,
-  'tab-size': true,
-  'widows': true,
-  'z-index': true,
-  'zoom': true,
-  'fill-opacity': true,
-  'stroke-dashoffset': true,
-  'stroke-opacity': true,
-  'stroke-width': true
-}
-
-function dashify (str) {
-  return str
-    .replace(/([A-Z])/g, '-$1')
-    .replace(/^ms-/, '-ms-')
-    .toLowerCase()
-}
-
-function decl (parent, name, value) {
-  if (value === false || value === null) return
-
-  name = dashify(name)
-  if (typeof value === 'number') {
-    if (value === 0 || UNITLESS[name]) {
-      value = value.toString()
-    } else {
-      value += 'px'
-    }
-  }
-
-  if (name === 'css-float') name = 'float'
-
-  if (IMPORTANT.test(value)) {
-    value = value.replace(IMPORTANT, '')
-    parent.push(postcss.decl({ prop: name, value, important: true }))
-  } else {
-    parent.push(postcss.decl({ prop: name, value }))
-  }
-}
-
-function atRule (parent, parts, value) {
-  let node = postcss.atRule({ name: parts[1], params: parts[3] || '' })
-  if (typeof value === 'object') {
-    node.nodes = []
-    parse(value, node)
-  }
-  parent.push(node)
-}
-
-function parse (obj, parent) {
-  let name, value, node
-  for (name in obj) {
-    value = obj[name]
-    if (value === null || typeof value === 'undefined') {
-      continue
-    } else if (name[0] === '@') {
-      let parts = name.match(/@(\S+)(\s+([\W\w]*)\s*)?/)
-      if (Array.isArray(value)) {
-        for (let i of value) {
-          atRule(parent, parts, i)
-        }
-      } else {
-        atRule(parent, parts, value)
-      }
-    } else if (Array.isArray(value)) {
-      for (let i of value) {
-        decl(parent, name, i)
-      }
-    } else if (typeof value === 'object') {
-      node = postcss.rule({ selector: name })
-      parse(value, node)
-      parent.push(node)
-    } else {
-      decl(parent, name, value)
-    }
-  }
-}
-
-module.exports = function (obj) {
-  let root = postcss.root()
-  parse(obj, root)
-  return root
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/postcss-js/process-result.js":
-/*!***************************************************!*\
-  !*** ./node_modules/postcss-js/process-result.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-let objectify = __webpack_require__(/*! ./objectifier */ "./node_modules/postcss-js/objectifier.js")
-
-module.exports = function processResult (result) {
-  if (console && console.warn) {
-    result.warnings().forEach(warn => {
-      let source = warn.plugin || 'PostCSS'
-      console.warn(source + ': ' + warn.text)
-    })
-  }
-  return objectify(result.root)
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/postcss-js/sync.js":
-/*!*****************************************!*\
-  !*** ./node_modules/postcss-js/sync.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-let postcss = __webpack_require__(/*! postcss */ "./node_modules/postcss-js/node_modules/postcss/lib/postcss.js")
-
-let processResult = __webpack_require__(/*! ./process-result */ "./node_modules/postcss-js/process-result.js")
-let parse = __webpack_require__(/*! ./parser */ "./node_modules/postcss-js/parser.js")
-
-module.exports = function (plugins) {
-  let processor = postcss(plugins)
-  return input => {
-    let result = processor.process(input, { parser: parse, from: undefined })
-    return processResult(result)
-  }
-}
 
 
 /***/ }),
@@ -48997,15 +44568,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var html_parse_stringify2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! html-parse-stringify2 */ "./node_modules/html-parse-stringify2/index.js");
-/* harmony import */ var html_parse_stringify2__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(html_parse_stringify2__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var html_parse_stringify__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! html-parse-stringify */ "./node_modules/html-parse-stringify/dist/html-parse-stringify.module.js");
 /* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./context */ "./node_modules/react-i18next/dist/es/context.js");
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utils */ "./node_modules/react-i18next/dist/es/utils.js");
 
 
 
+var _excluded = ["format"],
+    _excluded2 = ["children", "count", "parent", "i18nKey", "tOptions", "values", "defaults", "components", "ns", "i18n", "t"];
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
@@ -49069,9 +44641,11 @@ function nodesToString(children, i18nOptions) {
         var content = nodesToString(childChildren, i18nOptions);
         stringNode += "<".concat(childIndex, ">").concat(content, "</").concat(childIndex, ">");
       }
+    } else if (child === null) {
+      Object(_utils__WEBPACK_IMPORTED_MODULE_6__["warn"])("Trans: the passed in value is invalid - seems you passed in a null child.");
     } else if (_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_1___default()(child) === 'object') {
       var format = child.format,
-          clone = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default()(child, ["format"]);
+          clone = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default()(child, _excluded);
 
       var keys = Object.keys(clone);
 
@@ -49105,7 +44679,7 @@ function renderNodes(children, targetString, i18n, i18nOptions, combinedTOpts) {
 
   getData(children);
   var interpolatedString = i18n.services.interpolator.interpolate(targetString, _objectSpread(_objectSpread({}, data), combinedTOpts), i18n.language);
-  var ast = html_parse_stringify2__WEBPACK_IMPORTED_MODULE_4___default.a.parse("<0>".concat(interpolatedString, "</0>"));
+  var ast = html_parse_stringify__WEBPACK_IMPORTED_MODULE_4__["default"].parse("<0>".concat(interpolatedString, "</0>"));
 
   function renderInner(child, node, rootReactNode) {
     var childs = getChildren(child);
@@ -49186,7 +44760,15 @@ function renderNodes(children, targetString, i18n, i18nOptions, combinedTOpts) {
           })));
         }
       } else if (node.type === 'text') {
-        mem.push(node.content);
+        var wrapTextNodes = i18nOptions.transWrapTextNodes;
+
+        if (wrapTextNodes) {
+          mem.push(react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(wrapTextNodes, {
+            key: "".concat(node.name, "-").concat(i)
+          }, node.content));
+        } else {
+          mem.push(node.content);
+        }
       }
 
       return mem;
@@ -49213,7 +44795,7 @@ function Trans(_ref) {
       ns = _ref.ns,
       i18nFromProps = _ref.i18n,
       tFromProps = _ref.t,
-      additionalProps = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default()(_ref, ["children", "count", "parent", "i18nKey", "tOptions", "values", "defaults", "components", "ns", "i18n", "t"]);
+      additionalProps = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default()(_ref, _excluded2);
 
   var _ref2 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(_context__WEBPACK_IMPORTED_MODULE_5__["I18nContext"]) || {},
       i18nFromContext = _ref2.i18n,
@@ -49276,11 +44858,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _useTranslation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./useTranslation */ "./node_modules/react-i18next/dist/es/useTranslation.js");
 
 
+var _excluded = ["ns", "children"];
 
 function Translation(props) {
   var ns = props.ns,
       children = props.children,
-      options = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default()(props, ["ns", "children"]);
+      options = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default()(props, _excluded);
 
   var _useTranslation = Object(_useTranslation__WEBPACK_IMPORTED_MODULE_2__["useTranslation"])(ns, options),
       _useTranslation2 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useTranslation, 3),
@@ -49326,7 +44909,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
@@ -49336,6 +44919,7 @@ var defaultOptions = {
   bindI18nStore: '',
   transEmptyNodeValue: '',
   transSupportBasicHtmlNodes: true,
+  transWrapTextNodes: '',
   transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p'],
   useSuspense: true
 };
@@ -49423,11 +45007,17 @@ function getInitialProps() {
 /*!*****************************************************!*\
   !*** ./node_modules/react-i18next/dist/es/index.js ***!
   \*****************************************************/
-/*! exports provided: Trans, useTranslation, withTranslation, Translation, I18nextProvider, withSSR, useSSR, I18nContext, initReactI18next, setDefaults, getDefaults, setI18n, getI18n, composeInitialProps, getInitialProps */
+/*! exports provided: Trans, useTranslation, withTranslation, Translation, I18nextProvider, withSSR, useSSR, I18nContext, initReactI18next, setDefaults, getDefaults, setI18n, getI18n, composeInitialProps, getInitialProps, date, time, number, select, plural, selectOrdinal */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "date", function() { return date; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "time", function() { return time; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "number", function() { return number; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "select", function() { return select; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "plural", function() { return plural; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "selectOrdinal", function() { return selectOrdinal; });
 /* harmony import */ var _Trans__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Trans */ "./node_modules/react-i18next/dist/es/Trans.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Trans", function() { return _Trans__WEBPACK_IMPORTED_MODULE_0__["Trans"]; });
 
@@ -49474,6 +45064,24 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var date = function date() {
+  return '';
+};
+var time = function time() {
+  return '';
+};
+var number = function number() {
+  return '';
+};
+var select = function select() {
+  return '';
+};
+var plural = function plural() {
+  return '';
+};
+var selectOrdinal = function selectOrdinal() {
+  return '';
+};
 
 /***/ }),
 
@@ -49543,7 +45151,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_1___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
@@ -49575,6 +45183,8 @@ function useTranslation(ns) {
     return retNotReady;
   }
 
+  if (i18n.options.react && i18n.options.react.wait !== undefined) Object(_utils__WEBPACK_IMPORTED_MODULE_4__["warnOnce"])('It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour.');
+
   var i18nOptions = _objectSpread(_objectSpread(_objectSpread({}, Object(_context__WEBPACK_IMPORTED_MODULE_3__["getDefaults"])()), i18n.options.react), props);
 
   var useSuspense = i18nOptions.useSuspense;
@@ -49586,12 +45196,10 @@ function useTranslation(ns) {
   });
 
   function getT() {
-    return {
-      t: i18n.getFixedT(null, i18nOptions.nsMode === 'fallback' ? namespaces : namespaces[0])
-    };
+    return i18n.getFixedT(null, i18nOptions.nsMode === 'fallback' ? namespaces : namespaces[0]);
   }
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(getT()),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(getT),
       _useState2 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_0___default()(_useState, 2),
       t = _useState2[0],
       setT = _useState2[1];
@@ -49604,12 +45212,12 @@ function useTranslation(ns) {
 
     if (!ready && !useSuspense) {
       Object(_utils__WEBPACK_IMPORTED_MODULE_4__["loadNamespaces"])(i18n, namespaces, function () {
-        if (isMounted.current) setT(getT());
+        if (isMounted.current) setT(getT);
       });
     }
 
     function boundReset() {
-      if (isMounted.current) setT(getT());
+      if (isMounted.current) setT(getT);
     }
 
     if (bindI18n && i18n) i18n.on(bindI18n, boundReset);
@@ -49623,9 +45231,17 @@ function useTranslation(ns) {
         return i18n.store.off(e, boundReset);
       });
     };
-  }, [namespaces.join()]);
-  var ret = [t.t, i18n, ready];
-  ret.t = t.t;
+  }, [i18n, namespaces.join()]);
+  var isInitial = Object(react__WEBPACK_IMPORTED_MODULE_2__["useRef"])(true);
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
+    if (isMounted.current && !isInitial.current) {
+      setT(getT);
+    }
+
+    isInitial.current = false;
+  }, [i18n]);
+  var ret = [t, i18n, ready];
+  ret.t = t;
   ret.i18n = i18n;
   ret.ready = ready;
   if (ready) return ret;
@@ -49743,8 +45359,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils */ "./node_modules/react-i18next/dist/es/utils.js");
 
 
+var _excluded = ["initialI18nStore", "initialLanguage"];
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
@@ -49757,7 +45374,7 @@ function withSSR() {
     function I18nextWithSSR(_ref) {
       var initialI18nStore = _ref.initialI18nStore,
           initialLanguage = _ref.initialLanguage,
-          rest = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default()(_ref, ["initialI18nStore", "initialLanguage"]);
+          rest = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1___default()(_ref, _excluded);
 
       Object(_useSSR__WEBPACK_IMPORTED_MODULE_3__["useSSR"])(initialI18nStore, initialLanguage);
       return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(WrappedComponent, _objectSpread({}, rest));
@@ -49795,8 +45412,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var _excluded = ["forwardedRef"];
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
@@ -49808,7 +45426,7 @@ function withTranslation(ns) {
   return function Extend(WrappedComponent) {
     function I18nextWithTranslation(_ref) {
       var forwardedRef = _ref.forwardedRef,
-          rest = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2___default()(_ref, ["forwardedRef"]);
+          rest = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_2___default()(_ref, _excluded);
 
       var _useTranslation = Object(_useTranslation__WEBPACK_IMPORTED_MODULE_4__["useTranslation"])(ns, rest),
           _useTranslation2 = _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_1___default()(_useTranslation, 3),
@@ -55490,9 +51108,7 @@ module.exports = {
   "hr": true,
   "img": true,
   "input": true,
-  "keygen": true,
   "link": true,
-  "menuitem": true,
   "meta": true,
   "param": true,
   "source": true,
