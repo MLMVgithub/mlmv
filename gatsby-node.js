@@ -1,5 +1,5 @@
 const fs = require("fs")
-const path = require('path')
+const path = require("path")
 const i18next = require("i18next")
 // const { createFilePath } = require(`gatsby-source-filesystem`)
 const nodeFsBackend = require("i18next-fs-backend")
@@ -8,14 +8,13 @@ const allLanguages = ["en", "mi"]
 //const allLanguages = ["en"]
 
 const appDirectory = fs.realpathSync(process.cwd())
-const resolveApp = relativePath => path.resolve(appDirectory, relativePath)
+const resolveApp = (relativePath) => path.resolve(appDirectory, relativePath)
 const srcPath = resolveApp("src")
 
 exports.createPages = async ({
   graphql,
   actions: { createPage, createRedirect },
 }) => {
-
   // Index Page
   const indexTemplate = path.resolve(`src/templates/index.js`)
   await buildI18nPages(
@@ -31,10 +30,12 @@ exports.createPages = async ({
   )
 
   // Peer Supporters Page
-  const peerSupportersTemplate = path.resolve(`src/templates/peerSupporterList.js`)
+  const peerSupportersTemplate = path.resolve(
+    `src/templates/peerSupporterList.js`
+  )
   const peerSupporters = await graphql(`
     {
-      allSanityPeerSupporters(sort: {fields: order, order: ASC}) {
+      allSanityPeerSupporters(sort: { fields: order, order: ASC }) {
         edges {
           node {
             order
@@ -75,7 +76,7 @@ exports.createPages = async ({
                 _rawChildren
               }
             }
-            
+
             coverImage {
               asset {
                 fluid {
@@ -95,7 +96,7 @@ exports.createPages = async ({
           }
 
           previous {
-            slug{
+            slug {
               current
             }
             title {
@@ -124,7 +125,6 @@ exports.createPages = async ({
   await buildI18nPages(
     peerSupporters.data.allSanityPeerSupporters.edges,
 
-
     ({ node }, language, i18n) => ({
       path: "/" + language, // (1)
       path: `/${language}/peer-supporters`,
@@ -143,10 +143,12 @@ exports.createPages = async ({
   )
 
   //Peer Supporter Pages (Templates)
-  const peerSupporterTemplate = path.resolve(`./src/templates/peerSupporterItem.js`)
+  const peerSupporterTemplate = path.resolve(
+    `./src/templates/peerSupporterItem.js`
+  )
   const peerSupporter = await graphql(`
     {
-      allSanityPeerSupporters(sort: {fields: order, order: ASC}) {
+      allSanityPeerSupporters(sort: { fields: order, order: ASC }) {
         edges {
           node {
             order
@@ -187,7 +189,7 @@ exports.createPages = async ({
                 _rawChildren
               }
             }
-            
+
             coverImage {
               asset {
                 fluid {
@@ -198,7 +200,7 @@ exports.createPages = async ({
           }
 
           previous {
-            slug{
+            slug {
               current
             }
             title {
@@ -235,19 +237,18 @@ exports.createPages = async ({
         peerSupporter: node.id,
         slug: node.slug.current,
         previous,
-        next
+        next,
       },
     }),
     ["common", "slug", "previous", "next", "peerSupporter", "contact"],
     createPage
   )
 
-
   // Support services Page
   const supportServicesTemplate = path.resolve(`src/templates/resources.js`)
   const supportServices = await graphql(`
     {
-      allSanitySupportServices(sort: {fields: order, order: ASC}) {
+      allSanitySupportServices(sort: { fields: order, order: ASC }) {
         edges {
           node {
             order
@@ -296,19 +297,18 @@ exports.createPages = async ({
     createPage
   )
 
-
   // News and events (List)
   const newsEventsTemplate = path.resolve(`src/templates/newsEventList.js`)
   const newsEvents = await graphql(`
     {
-      allSanityNewsEvent(sort: {fields: order, order: ASC}) {
+      allSanityNewsEvent(sort: { fields: order, order: ASC }) {
         edges {
           node {
             order
             slug {
               current
             }
-          
+
             title {
               en
               mi
@@ -344,7 +344,7 @@ exports.createPages = async ({
                 _rawChildren
               }
             }
-            
+
             coverImage {
               asset {
                 id
@@ -353,11 +353,10 @@ exports.createPages = async ({
                 }
               }
             }
-
           }
 
           previous {
-            slug{
+            slug {
               current
             }
             title {
@@ -402,14 +401,14 @@ exports.createPages = async ({
   const newsEventTemplate = path.resolve(`./src/templates/newsEventItem.js`)
   const newsEvent = await graphql(`
     {
-      allSanityNewsEvent(sort: {fields: order, order: ASC}) {
+      allSanityNewsEvent(sort: { fields: order, order: ASC }) {
         edges {
           node {
             order
             slug {
               current
             }
-          
+
             title {
               en
               mi
@@ -445,7 +444,7 @@ exports.createPages = async ({
                 _rawChildren
               }
             }
-            
+
             coverImage {
               asset {
                 id
@@ -454,7 +453,6 @@ exports.createPages = async ({
                 }
               }
             }
-
           }
 
           previous {
@@ -462,7 +460,7 @@ exports.createPages = async ({
             active
             expiryDate
             endTime
-            slug{
+            slug {
               current
             }
             title {
@@ -503,15 +501,13 @@ exports.createPages = async ({
         slug: node.slug.current,
         itemActive: node.itemActive,
         previous,
-        next
+        next,
       },
     }),
     ["common", "slug", "newsEvents", "previous", "next"],
-    createPage,
+    createPage
     //console.log("Create a news and event page")
   )
-
-
 
   // Contact page
   const contactTemplate = path.resolve(`src/templates/contact.js`)
@@ -569,7 +565,7 @@ exports.createPages = async ({
 
   createRedirect({ fromPath: "/", toPath: "/en", isPermanent: true })
 
-  allLanguages.forEach(language =>
+  allLanguages.forEach((language) =>
     createRedirect({
       fromPath: `/${language}/*`,
       toPath: `/${language}/404`,
@@ -579,7 +575,7 @@ exports.createPages = async ({
   createRedirect({ fromPath: "/*", toPath: "/404", statusCode: 404 })
 }
 
-/// 
+///
 
 const buildI18nPages = async (
   inputData,
@@ -589,9 +585,9 @@ const buildI18nPages = async (
 ) => {
   if (!Array.isArray(inputData)) inputData = [inputData]
   await Promise.all(
-    inputData.map(async ipt => {
+    inputData.map(async (ipt) => {
       const definitions = await Promise.all(
-        allLanguages.map(async language => {
+        allLanguages.map(async (language) => {
           const i18n = await createI18nextInstance(language, namespaces) // (1)
           const res = pageDefinitionCallback(ipt, language, i18n) // (2)
           res.context.language = language
@@ -600,13 +596,13 @@ const buildI18nPages = async (
         })
       )
 
-      const alternateLinks = definitions.map(d => ({
+      const alternateLinks = definitions.map((d) => ({
         // (4)
         language: d.context.language,
         path: d.path,
       }))
 
-      definitions.forEach(d => {
+      definitions.forEach((d) => {
         d.context.alternateLinks = alternateLinks
         createPage(d) // (5)
       })
@@ -617,7 +613,7 @@ const buildI18nPages = async (
 const createI18nextInstance = async (language, namespaces) => {
   const i18n = i18next.createInstance()
   i18n.use(nodeFsBackend)
-  await new Promise(resolve =>
+  await new Promise((resolve) =>
     i18n.init(
       {
         lng: language,
@@ -632,7 +628,7 @@ const createI18nextInstance = async (language, namespaces) => {
   return i18n
 }
 
-const build404Pages = async createPage => {
+const build404Pages = async (createPage) => {
   const errorTemplate = path.resolve(`src/templates/404.js`)
   await Promise.all(
     allLanguages.map(async (language, index) => {
@@ -684,6 +680,5 @@ exports.createResolvers = ({ createResolvers }) => {
         },
       },
     },
-
   })
 }
