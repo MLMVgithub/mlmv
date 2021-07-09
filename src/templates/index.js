@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { useTranslation } from "react-i18next"
 import SEO from "../components/seo/seo"
 import Layout from "../components/layout"
@@ -16,7 +16,7 @@ import FormContact from "../components/forms/formContact"
 import contactStyles from "../components/forms/contactForm.module.scss"
 
 export const query = graphql`
-  query($language: String, $locale: JSON) {
+  query ($language: String, $locale: JSON) {
     sanitySiteSettings {
       title
       description {
