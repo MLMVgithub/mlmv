@@ -1,7 +1,8 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
+import { Link } from "gatsby"
 import { useTranslation } from "react-i18next"
-import SEO from '../components/seo/seo'
+import SEO from "../components/seo/seo"
 import Layout from "../components/layout"
 import BlockContent from "../components/common/blockContent"
 import HomepageStyles from "../components/homepage/homepageStyles.module.scss"
@@ -13,14 +14,13 @@ import UsrCommentsSection from "../components/homepage/userComments"
 
 import IconWave from "../images/svg/icon-wave.inline.svg"
 import FormContact from "../components/forms/formContact"
-import contactStyles from '../components/forms/contactForm.module.scss'
+import contactStyles from "../components/forms/contactForm.module.scss"
 
 export const query = graphql`
-  query($language: String, $locale: JSON) {
-
+  query ($language: String, $locale: JSON) {
     sanitySiteSettings {
       title
-      description{
+      description {
         translate(language: $language)
       }
       coverImage {
@@ -29,10 +29,10 @@ export const query = graphql`
         }
       }
     }
-    
+
     sanityHomepageSettings {
-        homepageAlertsActive
-        homepageCommentsActive
+      homepageAlertsActive
+      homepageCommentsActive
     }
 
     sanityHomepageHeader {
@@ -43,8 +43,8 @@ export const query = graphql`
       coverImage {
         asset {
           fluid(maxWidth: 980) {
-              ...GatsbySanityImageFluid
-            }
+            ...GatsbySanityImageFluid
+          }
         }
         alt {
           translate(language: $language)
@@ -52,7 +52,7 @@ export const query = graphql`
       }
     }
 
-    allSanityHomepageAlert(sort: {order: ASC, fields: order}) {
+    allSanityHomepageAlert(sort: { order: ASC, fields: order }) {
       edges {
         node {
           order
@@ -73,7 +73,7 @@ export const query = graphql`
     }
 
     sanityHomepageIntro {
-      title{
+      title {
         translate(language: $language)
       }
 
@@ -82,8 +82,7 @@ export const query = graphql`
       }
       active
     }
-    
-  
+
     allSanityCommunityComments {
       edges {
         node {
@@ -104,7 +103,7 @@ export const query = graphql`
         localized(language: $locale)
       }
     }
-}
+  }
 `
 
 const IndexPage = ({ data, location, language }) => {
@@ -113,11 +112,14 @@ const IndexPage = ({ data, location, language }) => {
   return (
     <>
       <SEO
-        title={data.sanityHomepageIntro.title.translate + ' | ' + data.sanitySiteSettings.title}
+        title={
+          data.sanityHomepageIntro.title.translate +
+          " | " +
+          data.sanitySiteSettings.title
+        }
         description={data.sanitySiteSettings.description.translate}
       />
       <Layout location={location}>
-
         <style type="text/css">
           {`
                 body  {
@@ -131,18 +133,31 @@ const IndexPage = ({ data, location, language }) => {
         <section className={HomepageStyles.wrapper}>
           <div className={HomepageStyles.homepageIntro}>
             <BlockContent blocks={data.sanityHomepageIntro.content.localized} />
-            <Link to={`/${i18n.language}/peer-supporters`} className={'buttonSecondary'} >{t("index:ctaViewPeerSupports")}</Link>
+            <Link
+              to={`/${i18n.language}/peer-supporters`}
+              className={"buttonSecondary"}
+            >
+              {t("index:ctaViewPeerSupports")}
+            </Link>
           </div>
         </section>
         <ProcessSection />
         <SupportSection />
         <UsrCommentsSection data={data} language={language} />
-        <section className={contactStyles.contactFormSection + ' section-layout-wide'}>
+        <section
+          className={contactStyles.contactFormSection + " section-layout-wide"}
+        >
           <div className={contactStyles.contactFormWrapper}>
             <div className={contactStyles.contactForm}>
               <IconWave />
-              <BlockContent blocks={data.sanityContactContent.content.localized} />
-              <FormContact data={data} language={language} location={location} />
+              <BlockContent
+                blocks={data.sanityContactContent.content.localized}
+              />
+              <FormContact
+                data={data}
+                language={language}
+                location={location}
+              />
             </div>
           </div>
         </section>

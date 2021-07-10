@@ -19,6 +19,7 @@ module.exports = {
         // a token with read permissions is required
         // if you have a private dataset
         token: process.env.SANITY_TOKEN,
+        apiVersion: "2021-07-10", // use a UTC date string
 
         // If the Sanity GraphQL API was deployed using `--tag <name>`,
         // use `graphqlTag` to specify the tag name. Defaults to `default`.
@@ -125,27 +126,27 @@ module.exports = {
     },
 
     // Yes, we want A11y
-    {
-      resolve: "gatsby-plugin-react-axe",
-      options: {
-        // Number of milliseconds to wait for component updates to cease before
-        // performing an analysis of all the changes. This defaults to 1000ms (1 second).
-        debounce: 1000,
+    // {
+    //   resolve: "gatsby-plugin-react-axe",
+    //   options: {
+    //     // Number of milliseconds to wait for component updates to cease before
+    //     // performing an analysis of all the changes. This defaults to 1000ms (1 second).
+    //     debounce: 1000,
 
-        // Integrate react-axe in production. This defaults to false.
-        showInProduction: false,
+    //     // Integrate react-axe in production. This defaults to false.
+    //     showInProduction: false,
 
-        // Options to pass to axe-core.
-        // See: https://github.com/dequelabs/axe-core/blob/master/doc/API.md#api-name-axeconfigure
-        axeOptions: {
-          // Your axe-core options.
-        },
+    //     // Options to pass to axe-core.
+    //     // See: https://github.com/dequelabs/axe-core/blob/master/doc/API.md#api-name-axeconfigure
+    //     axeOptions: {
+    //       // Your axe-core options.
+    //     },
 
-        // Context to pass to axe-core.
-        // See: https://github.com/dequelabs/axe-core/blob/master/doc/API.md#context-parameter
-        axeContext: undefined,
-      },
-    },
+    //     // Context to pass to axe-core.
+    //     // See: https://github.com/dequelabs/axe-core/blob/master/doc/API.md#context-parameter
+    //     axeContext: undefined,
+    //   },
+    // },
 
     //`gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -155,35 +156,6 @@ module.exports = {
       options: {
         // The option defaults to true
         checkSupportedExtensions: false,
-      },
-    },
-
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              linkImagesToOriginal: false,
-              maxWidth: 1440,
-              quality: 100,
-              withWebp: true,
-              loading: `lazy`,
-            },
-          },
-          {
-            resolve: `gatsby-remark-images-medium-zoom`, // Important!
-            options: {
-              background: `#ffffff`,
-              zIndex: 100000,
-              //container: '.zoom-container',
-              // template: {
-              //   border: `1px solid #ffffff`,
-              // },
-            },
-          },
-        ],
       },
     },
 

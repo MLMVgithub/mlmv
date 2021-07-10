@@ -1,8 +1,9 @@
-const fs = require("fs")
-const path = require("path")
 const i18next = require("i18next")
-// const { createFilePath } = require(`gatsby-source-filesystem`)
 const nodeFsBackend = require("i18next-fs-backend")
+
+const path = require("path")
+const fs = require("fs")
+// const { createFilePath } = require(`gatsby-source-filesystem`)
 
 const allLanguages = ["en", "mi"]
 //const allLanguages = ["en"]
@@ -286,10 +287,12 @@ exports.createPages = async ({
     supportServices.data.allSanitySupportServices.edges,
 
     ({ node }, language, i18n) => ({
-      path: `/${language}/resources`,
+      path: "/" + language, // (1)
+      path: `/${language}/support-services`,
       component: supportServicesTemplate,
 
       context: {
+        peerSupporters: node.id,
         tags: node.tags.tagsTitle,
       },
     }),

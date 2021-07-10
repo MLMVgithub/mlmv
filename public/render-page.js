@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("/Users/pkoenders/work/mlmv/mlmv/node_modules/@reach/router/index.js"), (function webpackLoadOptionalExternalModule() { try { return require("/Users/pkoenders/work/mlmv/mlmv/node_modules/debug/src/index.js"); } catch(e) {} }()), require("fs"), require("http"), require("https"), require("/Users/pkoenders/work/mlmv/mlmv/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"), require("zlib"));
+		module.exports = factory(require("/Users/pkoenders/work/mlmv/mlmv/node_modules/@reach/router/index.js"), (function webpackLoadOptionalExternalModule() { try { return require("/Users/pkoenders/work/mlmv/mlmv/node_modules/gatsby/node_modules/debug/src/index.js"); } catch(e) {} }()), require("fs"), require("http"), require("https"), require("/Users/pkoenders/work/mlmv/mlmv/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"), require("zlib"));
 	else if(typeof define === 'function' && define.amd)
-		define("lib", ["/Users/pkoenders/work/mlmv/mlmv/node_modules/@reach/router/index.js", "/Users/pkoenders/work/mlmv/mlmv/node_modules/debug/src/index.js", "fs", "http", "https", "/Users/pkoenders/work/mlmv/mlmv/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet", "zlib"], factory);
+		define("lib", ["/Users/pkoenders/work/mlmv/mlmv/node_modules/@reach/router/index.js", "/Users/pkoenders/work/mlmv/mlmv/node_modules/gatsby/node_modules/debug/src/index.js", "fs", "http", "https", "/Users/pkoenders/work/mlmv/mlmv/node_modules/lodash/merge.js", "path", "react", "react-dom/server", "react-helmet", "zlib"], factory);
 	else if(typeof exports === 'object')
-		exports["lib"] = factory(require("/Users/pkoenders/work/mlmv/mlmv/node_modules/@reach/router/index.js"), (function webpackLoadOptionalExternalModule() { try { return require("/Users/pkoenders/work/mlmv/mlmv/node_modules/debug/src/index.js"); } catch(e) {} }()), require("fs"), require("http"), require("https"), require("/Users/pkoenders/work/mlmv/mlmv/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"), require("zlib"));
+		exports["lib"] = factory(require("/Users/pkoenders/work/mlmv/mlmv/node_modules/@reach/router/index.js"), (function webpackLoadOptionalExternalModule() { try { return require("/Users/pkoenders/work/mlmv/mlmv/node_modules/gatsby/node_modules/debug/src/index.js"); } catch(e) {} }()), require("fs"), require("http"), require("https"), require("/Users/pkoenders/work/mlmv/mlmv/node_modules/lodash/merge.js"), require("path"), require("react"), require("react-dom/server"), require("react-helmet"), require("zlib"));
 	else
-		root["lib"] = factory(root["/Users/pkoenders/work/mlmv/mlmv/node_modules/@reach/router/index.js"], root["/Users/pkoenders/work/mlmv/mlmv/node_modules/debug/src/index.js"], root["fs"], root["http"], root["https"], root["/Users/pkoenders/work/mlmv/mlmv/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"], root["zlib"]);
+		root["lib"] = factory(root["/Users/pkoenders/work/mlmv/mlmv/node_modules/@reach/router/index.js"], root["/Users/pkoenders/work/mlmv/mlmv/node_modules/gatsby/node_modules/debug/src/index.js"], root["fs"], root["http"], root["https"], root["/Users/pkoenders/work/mlmv/mlmv/node_modules/lodash/merge.js"], root["path"], root["react"], root["react-dom/server"], root["react-helmet"], root["zlib"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE__reach_router__, __WEBPACK_EXTERNAL_MODULE_debug__, __WEBPACK_EXTERNAL_MODULE_fs__, __WEBPACK_EXTERNAL_MODULE_http__, __WEBPACK_EXTERNAL_MODULE_https__, __WEBPACK_EXTERNAL_MODULE_lodash_merge__, __WEBPACK_EXTERNAL_MODULE_path__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_dom_server__, __WEBPACK_EXTERNAL_MODULE_react_helmet__, __WEBPACK_EXTERNAL_MODULE_zlib__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -109,6 +109,7 @@ var plugins = [{
     "plugins": [],
     "projectId": "97psedqm",
     "dataset": "mlmv-dev",
+    "apiVersion": "2021-07-10",
     "graphqlTag": "default"
   }
 }, {
@@ -4958,7 +4959,7 @@ module.exports = {
 /*! exports provided: _from, _id, _inBundle, _integrity, _location, _phantomChildren, _requested, _requiredBy, _resolved, _shasum, _spec, _where, author, browser, bugs, bundleDependencies, bundlesize, dependencies, deprecated, description, devDependencies, homepage, jsdelivr, keywords, license, main, name, repository, scripts, typings, unpkg, version, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"_from\":\"axios@^0.21.1\",\"_id\":\"axios@0.21.1\",\"_inBundle\":false,\"_integrity\":\"sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==\",\"_location\":\"/axios\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"axios@^0.21.1\",\"name\":\"axios\",\"escapedName\":\"axios\",\"rawSpec\":\"^0.21.1\",\"saveSpec\":null,\"fetchSpec\":\"^0.21.1\"},\"_requiredBy\":[\"/contentful-management\",\"/gatsby\",\"/gatsby-plugin-webfonts\",\"/gatsby-source-sanity\"],\"_resolved\":\"https://registry.npmjs.org/axios/-/axios-0.21.1.tgz\",\"_shasum\":\"22563481962f4d6bde9a76d516ef0e5d3c09b2b8\",\"_spec\":\"axios@^0.21.1\",\"_where\":\"/Users/pkoenders/work/mlmv/mlmv/node_modules/gatsby-plugin-webfonts\",\"author\":{\"name\":\"Matt Zabriskie\"},\"browser\":{\"./lib/adapters/http.js\":\"./lib/adapters/xhr.js\"},\"bugs\":{\"url\":\"https://github.com/axios/axios/issues\"},\"bundleDependencies\":false,\"bundlesize\":[{\"path\":\"./dist/axios.min.js\",\"threshold\":\"5kB\"}],\"dependencies\":{\"follow-redirects\":\"^1.10.0\"},\"deprecated\":false,\"description\":\"Promise based HTTP client for the browser and node.js\",\"devDependencies\":{\"bundlesize\":\"^0.17.0\",\"coveralls\":\"^3.0.0\",\"es6-promise\":\"^4.2.4\",\"grunt\":\"^1.0.2\",\"grunt-banner\":\"^0.6.0\",\"grunt-cli\":\"^1.2.0\",\"grunt-contrib-clean\":\"^1.1.0\",\"grunt-contrib-watch\":\"^1.0.0\",\"grunt-eslint\":\"^20.1.0\",\"grunt-karma\":\"^2.0.0\",\"grunt-mocha-test\":\"^0.13.3\",\"grunt-ts\":\"^6.0.0-beta.19\",\"grunt-webpack\":\"^1.0.18\",\"istanbul-instrumenter-loader\":\"^1.0.0\",\"jasmine-core\":\"^2.4.1\",\"karma\":\"^1.3.0\",\"karma-chrome-launcher\":\"^2.2.0\",\"karma-coverage\":\"^1.1.1\",\"karma-firefox-launcher\":\"^1.1.0\",\"karma-jasmine\":\"^1.1.1\",\"karma-jasmine-ajax\":\"^0.1.13\",\"karma-opera-launcher\":\"^1.0.0\",\"karma-safari-launcher\":\"^1.0.0\",\"karma-sauce-launcher\":\"^1.2.0\",\"karma-sinon\":\"^1.0.5\",\"karma-sourcemap-loader\":\"^0.3.7\",\"karma-webpack\":\"^1.7.0\",\"load-grunt-tasks\":\"^3.5.2\",\"minimist\":\"^1.2.0\",\"mocha\":\"^5.2.0\",\"sinon\":\"^4.5.0\",\"typescript\":\"^2.8.1\",\"url-search-params\":\"^0.10.0\",\"webpack\":\"^1.13.1\",\"webpack-dev-server\":\"^1.14.1\"},\"homepage\":\"https://github.com/axios/axios\",\"jsdelivr\":\"dist/axios.min.js\",\"keywords\":[\"xhr\",\"http\",\"ajax\",\"promise\",\"node\"],\"license\":\"MIT\",\"main\":\"index.js\",\"name\":\"axios\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/axios/axios.git\"},\"scripts\":{\"build\":\"NODE_ENV=production grunt build\",\"coveralls\":\"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js\",\"examples\":\"node ./examples/server.js\",\"fix\":\"eslint --fix lib/**/*.js\",\"postversion\":\"git push && git push --tags\",\"preversion\":\"npm test\",\"start\":\"node ./sandbox/server.js\",\"test\":\"grunt test && bundlesize\",\"version\":\"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json\"},\"typings\":\"./index.d.ts\",\"unpkg\":\"dist/axios.min.js\",\"version\":\"0.21.1\"}");
+module.exports = JSON.parse("{\"_from\":\"axios@^0.21.0\",\"_id\":\"axios@0.21.1\",\"_inBundle\":false,\"_integrity\":\"sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==\",\"_location\":\"/axios\",\"_phantomChildren\":{},\"_requested\":{\"type\":\"range\",\"registry\":true,\"raw\":\"axios@^0.21.0\",\"name\":\"axios\",\"escapedName\":\"axios\",\"rawSpec\":\"^0.21.0\",\"saveSpec\":null,\"fetchSpec\":\"^0.21.0\"},\"_requiredBy\":[\"/contentful-management\",\"/gatsby\",\"/gatsby-plugin-webfonts\",\"/gatsby-source-sanity\"],\"_resolved\":\"https://registry.npmjs.org/axios/-/axios-0.21.1.tgz\",\"_shasum\":\"22563481962f4d6bde9a76d516ef0e5d3c09b2b8\",\"_spec\":\"axios@^0.21.0\",\"_where\":\"/Users/pkoenders/work/mlmv/mlmv/node_modules/contentful-management\",\"author\":{\"name\":\"Matt Zabriskie\"},\"browser\":{\"./lib/adapters/http.js\":\"./lib/adapters/xhr.js\"},\"bugs\":{\"url\":\"https://github.com/axios/axios/issues\"},\"bundleDependencies\":false,\"bundlesize\":[{\"path\":\"./dist/axios.min.js\",\"threshold\":\"5kB\"}],\"dependencies\":{\"follow-redirects\":\"^1.10.0\"},\"deprecated\":false,\"description\":\"Promise based HTTP client for the browser and node.js\",\"devDependencies\":{\"bundlesize\":\"^0.17.0\",\"coveralls\":\"^3.0.0\",\"es6-promise\":\"^4.2.4\",\"grunt\":\"^1.0.2\",\"grunt-banner\":\"^0.6.0\",\"grunt-cli\":\"^1.2.0\",\"grunt-contrib-clean\":\"^1.1.0\",\"grunt-contrib-watch\":\"^1.0.0\",\"grunt-eslint\":\"^20.1.0\",\"grunt-karma\":\"^2.0.0\",\"grunt-mocha-test\":\"^0.13.3\",\"grunt-ts\":\"^6.0.0-beta.19\",\"grunt-webpack\":\"^1.0.18\",\"istanbul-instrumenter-loader\":\"^1.0.0\",\"jasmine-core\":\"^2.4.1\",\"karma\":\"^1.3.0\",\"karma-chrome-launcher\":\"^2.2.0\",\"karma-coverage\":\"^1.1.1\",\"karma-firefox-launcher\":\"^1.1.0\",\"karma-jasmine\":\"^1.1.1\",\"karma-jasmine-ajax\":\"^0.1.13\",\"karma-opera-launcher\":\"^1.0.0\",\"karma-safari-launcher\":\"^1.0.0\",\"karma-sauce-launcher\":\"^1.2.0\",\"karma-sinon\":\"^1.0.5\",\"karma-sourcemap-loader\":\"^0.3.7\",\"karma-webpack\":\"^1.7.0\",\"load-grunt-tasks\":\"^3.5.2\",\"minimist\":\"^1.2.0\",\"mocha\":\"^5.2.0\",\"sinon\":\"^4.5.0\",\"typescript\":\"^2.8.1\",\"url-search-params\":\"^0.10.0\",\"webpack\":\"^1.13.1\",\"webpack-dev-server\":\"^1.14.1\"},\"homepage\":\"https://github.com/axios/axios\",\"jsdelivr\":\"dist/axios.min.js\",\"keywords\":[\"xhr\",\"http\",\"ajax\",\"promise\",\"node\"],\"license\":\"MIT\",\"main\":\"index.js\",\"name\":\"axios\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/axios/axios.git\"},\"scripts\":{\"build\":\"NODE_ENV=production grunt build\",\"coveralls\":\"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js\",\"examples\":\"node ./examples/server.js\",\"fix\":\"eslint --fix lib/**/*.js\",\"postversion\":\"git push && git push --tags\",\"preversion\":\"npm test\",\"start\":\"node ./sandbox/server.js\",\"test\":\"grunt test && bundlesize\",\"version\":\"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json\"},\"typings\":\"./index.d.ts\",\"unpkg\":\"dist/axios.min.js\",\"version\":\"0.21.1\"}");
 
 /***/ }),
 
@@ -11065,12 +11066,7 @@ function getLastOfPath(object, path, Empty) {
     if (canNotTraverseDeeper()) return {};
     var key = cleanKey(stack.shift());
     if (!object[key] && Empty) object[key] = new Empty();
-
-    if (Object.prototype.hasOwnProperty.call(object, key)) {
-      object = object[key];
-    } else {
-      object = {};
-    }
+    object = object[key];
   }
 
   if (canNotTraverseDeeper()) return {};
@@ -11152,43 +11148,6 @@ function escape(data) {
 }
 var isIE10 = typeof window !== 'undefined' && window.navigator && window.navigator.userAgent && window.navigator.userAgent.indexOf('MSIE') > -1;
 
-function deepFind(obj, path) {
-  var keySeparator = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '.';
-  if (!obj) return undefined;
-  if (obj[path]) return obj[path];
-  var paths = path.split(keySeparator);
-  var current = obj;
-
-  for (var i = 0; i < paths.length; ++i) {
-    if (typeof current[paths[i]] === 'string' && i + 1 < paths.length) {
-      return undefined;
-    }
-
-    if (current[paths[i]] === undefined) {
-      var j = 2;
-      var p = paths.slice(i, i + j).join(keySeparator);
-      var mix = current[p];
-
-      while (mix === undefined && paths.length > i + j) {
-        j++;
-        p = paths.slice(i, i + j).join(keySeparator);
-        mix = current[p];
-      }
-
-      if (mix === undefined) return undefined;
-      if (typeof mix === 'string') return mix;
-      if (p && typeof mix[p] === 'string') return mix[p];
-      var joinedPath = paths.slice(i + j).join(keySeparator);
-      if (joinedPath) return deepFind(mix, joinedPath, keySeparator);
-      return undefined;
-    }
-
-    current = current[paths[i]];
-  }
-
-  return current;
-}
-
 var ResourceStore = function (_EventEmitter) {
   Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(ResourceStore, _EventEmitter);
 
@@ -11215,10 +11174,6 @@ var ResourceStore = function (_EventEmitter) {
       _this.options.keySeparator = '.';
     }
 
-    if (_this.options.ignoreJSONStructure === undefined) {
-      _this.options.ignoreJSONStructure = true;
-    }
-
     return _this;
   }
 
@@ -11243,7 +11198,6 @@ var ResourceStore = function (_EventEmitter) {
     value: function getResource(lng, ns, key) {
       var options = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
       var keySeparator = options.keySeparator !== undefined ? options.keySeparator : this.options.keySeparator;
-      var ignoreJSONStructure = options.ignoreJSONStructure !== undefined ? options.ignoreJSONStructure : this.options.ignoreJSONStructure;
       var path = [lng, ns];
       if (key && typeof key !== 'string') path = path.concat(key);
       if (key && typeof key === 'string') path = path.concat(keySeparator ? key.split(keySeparator) : key);
@@ -11252,9 +11206,7 @@ var ResourceStore = function (_EventEmitter) {
         path = lng.split('.');
       }
 
-      var result = getPath(this.data, path);
-      if (result || !ignoreJSONStructure || typeof key !== 'string') return result;
-      return deepFind(this.data && this.data[lng] && this.data[lng][ns], key, keySeparator);
+      return getPath(this.data, path);
     }
   }, {
     key: "addResource",
@@ -11486,32 +11438,27 @@ var Translator = function (_EventEmitter) {
 
       if (handleAsObjectInI18nFormat && res && handleAsObject && noObject.indexOf(resType) < 0 && !(typeof joinArrays === 'string' && resType === '[object Array]')) {
         if (!options.returnObjects && !this.options.returnObjects) {
-          if (!this.options.returnedObjectHandler) {
-            this.logger.warn('accessing an object - but returnObjects options is not enabled!');
-          }
-
-          return this.options.returnedObjectHandler ? this.options.returnedObjectHandler(resUsedKey, res, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
-            ns: namespaces
-          })) : "key '".concat(key, " (").concat(this.language, ")' returned an object instead of string.");
+          this.logger.warn('accessing an object - but returnObjects options is not enabled!');
+          return this.options.returnedObjectHandler ? this.options.returnedObjectHandler(resUsedKey, res, options) : "key '".concat(key, " (").concat(this.language, ")' returned an object instead of string.");
         }
 
         if (keySeparator) {
           var resTypeIsArray = resType === '[object Array]';
-          var copy = resTypeIsArray ? [] : {};
+          var copy$$1 = resTypeIsArray ? [] : {};
           var newKeyToUse = resTypeIsArray ? resExactUsedKey : resUsedKey;
 
           for (var m in res) {
             if (Object.prototype.hasOwnProperty.call(res, m)) {
               var deepKey = "".concat(newKeyToUse).concat(keySeparator).concat(m);
-              copy[m] = this.translate(deepKey, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
+              copy$$1[m] = this.translate(deepKey, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
                 joinArrays: false,
                 ns: namespaces
               }));
-              if (copy[m] === deepKey) copy[m] = res[m];
+              if (copy$$1[m] === deepKey) copy$$1[m] = res[m];
             }
           }
 
-          res = copy;
+          res = copy$$1;
         }
       } else if (handleAsObjectInI18nFormat && typeof joinArrays === 'string' && resType === '[object Array]') {
         res = res.join(joinArrays);
@@ -11519,14 +11466,16 @@ var Translator = function (_EventEmitter) {
       } else {
         var usedDefault = false;
         var usedKey = false;
-        var needsPluralHandling = options.count !== undefined && typeof options.count !== 'string';
-        var hasDefaultValue = Translator.hasDefaultValue(options);
-        var defaultValueSuffix = needsPluralHandling ? this.pluralResolver.getSuffix(lng, options.count) : '';
-        var defaultValue = options["defaultValue".concat(defaultValueSuffix)] || options.defaultValue;
 
-        if (!this.isValidLookup(res) && hasDefaultValue) {
+        if (!this.isValidLookup(res) && options.defaultValue !== undefined) {
           usedDefault = true;
-          res = defaultValue;
+
+          if (options.count !== undefined) {
+            var suffix = this.pluralResolver.getSuffix(lng, options.count);
+            res = options["defaultValue".concat(suffix)];
+          }
+
+          if (!res) res = options.defaultValue;
         }
 
         if (!this.isValidLookup(res)) {
@@ -11534,10 +11483,10 @@ var Translator = function (_EventEmitter) {
           res = key;
         }
 
-        var updateMissing = hasDefaultValue && defaultValue !== res && this.options.updateMissing;
+        var updateMissing = options.defaultValue && options.defaultValue !== res && this.options.updateMissing;
 
         if (usedKey || usedDefault || updateMissing) {
-          this.logger.log(updateMissing ? 'updateKey' : 'missingKey', lng, namespace, key, updateMissing ? defaultValue : res);
+          this.logger.log(updateMissing ? 'updateKey' : 'missingKey', lng, namespace, key, updateMissing ? options.defaultValue : res);
 
           if (keySeparator) {
             var fk = this.resolve(key, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
@@ -11559,25 +11508,29 @@ var Translator = function (_EventEmitter) {
             lngs.push(options.lng || this.language);
           }
 
-          var send = function send(l, k, fallbackValue) {
+          var send = function send(l, k) {
             if (_this2.options.missingKeyHandler) {
-              _this2.options.missingKeyHandler(l, namespace, k, updateMissing ? fallbackValue : res, updateMissing, options);
+              _this2.options.missingKeyHandler(l, namespace, k, updateMissing ? options.defaultValue : res, updateMissing, options);
             } else if (_this2.backendConnector && _this2.backendConnector.saveMissing) {
-              _this2.backendConnector.saveMissing(l, namespace, k, updateMissing ? fallbackValue : res, updateMissing, options);
+              _this2.backendConnector.saveMissing(l, namespace, k, updateMissing ? options.defaultValue : res, updateMissing, options);
             }
 
             _this2.emit('missingKey', l, namespace, k, res);
           };
 
           if (this.options.saveMissing) {
+            var needsPluralHandling = options.count !== undefined && typeof options.count !== 'string';
+
             if (this.options.saveMissingPlurals && needsPluralHandling) {
-              lngs.forEach(function (language) {
-                _this2.pluralResolver.getSuffixes(language).forEach(function (suffix) {
-                  send([language], key + suffix, options["defaultValue".concat(suffix)] || defaultValue);
+              lngs.forEach(function (l) {
+                var plurals = _this2.pluralResolver.getPluralFormsOfKey(l, key);
+
+                plurals.forEach(function (p) {
+                  return send([l], p);
                 });
               });
             } else {
-              send(lngs, key, defaultValue);
+              send(lngs, key);
             }
           }
         }
@@ -11669,7 +11622,7 @@ var Translator = function (_EventEmitter) {
         var namespaces = extracted.namespaces;
         if (_this4.options.fallbackNS) namespaces = namespaces.concat(_this4.options.fallbackNS);
         var needsPluralHandling = options.count !== undefined && typeof options.count !== 'string';
-        var needsContextHandling = options.context !== undefined && (typeof options.context === 'string' || typeof options.context === 'number') && options.context !== '';
+        var needsContextHandling = options.context !== undefined && typeof options.context === 'string' && options.context !== '';
         var codes = options.lngs ? options.lngs : _this4.languageUtils.toResolveHierarchy(options.lng || _this4.language, options.fallbackLng);
         namespaces.forEach(function (ns) {
           if (_this4.isValidLookup(found)) return;
@@ -11727,19 +11680,6 @@ var Translator = function (_EventEmitter) {
       var options = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
       if (this.i18nFormat && this.i18nFormat.getResource) return this.i18nFormat.getResource(code, ns, key, options);
       return this.resourceStore.getResource(code, ns, key, options);
-    }
-  }], [{
-    key: "hasDefaultValue",
-    value: function hasDefaultValue(options) {
-      var prefix = 'defaultValue';
-
-      for (var option in options) {
-        if (Object.prototype.hasOwnProperty.call(options, option) && prefix === option.substring(0, prefix.length) && undefined !== options[option]) {
-          return true;
-        }
-      }
-
-      return false;
     }
   }]);
 
@@ -11903,15 +11843,15 @@ var LanguageUtil = function () {
 }();
 
 var sets = [{
-  lngs: ['ach', 'ak', 'am', 'arn', 'br', 'fil', 'gun', 'ln', 'mfe', 'mg', 'mi', 'oc', 'pt', 'pt-BR', 'tg', 'tl', 'ti', 'tr', 'uz', 'wa'],
+  lngs: ['ach', 'ak', 'am', 'arn', 'br', 'fil', 'gun', 'ln', 'mfe', 'mg', 'mi', 'oc', 'pt', 'pt-BR', 'tg', 'ti', 'tr', 'uz', 'wa'],
   nr: [1, 2],
   fc: 1
 }, {
-  lngs: ['af', 'an', 'ast', 'az', 'bg', 'bn', 'ca', 'da', 'de', 'dev', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fi', 'fo', 'fur', 'fy', 'gl', 'gu', 'ha', 'hi', 'hu', 'hy', 'ia', 'it', 'kk', 'kn', 'ku', 'lb', 'mai', 'ml', 'mn', 'mr', 'nah', 'nap', 'nb', 'ne', 'nl', 'nn', 'no', 'nso', 'pa', 'pap', 'pms', 'ps', 'pt-PT', 'rm', 'sco', 'se', 'si', 'so', 'son', 'sq', 'sv', 'sw', 'ta', 'te', 'tk', 'ur', 'yo'],
+  lngs: ['af', 'an', 'ast', 'az', 'bg', 'bn', 'ca', 'da', 'de', 'dev', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fi', 'fo', 'fur', 'fy', 'gl', 'gu', 'ha', 'hi', 'hu', 'hy', 'ia', 'it', 'kn', 'ku', 'lb', 'mai', 'ml', 'mn', 'mr', 'nah', 'nap', 'nb', 'ne', 'nl', 'nn', 'no', 'nso', 'pa', 'pap', 'pms', 'ps', 'pt-PT', 'rm', 'sco', 'se', 'si', 'so', 'son', 'sq', 'sv', 'sw', 'ta', 'te', 'tk', 'ur', 'yo'],
   nr: [1, 2],
   fc: 2
 }, {
-  lngs: ['ay', 'bo', 'cgg', 'fa', 'ht', 'id', 'ja', 'jbo', 'ka', 'km', 'ko', 'ky', 'lo', 'ms', 'sah', 'su', 'th', 'tt', 'ug', 'vi', 'wo', 'zh'],
+  lngs: ['ay', 'bo', 'cgg', 'fa', 'ht', 'id', 'ja', 'jbo', 'ka', 'kk', 'km', 'ko', 'ky', 'lo', 'ms', 'sah', 'su', 'th', 'tt', 'ug', 'vi', 'wo', 'zh'],
   nr: [1],
   fc: 3
 }, {
@@ -12108,24 +12048,17 @@ var PluralResolver = function () {
   }, {
     key: "getPluralFormsOfKey",
     value: function getPluralFormsOfKey(code, key) {
-      return this.getSuffixes(code).map(function (suffix) {
-        return key + suffix;
-      });
-    }
-  }, {
-    key: "getSuffixes",
-    value: function getSuffixes(code) {
       var _this = this;
 
+      var ret = [];
       var rule = this.getRule(code);
+      if (!rule) return ret;
+      rule.numbers.forEach(function (n) {
+        var suffix = _this.getSuffix(code, n);
 
-      if (!rule) {
-        return [];
-      }
-
-      return rule.numbers.map(function (number) {
-        return _this.getSuffix(code, number);
+        ret.push("".concat(key).concat(suffix));
       });
+      return ret;
     }
   }, {
     key: "getSuffix",
@@ -12242,17 +12175,13 @@ var Interpolator = function () {
       var handleFormat = function handleFormat(key) {
         if (key.indexOf(_this.formatSeparator) < 0) {
           var path = getPathWithDefaults(data, defaultData, key);
-          return _this.alwaysFormat ? _this.format(path, undefined, lng, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, data, {
-            interpolationkey: key
-          })) : path;
+          return _this.alwaysFormat ? _this.format(path, undefined, lng) : path;
         }
 
         var p = key.split(_this.formatSeparator);
         var k = p.shift().trim();
         var f = p.join(_this.formatSeparator).trim();
-        return _this.format(getPathWithDefaults(data, defaultData, k), f, lng, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, data, {
-          interpolationkey: k
-        }));
+        return _this.format(getPathWithDefaults(data, defaultData, k), f, lng, options);
       };
 
       this.resetRegExp();
@@ -12291,16 +12220,8 @@ var Interpolator = function () {
             value = makeString(value);
           }
 
-          var safeValue = todo.safeValue(value);
-          str = str.replace(match[0], safeValue);
-
-          if (skipOnVariables) {
-            todo.regex.lastIndex += safeValue.length;
-            todo.regex.lastIndex -= match[0].length;
-          } else {
-            todo.regex.lastIndex = 0;
-          }
-
+          str = str.replace(match[0], todo.safeValue(value));
+          todo.regex.lastIndex = 0;
           replaces++;
 
           if (replaces >= _this.maxReplaces) {
@@ -12349,7 +12270,7 @@ var Interpolator = function () {
         var formatters = [];
         var doReduce = false;
 
-        if (match[0].indexOf(this.formatSeparator) !== -1 && !/{.*}/.test(match[1])) {
+        if (match[0].includes(this.formatSeparator) && !/{.*}/.test(match[1])) {
           var r = match[1].split(this.formatSeparator).map(function (elem) {
             return elem.trim();
           });
@@ -12369,9 +12290,7 @@ var Interpolator = function () {
 
         if (doReduce) {
           value = formatters.reduce(function (v, f) {
-            return _this2.format(v, f, options.lng, Object(_babel_runtime_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, options, {
-              interpolationkey: match[1].trim()
-            }));
+            return _this2.format(v, f, options.lng, options);
           }, value.trim());
         }
 
@@ -12833,11 +12752,6 @@ var I18n = function (_EventEmitter) {
         });
       }
 
-      if (this.options.fallbackLng && !this.services.languageDetector && !this.options.lng) {
-        var codes = this.services.languageUtils.getFallbackCodes(this.options.fallbackLng);
-        if (codes.length > 0 && codes[0] !== 'dev') this.options.lng = codes[0];
-      }
-
       if (!this.services.languageDetector && !this.options.lng) {
         this.logger.warn('init: no languageDetector is used and no lng is defined');
       }
@@ -12863,8 +12777,7 @@ var I18n = function (_EventEmitter) {
       var deferred = defer();
 
       var load = function load() {
-        var finish = function finish(err, t) {
-          if (_this2.isInitialized) _this2.logger.warn('init: i18next is already initialized. You should call init just once!');
+        _this2.changeLanguage(_this2.options.lng, function (err, t) {
           _this2.isInitialized = true;
           if (!_this2.options.isClone) _this2.logger.log('initialized', _this2.options);
 
@@ -12872,11 +12785,7 @@ var I18n = function (_EventEmitter) {
 
           deferred.resolve(t);
           callback(err, t);
-        };
-
-        if (_this2.languages && _this2.options.compatibilityAPI !== 'v1' && !_this2.isInitialized) return finish(null, _this2.t.bind(_this2));
-
-        _this2.changeLanguage(_this2.options.lng, finish);
+        });
       };
 
       if (this.options.resources || !this.options.initImmediate) {
@@ -13010,7 +12919,6 @@ var I18n = function (_EventEmitter) {
       };
 
       var setLng = function setLng(lngs) {
-        if (!lng && !lngs && _this4.services.languageDetector) lngs = [];
         var l = typeof lngs === 'string' ? lngs : _this4.services.languageUtils.getBestMatchFromCodes(lngs);
 
         if (l) {
@@ -13222,16 +13130,6 @@ var I18n = function (_EventEmitter) {
         hasLoadedNamespace: clone.hasLoadedNamespace.bind(clone)
       };
       return clone;
-    }
-  }, {
-    key: "toJSON",
-    value: function toJSON() {
-      return {
-        options: this.options,
-        store: this.store,
-        language: this.language,
-        languages: this.languages
-      };
     }
   }]);
 
@@ -51240,13 +51138,13 @@ module.exports = require("constants");
 /***/ }),
 
 /***/ "debug":
-/*!**********************************************************************************!*\
-  !*** external "/Users/pkoenders/work/mlmv/mlmv/node_modules/debug/src/index.js" ***!
-  \**********************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** external "/Users/pkoenders/work/mlmv/mlmv/node_modules/gatsby/node_modules/debug/src/index.js" ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-if(typeof __WEBPACK_EXTERNAL_MODULE_debug__ === 'undefined') {var e = new Error("Cannot find module '/Users/pkoenders/work/mlmv/mlmv/node_modules/debug/src/index.js'"); e.code = 'MODULE_NOT_FOUND'; throw e;}
+if(typeof __WEBPACK_EXTERNAL_MODULE_debug__ === 'undefined') {var e = new Error("Cannot find module '/Users/pkoenders/work/mlmv/mlmv/node_modules/gatsby/node_modules/debug/src/index.js'"); e.code = 'MODULE_NOT_FOUND'; throw e;}
 module.exports = __WEBPACK_EXTERNAL_MODULE_debug__;
 
 /***/ }),
